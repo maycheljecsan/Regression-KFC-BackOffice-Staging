@@ -1,0 +1,74 @@
+id: dQICGTAcMU-1WQCsjzmHVg
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:22:36.2285123Z
+protocol: 1
+tests:
+- id: F4aUVeUbn0O2XuLsdCkjoQ
+  name: PNP Button
+  description: This test was auto generated from steps of the 'Login Apps with Phone Number' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-18T03:39:07.0000000
+  modificationDate: 2022-04-18T03:39:07.0000000
+  settings:
+    automationAssistant: true
+    appId: oRr_dMeXGECoWNs8XJBOqA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: oRr_dMeXGECoWNs8XJBOqA
+    appleBundleId: com.kfcjv.staging
+    name: KFCKUstaging
+    platform: iOS
+  steps:
+  - id: kgXqeFuhG0-M9v0sCGhucw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: bZlGvkvWc0CF3T-pOh6eIg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: bZlGvkvWc0CF3T-pOh6eIg
+  name: PAY
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND label == 'PAY' AND visible == 1
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'PAY' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeStaticText[3]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[1]/XCUIElementTypeStaticText[3]
+    priority: 3
+projectParameters: []
+addons: []
