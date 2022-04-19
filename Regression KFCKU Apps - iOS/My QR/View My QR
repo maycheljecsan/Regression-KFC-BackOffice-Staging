@@ -1,0 +1,68 @@
+id: BEUjcgDG0ky7MNApCRiA1g
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:22:50.9970059Z
+protocol: 1
+tests:
+- id: 4LraVIT2QE6QNOajF639RQ
+  name: View My QR
+  description: This test was auto generated from steps of the 'My QR' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:49:04.0000000
+  modificationDate: 2022-04-19T03:49:04.0000000
+  settings:
+    automationAssistant: true
+    appId: oRr_dMeXGECoWNs8XJBOqA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: oRr_dMeXGECoWNs8XJBOqA
+    appleBundleId: com.kfcjv.staging
+    name: KFCKUstaging
+    platform: iOS
+  steps:
+  - id: HyeDMG-qoUKwztd0OE_a3A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 5z421ilQOUqOUOAB35R7eQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: 5z421ilQOUqOUOAB35R7eQ
+  name: QR Image
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODM
+    name: XCUIElementTypeImage
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeImage[1]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeImage[1]
+    priority: 1
+projectParameters: []
+addons: []
