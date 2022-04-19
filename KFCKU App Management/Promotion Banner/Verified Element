@@ -1,0 +1,230 @@
+id: 24tkgkOU2EGNqgvgobKvOA
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:22:20.3956790Z
+protocol: 1
+tests:
+- id: L05eg_ELqU2_7NcwwO_yfA
+  name: Verified Element
+  description: This test was auto generated from steps of the 'Promotion Banner' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-02-16T05:10:41.0000000
+  modificationDate: 2022-02-16T05:10:41.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: _VuB9-dd0EyiRcHV2JtuqQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: Wt2D40l6n0-iqv56e11odw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: YQggFJfRkECdhe-hEu__mw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 7dwH1x7Z4EKmuhcLqP6kIg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Promotion Banner
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZaEv4vPUGkKw16Yay0RZjQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: WtICA5rWJ0qtgwIW38NCPg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Uz-jva8t5EGE8_k7q5zcSg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 8gNvqb4Ml0qrf4X7CEvjOQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: R8KYdiANQkKU4J1ZpaH3xw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: Gn3GpBPqb0-1YmdD85YaTA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: Wt2D40l6n0-iqv56e11odw
+  name: DIV61
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div/div[1]/div[2]/div/div/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]
+    priority: 1
+- id: 7dwH1x7Z4EKmuhcLqP6kIg
+  name: Promotion Banner4
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //h4[. = '
+            Promotion Banner
+          ']
+    priority: 0
+  - name: XPATH
+    value: //h4
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[1]/div[1]/h4
+    priority: 2
+- id: WtICA5rWJ0qtgwIW38NCPg
+  name: Manual Refund List - Refresh Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div/div[1]/div[2]/button[1]
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/div//button[1]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //button[. = '
+                Refresh
+              ']
+    priority: 0
+- id: 8gNvqb4Ml0qrf4X7CEvjOQ
+  name: Reset F
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //button[. = '
+                Reset Filter
+              ']
+    priority: 0
+- id: Gn3GpBPqb0-1YmdD85YaTA
+  name: New Promotion Banner
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+              New Promotion Banner
+            ']
+    priority: 0
+  - name: XPATH
+    value: //button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[1]/div[2]/div[1]/button[3]
+    priority: 2
+projectParameters: []
+addons: []
