@@ -1,0 +1,73 @@
+id: WvqOVsGKvk2fIfGchmeVOA
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:22:47.2104748Z
+protocol: 1
+tests:
+- id: ABqiElJoO0eRW4zALXf5Zw
+  name: Click Cikini Location
+  description: This test was auto generated from steps of the 'Search Outlet From HMD' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:32:00.0000000
+  modificationDate: 2022-04-19T03:32:00.0000000
+  settings:
+    automationAssistant: true
+    appId: xuCNzRcPyUm7HTq8a997vw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: xuCNzRcPyUm7HTq8a997vw
+    appleBundleId: com.kfcjv.staging
+    name: KFCKU staging
+    platform: iOS
+  steps:
+  - id: fBi0mQnLbkavOpHKNDk-GQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: wR18GzRrIkmCVYfIRkIo5A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: wR18GzRrIkmCVYfIRkIo5A
+  name: Cikini
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND label == 'Cikini' AND visible == 1
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'Cikini' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeCell[1]/XCUIElementTypeStaticText[1]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeTable[1]/XCUIElementTypeCell[1]/XCUIElementTypeStaticText[1]
+    priority: 3
+projectParameters: []
+addons: []
