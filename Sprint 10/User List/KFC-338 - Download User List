@@ -1,0 +1,868 @@
+id: zDMhNh3ZFUmNBg4OsGqNQA
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:20:51.1505766Z
+protocol: 1
+tests:
+- id: rXzjU8KS90ySrUKOv4KrVQ
+  name: KFC-338 - Download User List
+  description: Cancel the Process
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-11-08T10:22:08.0000000
+  modificationDate: 2021-11-08T11:04:16.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Always
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: r0zkkLNpE0G5uWgG49YTEQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vaBTdJZEw0OjmyjMFA2n9w
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Test
+    targetTestId: SBvPbiEKvEiC6B0ua8tAAQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QI_lIQcMj0S7N7yhbq8_ow
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Test
+    targetTestId: gm-ndukP2kG1ow0Agazp_A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: oiN_HZncXEu7OlCRvRnHbg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Test
+    targetTestId: zX9_oWLQ-UKs9VfuOhnJRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jNuzYMYwxUqSkE4KP62zjg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Test
+    targetTestId: sWtXrbzwL0er-2Rww-1dHg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0b4geJgCf0K96rqJpaIJSg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Test
+    targetTestId: 1rBCtijmv0uUoFxlyTul1A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tYW6pFC82USTMLQT7NvWFA
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Test
+    targetTestId: SPlzGFzmb0mDNVYCcucIwg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VAt_uIdQLEyNCkt1VFqGtg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Test
+    targetTestId: XjVx5FKg60eOyFY5u-Rugw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vwGgOC6y9ECVEr_Dm15KfQ
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Test
+    targetTestId: V6Q9im1IN0e_DmIxwM1n-Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    type: Input
+  tags:
+  - KFC-338
+auxTests:
+- id: SBvPbiEKvEiC6B0ua8tAAQ
+  name: Login Sukses
+  description: This test was auto generated from steps of the 'KFC-338 - Download User List' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-08T10:24:35.0000000
+  modificationDate: 2021-11-08T10:24:35.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 6dMt9GcpY0ixycI47jU_PA
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: ROww24ab8EyKpYCyJ8K6Yw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: K1Dob6Aj5kektyPb0kHgxQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: ROww24ab8EyKpYCyJ8K6Yw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: admin@dana.ffi.co.id
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6HlWTz-0y0SffVQJ8spg3Q
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: oRq8cfJgg0qjVnAjMWISFg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FzKn3lVaj0KD-1Gcyagi6A
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: oRq8cfJgg0qjVnAjMWISFg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 12345678
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VpWahMY5mUuB9YrcUpnK9A
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: e9-Kq9bGykew-9HS4B1WcQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: gm-ndukP2kG1ow0Agazp_A
+  name: Click Customer Data
+  description: This test was auto generated from steps of the 'KFC-338 - Download User List' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-08T10:24:49.0000000
+  modificationDate: 2021-11-08T10:24:49.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: i8YTUpV7YEO1fNKvD5a2kw
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: _o_P_JCJlkaE7nyUsX5NCw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: zX9_oWLQ-UKs9VfuOhnJRw
+  name: Click User List
+  description: This test was auto generated from steps of the 'KFC-338 - Download User List' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-08T10:25:03.0000000
+  modificationDate: 2021-11-08T10:25:03.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: thxX0huDMUOSNYrJTyASTg
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: A3Fj5Xd1GUaD6LQB5oU33w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: sWtXrbzwL0er-2Rww-1dHg
+  name: Click Download
+  description: This test was auto generated from steps of the 'KFC-338 - Download User List' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-08T10:25:18.0000000
+  modificationDate: 2021-11-08T10:25:18.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: l18WmJQZLUCYe0LzVYyzaA
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: JOqxjdjPKES2ryb38jqfIA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: 1rBCtijmv0uUoFxlyTul1A
+  name: Cancel Download While Process
+  description: This test was auto generated from steps of the 'KFC-338 - Download User List' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-08T10:25:47.0000000
+  modificationDate: 2021-11-08T10:25:47.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: iK87KMXXN0WyPXyJZoFLJg
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: xlsoZndaPUOH1v52fgvq7A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: SPlzGFzmb0mDNVYCcucIwg
+  name: Pop Up Massage Aborted
+  description: This test was auto generated from steps of the 'KFC-338 - Download User List' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-08T10:26:28.0000000
+  modificationDate: 2021-11-08T10:26:28.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: I4QEvmjbU0GdV6Zs506ugg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: A--D5wHREkyl3YQyleitVA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Download data aborted
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KdJH8dhSmEyw5KRXmEhWGA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: -vDx4J49W0ioZcPwJLyuHQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: XjVx5FKg60eOyFY5u-Rugw
+  name: Click Ok
+  description: This test was auto generated from steps of the 'KFC-338 - Download User List' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-08T11:04:16.0000000
+  modificationDate: 2021-11-08T11:04:16.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Always
+  steps:
+  - id: afr4k_d0hUanPSoLdnubYQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: LqXfkS12202E22EY5VOhuw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: V6Q9im1IN0e_DmIxwM1n-Q
+  name: Logout
+  description: This test was auto generated from steps of the 'KFC-338 - Download User List' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-08T10:27:03.0000000
+  modificationDate: 2021-11-08T10:27:03.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: j0scNUMxTEmPfZrr5bE59A
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: Lj26DUpG1E2g2kls-IdW2A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FjrxiHYgSkClw1pgZaG1jw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: zsVQsi5Xz0i5Ipri9Iv7ag
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+elements:
+- id: A--D5wHREkyl3YQyleitVA
+  name: Download data aborted
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'Download data aborted']
+    priority: 0
+  - name: XPATH
+    value: //body/div[2]/div/div[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]
+    priority: 2
+- id: -vDx4J49W0ioZcPwJLyuHQ
+  name: DIV17
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div[2]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div
+    priority: 1
+- id: Lj26DUpG1E2g2kls-IdW2A
+  name: __BVID__28__BV_toggle_3
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__28__BV_toggle_'
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div[1]/div/div[2]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[1]/div/div[2]/div/button
+    priority: 2
+- id: zsVQsi5Xz0i5Ipri9Iv7ag
+  name: Logout
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div[1]/div[1]/div/div[2]/div/div/a[2]
+    priority: 2
+  - name: XPATH
+    value: //a[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //a[. = '
+                Logout
+              ']
+    priority: 0
+- id: LqXfkS12202E22EY5VOhuw
+  name: Button Record is Created - OK
+  description: Button Record is Created - OK After Add New Modifier Price
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div/button
+    priority: 2
+  - name: XPATH
+    value: //button[. = 'OK']
+    priority: 0
+  - name: XPATH
+    value: //div[3]//button
+    priority: 1
+- id: ROww24ab8EyKpYCyJ8K6Yw
+  name: Login Email Field
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#email'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Email']
+    priority: 1
+  - name: XPATH
+    value: //form/input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div/form/input[1]
+    priority: 3
+- id: oRq8cfJgg0qjVnAjMWISFg
+  name: Login Password Field
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div/form/input[2]
+    priority: 3
+  - name: XPATH
+    value: //input[2]
+    priority: 2
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 1
+- id: e9-Kq9bGykew-9HS4B1WcQ
+  name: Login Sign In Button
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                  Sign In
+                ']
+    priority: 1
+  - name: XPATH
+    value: //button
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div/form/div/div[2]/button
+    priority: 2
+- id: _o_P_JCJlkaE7nyUsX5NCw
+  name: LI7
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[2]/li
+    priority: 1
+  - name: XPATH
+    value: //div/div/ul[2]/li
+    priority: 0
+- id: A3Fj5Xd1GUaD6LQB5oU33w
+  name: LI16
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //ul[2]/div/a/li
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[2]/div/a/li
+    priority: 1
+- id: JOqxjdjPKES2ryb38jqfIA
+  name: User LIst Download Button
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div/div[1]/div[2]/div/div/button
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/div/button
+    priority: 1
+  - name: XPATH
+    value: >-
+      //button[. = '
+                Download
+              ']
+    priority: 0
+- id: xlsoZndaPUOH1v52fgvq7A
+  name: Cancel Download
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                Cancel Download
+              ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[1]/div[2]/div/div/button[2]
+    priority: 2
+projectParameters: []
+addons: []
