@@ -1,0 +1,802 @@
+id: rc7slEBQXUOhdm5bIA2DFg
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:22:47.2100018Z
+protocol: 1
+tests:
+- id: OLJUy-woW0WNZbNEGlmVZA
+  name: Search Outlet From HMD
+  description: ''
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 0.1
+  creationDate: 2022-04-18T07:47:45.0000000
+  modificationDate: 2022-04-19T07:01:43.0000000
+  settings:
+    automationAssistant: true
+    deviceId: 00008030-000A61C93679802E
+    appId: xuCNzRcPyUm7HTq8a997vw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Always
+  application:
+    id: xuCNzRcPyUm7HTq8a997vw
+    appleBundleId: com.kfcjv.staging
+    name: KFCKU staging
+    platform: iOS
+  steps:
+  - id: Wuo6JRW15UCGcObLnUIz8w
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FJahuD_xfEqFR1XByQfJhw
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Test
+    targetTestId: r7XvBCpZW0OIFH2L-MdOdQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _x1i8me-REGpTCG0Ry7asA
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Test
+    targetTestId: yVb90FX2Qkm-DpRzrtXMzw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Ny7ePW_xsk6EiHzdPyzbeg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Test
+    targetTestId: n2qTu_uZXkaENcNiFB9vlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Mf7hwEngpEWKQB-Zk6g_5Q
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Test
+    targetTestId: yB9QQCujMEmHE96rMFJG1A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZOYyZ9l_vkap63DZhVuodg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Test
+    targetTestId: A6qzLQqNOEaPcjvzJ1MbiA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wj9rBlFd40ixflXMjVkAxw
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Test
+    targetTestId: ABqiElJoO0eRW4zALXf5Zw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8gEl3fPBiUiRo0-p6YOSwg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Test
+    targetTestId: dhx_UANd-kyjjbiltXG5xg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: emWxq75ta0GpqB6Vkk5Svg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Test
+    targetTestId: yzDuUZEww0-wJVkkTGtBBQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests:
+- id: r7XvBCpZW0OIFH2L-MdOdQ
+  name: Click Home Delivery Button
+  description: This test was auto generated from steps of the 'Search Outlet From HMD' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:29:31.0000000
+  modificationDate: 2022-04-19T03:29:31.0000000
+  settings:
+    automationAssistant: true
+    appId: xuCNzRcPyUm7HTq8a997vw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: fSUoFZ4QzEe-xrhfvpBXxA
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: rPSLwHemKU6JyKahstVixQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: yVb90FX2Qkm-DpRzrtXMzw
+  name: Input MT Haryono on Field Search
+  description: This test was auto generated from steps of the 'Search Outlet From HMD' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:29:57.0000000
+  modificationDate: 2022-04-19T03:29:57.0000000
+  settings:
+    automationAssistant: true
+    appId: xuCNzRcPyUm7HTq8a997vw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 0plnpJzWJk6rQ4JpooO_SQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: REqoLYNyMUGUB4HWdC2ypw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _3aps9JRcUC3TsGBuF7SIA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: REqoLYNyMUGUB4HWdC2ypw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: mt haryono
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: n2qTu_uZXkaENcNiFB9vlA
+  name: Close/Reset Search
+  description: This test was auto generated from steps of the 'Search Outlet From HMD' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:30:19.0000000
+  modificationDate: 2022-04-19T03:30:19.0000000
+  settings:
+    automationAssistant: true
+    appId: xuCNzRcPyUm7HTq8a997vw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: OYm9m78TZ0-4FoMCBOV7Tg
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: tqALEGUDkUmIXKV91gIk_Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: yB9QQCujMEmHE96rMFJG1A
+  name: Input Cikini on Field Search
+  description: This test was auto generated from steps of the 'Search Outlet From HMD' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:30:41.0000000
+  modificationDate: 2022-04-19T03:30:41.0000000
+  settings:
+    automationAssistant: true
+    appId: xuCNzRcPyUm7HTq8a997vw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: LX_TN1NCSEaAugComx35IQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: REqoLYNyMUGUB4HWdC2ypw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ulHZU7i9m0WvJm83rTdOkQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: REqoLYNyMUGUB4HWdC2ypw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Cikini
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: A6qzLQqNOEaPcjvzJ1MbiA
+  name: View Cikini Result
+  description: This test was auto generated from steps of the 'Search Outlet From HMD' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:30:56.0000000
+  modificationDate: 2022-04-19T03:31:23.0000000
+  settings:
+    automationAssistant: true
+    appId: xuCNzRcPyUm7HTq8a997vw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: pbKSegzQoUalzlKw52dIGA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 6M5IPorBuEmFdWx06B5RJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: ABqiElJoO0eRW4zALXf5Zw
+  name: Click Cikini Location
+  description: This test was auto generated from steps of the 'Search Outlet From HMD' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:32:00.0000000
+  modificationDate: 2022-04-19T03:32:00.0000000
+  settings:
+    automationAssistant: true
+    appId: xuCNzRcPyUm7HTq8a997vw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: fBi0mQnLbkavOpHKNDk-GQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: wR18GzRrIkmCVYfIRkIo5A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: dhx_UANd-kyjjbiltXG5xg
+  name: Result Outlet Nearest
+  description: This test was auto generated from steps of the 'Search Outlet From HMD' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:32:21.0000000
+  modificationDate: 2022-04-19T03:32:21.0000000
+  settings:
+    automationAssistant: true
+    appId: xuCNzRcPyUm7HTq8a997vw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: FNSxHK8OhkyhScdIR_3ozg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: R9nNSmIvLESGoJOz4H3s-g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: yzDuUZEww0-wJVkkTGtBBQ
+  name: Click Outlet and Back to Home Page
+  description: This test was auto generated from steps of the 'Search Outlet From HMD' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:35:33.0000000
+  modificationDate: 2022-04-19T03:35:33.0000000
+  settings:
+    automationAssistant: true
+    appId: xuCNzRcPyUm7HTq8a997vw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: -yoY1ySy1kqmfMKVJvDo0g
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 14rP2Jk4GU-1lY0DqimLyA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DktjFLTiu0K121fSKxioQA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: N3e2ThHtTE-72LABy-Yaaw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dEBDAQssfUCzW1kxMkmXqQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: G7qqpqmMt02dSdRL9fkirQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+elements:
+- id: R9nNSmIvLESGoJOz4H3s-g
+  name: XCUIELEMENTTYPEOTHER
+  type:
+    id: jUwODgyNjAyNzk2NTk3OTk
+    name: XCUIElementTypeOther
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther[3]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]
+    priority: 1
+- id: 14rP2Jk4GU-1lY0DqimLyA
+  name: CIKINI JAKARTA
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: CIKINI JAKARTA
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND label == 'CIKINI JAKARTA' AND visible == 1
+    priority: 1
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'CIKINI JAKARTA' AND visible == 1
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[1]/XCUIElementTypeStaticText[1]
+    priority: 3
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[1]/XCUIElementTypeStaticText[1]
+    priority: 4
+- id: N3e2ThHtTE-72LABy-Yaaw
+  name: ion arrow back outline
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: btn_navigation_blue_back
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'ion arrow back outline' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeNavigationBar/XCUIElementTypeButton
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeButton[1]
+    priority: 3
+- id: G7qqpqmMt02dSdRL9fkirQ
+  name: backSearch
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: button_back
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'backSearch' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeButton[1]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
+    priority: 3
+- id: rPSLwHemKU6JyKahstVixQ
+  name: home_deliveryOrder_button
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: home_deliveryOrder_button
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeButton[2]
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[1]/XCUIElementTypeButton[2]
+    priority: 2
+- id: REqoLYNyMUGUB4HWdC2ypw
+  name: textfield_search
+  type:
+    id: jUwODgyNjAyNzk2NTk4MzM
+    name: XCUIElementTypeTextField
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: textfield_search
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeTextField' AND visible == 1
+    priority: 1
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeTextField' AND value == 'Input Location' AND visible == 1
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeTextField
+    priority: 3
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTextField[1]
+    priority: 4
+- id: tqALEGUDkUmIXKV91gIk_Q
+  name: close
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: button_clearTextfield
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'close' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]
+    priority: 3
+- id: REqoLYNyMUGUB4HWdC2ypw
+  name: textfield_search
+  type:
+    id: jUwODgyNjAyNzk2NTk4MzM
+    name: XCUIElementTypeTextField
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: textfield_search
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeTextField' AND visible == 1
+    priority: 1
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeTextField' AND value == 'Input Location' AND visible == 1
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeTextField
+    priority: 3
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTextField[1]
+    priority: 4
+- id: 6M5IPorBuEmFdWx06B5RJQ
+  name: view_with_tableview
+  type:
+    id: jUwODgyNjAyNzk2NTk3OTk
+    name: XCUIElementTypeOther
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: view_with_tableview
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[2]
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]
+    priority: 2
+- id: wR18GzRrIkmCVYfIRkIo5A
+  name: Cikini
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND label == 'Cikini' AND visible == 1
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'Cikini' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeCell[1]/XCUIElementTypeStaticText[1]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeTable[1]/XCUIElementTypeCell[1]/XCUIElementTypeStaticText[1]
+    priority: 3
+projectParameters: []
+addons: []
