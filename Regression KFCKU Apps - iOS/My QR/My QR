@@ -1,0 +1,575 @@
+id: Kuu3rkRpj0KnzcYlOF1VAg
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:22:50.9966647Z
+protocol: 1
+tests:
+- id: Po0sqwbXv069KUQwwYx5ew
+  name: My QR
+  description: ''
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 0.1
+  creationDate: 2022-04-19T03:44:15.0000000
+  modificationDate: 2022-04-19T07:01:29.0000000
+  settings:
+    automationAssistant: true
+    deviceId: 00008030-000A61C93679802E
+    appId: oRr_dMeXGECoWNs8XJBOqA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Always
+  application:
+    id: oRr_dMeXGECoWNs8XJBOqA
+    appleBundleId: com.kfcjv.staging
+    name: KFCKUstaging
+    platform: iOS
+  steps:
+  - id: CXltyK8v_EyJlZiMm5C9-w
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nuAHp5z6VESNStAFge668A
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Test
+    targetTestId: RGIh7c-1lkGgJGqnriDo5Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: w0TyrK8q1E6nmBHCeIF8-g
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Test
+    targetTestId: 0JitHbJNhE6nJvtHG-uMPg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iDaPsFMuQ0yAWnxyz4pAqA
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Test
+    targetTestId: 4LraVIT2QE6QNOajF639RQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2TXznr0QRk6WnDNU5pu5ow
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Test
+    targetTestId: GWS0AmFwykaKtWFfJsHKQA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VFBmWAjInUyM7T6O9-nwSg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Test
+    targetTestId: b0polnXtiUaehlOi_zv8OA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests:
+- id: RGIh7c-1lkGgJGqnriDo5Q
+  name: Click Tab My QR
+  description: This test was auto generated from steps of the 'My QR' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:48:18.0000000
+  modificationDate: 2022-04-19T03:48:18.0000000
+  settings:
+    automationAssistant: true
+    appId: oRr_dMeXGECoWNs8XJBOqA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: N5rWaRCF1Em0CU1ZdKEpzQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 9aJc53Zhu0WaVK65YQLjrg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: 0JitHbJNhE6nJvtHG-uMPg
+  name: Verify Element
+  description: This test was auto generated from steps of the 'My QR' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:48:53.0000000
+  modificationDate: 2022-04-19T03:48:53.0000000
+  settings:
+    automationAssistant: true
+    appId: oRr_dMeXGECoWNs8XJBOqA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: 21Y_GurOHk6RT56xIUxeXg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: pcSZceCPt0CwLpqV0iZeHA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Q1-hHrhTLUKofPPtkcNwRw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: TJrccl2m5k-H3j1mZZh9kw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: 4LraVIT2QE6QNOajF639RQ
+  name: View My QR
+  description: This test was auto generated from steps of the 'My QR' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:49:04.0000000
+  modificationDate: 2022-04-19T03:49:04.0000000
+  settings:
+    automationAssistant: true
+    appId: oRr_dMeXGECoWNs8XJBOqA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: HyeDMG-qoUKwztd0OE_a3A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 5z421ilQOUqOUOAB35R7eQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: GWS0AmFwykaKtWFfJsHKQA
+  name: Verify Order Type
+  description: This test was auto generated from steps of the 'My QR' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:49:23.0000000
+  modificationDate: 2022-04-19T03:49:23.0000000
+  settings:
+    automationAssistant: true
+    appId: oRr_dMeXGECoWNs8XJBOqA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: FtxBy1CD_Ei7j2iu48lYzw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 1DVhk5CaaE2ITYzZCxlEdg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 018iaREQwEG0WDtghTHQeg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: m_XkefSLa0eFsP6W1m_AEA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3oNeoJwQ_UO-yExSIPc2Pg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: qi9upn9TF0O0CdPlAV4Fgg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ufqjc8IJ4ECwIKtr0JQHiA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: T1PWwPjEokyNrDN2hFnVow
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: b0polnXtiUaehlOi_zv8OA
+  name: Back to Home Page
+  description: This test was auto generated from steps of the 'My QR' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:49:48.0000000
+  modificationDate: 2022-04-19T03:49:48.0000000
+  settings:
+    automationAssistant: true
+    appId: oRr_dMeXGECoWNs8XJBOqA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: UYcOROr6106fYOn7vFI1PQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: xoCh8esS4Eya1oG61q49Ig
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+elements:
+- id: 1DVhk5CaaE2ITYzZCxlEdg
+  name: Order Type
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeStaticText
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeStaticText[1]
+    priority: 1
+- id: m_XkefSLa0eFsP6W1m_AEA
+  name: Take Away
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODM
+    name: XCUIElementTypeImage
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeImage
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeImage[1]
+    priority: 1
+- id: qi9upn9TF0O0CdPlAV4Fgg
+  name: Dine In
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODM
+    name: XCUIElementTypeImage
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeImage
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeImage[1]
+    priority: 1
+- id: T1PWwPjEokyNrDN2hFnVow
+  name: HMD
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODM
+    name: XCUIElementTypeImage
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeImage
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeImage[1]
+    priority: 1
+- id: xoCh8esS4Eya1oG61q49Ig
+  name: Home Page
+  type:
+    id: jUwODgyNjAyNzk2NTk3OTk
+    name: XCUIElementTypeOther
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: TabBarItem_Selected_AccessibilityLabel
+    priority: 2
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeOther' AND label == 'TabBarItem_Selected_AccessibilityLabel' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeTabBar/XCUIElementTypeOther[1]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTabBar[1]/XCUIElementTypeOther[1]
+    priority: 3
+- id: 9aJc53Zhu0WaVK65YQLjrg
+  name: TabBarItem_AccessibilityLabel2
+  type:
+    id: jUwODgyNjAyNzk2NTk3OTk
+    name: XCUIElementTypeOther
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther[3]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTabBar[1]/XCUIElementTypeOther[3]
+    priority: 1
+- id: pcSZceCPt0CwLpqV0iZeHA
+  name: KFC Logo
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODM
+    name: XCUIElementTypeImage
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: kfcLogo_imageV
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeNavigationBar/XCUIElementTypeImage
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeImage[1]
+    priority: 2
+- id: TJrccl2m5k-H3j1mZZh9kw
+  name: Your QR
+  type:
+    id: jUwODgyNjAyNzk2NTk4MjM
+    name: XCUIElementTypeStaticText
+    source: System
+  locators:
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND label == 'Your QR' AND visible == 1
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeStaticText' AND value == 'Your QR' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeNavigationBar/XCUIElementTypeStaticText
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeNavigationBar[1]/XCUIElementTypeStaticText[1]
+    priority: 3
+- id: 5z421ilQOUqOUOAB35R7eQ
+  name: QR Image
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODM
+    name: XCUIElementTypeImage
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeImage[1]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeImage[1]
+    priority: 1
+projectParameters: []
+addons: []
