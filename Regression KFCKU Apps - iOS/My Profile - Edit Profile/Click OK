@@ -1,0 +1,67 @@
+id: m8pgSdqQTUWsG6Cs6p34dg
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:23:02.6505114Z
+protocol: 1
+tests:
+- id: RaApiU7MRUiNEW92tTBPew
+  name: Click OK
+  description: This test was auto generated from steps of the 'Edit Profile' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T04:43:55.0000000
+  modificationDate: 2022-04-19T04:43:55.0000000
+  settings:
+    automationAssistant: true
+    appId: oRr_dMeXGECoWNs8XJBOqA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: oRr_dMeXGECoWNs8XJBOqA
+    appleBundleId: com.kfcjv.staging
+    name: KFCKUstaging
+    platform: iOS
+  steps:
+  - id: fpdacjACu0O15HcwqytWWQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 0e0UqSneY0iWq7tJLiXvuA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: 0e0UqSneY0iWq7tJLiXvuA
+  name: OK
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeButton
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
+    priority: 1
+projectParameters: []
+addons: []
