@@ -1,0 +1,67 @@
+id: CHGWD0naXU-4EWKXBfjvqA
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:20:33.0664746Z
+protocol: 1
+tests:
+- id: 7NW4qBt0PkieV65GzitPaQ
+  name: Click Order List
+  description: This test was auto generated from steps of the 'Tacobell Order List' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-04T06:22:05.0000000
+  modificationDate: 2021-11-04T07:02:54.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: MTnu8t9a1EasMCDRtEbbPw
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: Vdi2Wcm1rEKc_DQ9nWfwOw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: Vdi2Wcm1rEKc_DQ9nWfwOw
+  name: LI9
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[2]/div/ul/li
+    priority: 1
+  - name: XPATH
+    value: //ul[2]/div/ul/li
+    priority: 0
+projectParameters: []
+addons: []
