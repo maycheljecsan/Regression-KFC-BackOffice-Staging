@@ -1,7 +1,7 @@
-id: zlX4YuSYwUaFlTBow6DFlg
+id: tv_Rniabv06-Zeg1QdRpEw
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:22:43.5536509Z
+created: 2022-04-19T10:50:49.6853821Z
 protocol: 1
 tests:
 - id: eQsRDypopEyw_5sHP81L6g
@@ -12,9 +12,10 @@ tests:
   driverType: Appium_iOS
   version: 1.0
   creationDate: 2022-04-18T03:57:58.0000000
-  modificationDate: 2022-04-19T07:40:54.0000000
+  modificationDate: 2022-04-19T10:50:49.0000000
   settings:
     automationAssistant: true
+    deviceId: 00008030-000A61C93679802E
     appId: oRr_dMeXGECoWNs8XJBOqA
     stepSleepTime: 500
     stepTimeout: 15000
