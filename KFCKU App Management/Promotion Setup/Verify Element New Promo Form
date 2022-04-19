@@ -1,0 +1,355 @@
+id: 3Ij08quDjEiCLEtjk_Qk4Q
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:22:32.0478483Z
+protocol: 1
+tests:
+- id: EkKaUnNVXE-epfxJrKlceA
+  name: Verify Element New Promo Form
+  description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-03-09T09:24:15.0000000
+  modificationDate: 2022-03-09T09:24:15.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: TflPTYSbake3MaQcE6kpOA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: kZHX39jINUGeFcgY3HT8-w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Register New Promo
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tPEgFbQuiUqCsTKP1cH5Fw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: XRJO7dgEn0iWe1r7v8iACw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: b2jy_zA-skGtiRrnEz27Yg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: hBvU31LL5Eaq91ICk6MCTw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: HMD
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: drKC0HM6OUOGdfzxiJR7Ig
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: sCIsOfNsr0OJn9iMVAQ-Pg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: PNP
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: R3BxPoUdvk6_e_TXbRr8Ow
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: zXeIpAdAtkCzASLrIOENOw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: GoFood
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DkOJRPgc10KeAeS37_HPHQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 9XSHaUFEzEqgiYZOo1C2lg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: GrabFood
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: oCewxX_hekCjaDe4GKf4Fw
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: xM07H5NYsEOI-EBL7kkVXQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Xq1n3idV9kCFBRgMCFTe_g
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: 1PzA_lRxN0eG_XCIVOMIjg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: kZHX39jINUGeFcgY3HT8-w
+  name: Register New Promo
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //h4[. = '
+              Register New Promo
+            ']
+    priority: 0
+  - name: XPATH
+    value: //h4
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/h4
+    priority: 2
+- id: XRJO7dgEn0iWe1r7v8iACw
+  name: Platform1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //span[. = '
+                  Platform
+                ']
+    priority: 0
+  - name: XPATH
+    value: //fieldset/div/div[1]/div/div/div/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[1]/span
+    priority: 2
+- id: hBvU31LL5Eaq91ICk6MCTw
+  name: HMD1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    HMD
+                  ']
+    priority: 0
+  - name: XPATH
+    value: //div/div[3]/div/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[1]
+    priority: 2
+- id: sCIsOfNsr0OJn9iMVAQ-Pg
+  name: PNP1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    PNP
+                  ']
+    priority: 0
+  - name: XPATH
+    value: //div/div[4]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[4]
+    priority: 2
+- id: zXeIpAdAtkCzASLrIOENOw
+  name: GoFood2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    GoFood
+                  ']
+    priority: 0
+  - name: XPATH
+    value: //div[7]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[7]
+    priority: 2
+- id: 9XSHaUFEzEqgiYZOo1C2lg
+  name: GrabFood1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    GrabFood
+                  ']
+    priority: 0
+  - name: XPATH
+    value: //div[10]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[10]
+    priority: 2
+- id: xM07H5NYsEOI-EBL7kkVXQ
+  name: SPAN14
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div/label/span
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[2]/div/div/label/span
+    priority: 1
+- id: 1PzA_lRxN0eG_XCIVOMIjg
+  name: SPAN15
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[5]//span
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[5]/div/div/label/span
+    priority: 1
+projectParameters: []
+addons: []
