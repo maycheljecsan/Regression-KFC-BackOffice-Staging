@@ -1,0 +1,73 @@
+id: Ba3e1prQ60u8ZCfYJQBBcg
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:20:58.2041064Z
+protocol: 1
+tests:
+- id: 1lbXCjZQvkeUB_p-cSGaBg
+  name: Global Menu
+  description: This test was auto generated from steps of the 'KFC-432 - Update Bulk Upload Header' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-08T11:53:37.0000000
+  modificationDate: 2021-11-08T14:17:02.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: Uj_ozAYOlUiM7wKL7ju_3w
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: N-McG52_Rkq0h5g5UWN77g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: N-McG52_Rkq0h5g5UWN77g
+  name: GLOBAL_MENU
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__437___BV_tab_button__'
+    priority: 0
+  - name: XPATH
+    value: //a[. = 'GLOBAL_MENU']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/ul/li[8]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div/div[1]/ul/li[8]/a
+    priority: 3
+projectParameters: []
+addons: []
