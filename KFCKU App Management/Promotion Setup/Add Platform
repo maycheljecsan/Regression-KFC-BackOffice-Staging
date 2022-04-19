@@ -1,0 +1,225 @@
+id: cv9JqlN_e0G06SKrLAA5bQ
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:22:15.9853513Z
+protocol: 1
+tests:
+- id: Lhda6W9j5EqMwLkKXQziBw
+  name: Add Platform
+  description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-02-14T10:26:33.0000000
+  modificationDate: 2022-02-14T10:45:49.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: g9MiWPIfOE-ieMq0jphTkQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: kZHX39jINUGeFcgY3HT8-w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Register New Promo
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2Ra-PkEBrkamSLkpUAxPqQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: XRJO7dgEn0iWe1r7v8iACw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Platform
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: LOsUrDPzO0Wm-bWQC4s1Ag
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: xM07H5NYsEOI-EBL7kkVXQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: X3rVwFFXdky6EVYiKuortg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 1PzA_lRxN0eG_XCIVOMIjg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Az8Kz7KpTUe_dXxdaK1-IA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: Nr85-YIZ4kG8dP_MyjZcbw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: kZHX39jINUGeFcgY3HT8-w
+  name: Register New Promo
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //h4[. = '
+              Register New Promo
+            ']
+    priority: 0
+  - name: XPATH
+    value: //h4
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/h4
+    priority: 2
+- id: XRJO7dgEn0iWe1r7v8iACw
+  name: Platform1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //span[. = '
+                  Platform
+                ']
+    priority: 0
+  - name: XPATH
+    value: //fieldset/div/div[1]/div/div/div/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[1]/span
+    priority: 2
+- id: xM07H5NYsEOI-EBL7kkVXQ
+  name: SPAN14
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div/label/span
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[2]/div/div/label/span
+    priority: 1
+- id: 1PzA_lRxN0eG_XCIVOMIjg
+  name: SPAN15
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[5]//span
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[5]/div/div/label/span
+    priority: 1
+- id: Nr85-YIZ4kG8dP_MyjZcbw
+  name: Next2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+              Next
+            ']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[4]/button[2]
+    priority: 2
+projectParameters: []
+addons: []
