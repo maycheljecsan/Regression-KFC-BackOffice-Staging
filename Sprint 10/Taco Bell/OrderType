@@ -1,0 +1,109 @@
+id: Jak1G7xneU6aT8IUn5t2Kw
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:20:36.8004363Z
+protocol: 1
+tests:
+- id: uxeYzX69AECkYLxv3u9NJg
+  name: OrderType
+  description: This test was auto generated from steps of the 'Taco Bell Order Type' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-04T07:16:50.0000000
+  modificationDate: 2021-11-04T07:16:50.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Always
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: 8DQZ6RSzP0GqoODuOLEEGA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: uV3LV27hAUqeWZWhoZuPtQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Order Type
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Mg_kV95ESUiNBNNw69Y1LQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: a0DZryGGGk-Sw4bhDKEc4A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: GFDTB
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: uV3LV27hAUqeWZWhoZuPtQ
+  name: Order List - Row Order Type Grabfood
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2OTI
+    name: th
+    source: System
+  locators:
+  - name: XPATH
+    value: //th[6]//th
+    priority: 0
+- id: a0DZryGGGk-Sw4bhDKEc4A
+  name: GFDTB
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[. = 'GFDTB']
+    priority: 0
+  - name: XPATH
+    value: //tr[1]/td[6]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div/div[2]/div/div/div[1]/table/tbody/tr[1]/td[6]
+    priority: 2
+projectParameters: []
+addons: []
