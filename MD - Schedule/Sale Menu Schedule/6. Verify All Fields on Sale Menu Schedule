@@ -1,0 +1,497 @@
+id: fMaUBCd7ckWPiJduR7g9Yg
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:20:20.4504021Z
+protocol: 1
+tests:
+- id: keGAbbz1lUmyS9e-IQGX-A
+  name: 6. Verify All Fields on Sale Menu Schedule
+  description: Check Field on Sale Menu Schedule Page
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-10-12T03:42:15.0000000
+  modificationDate: 2021-10-12T03:42:15.0000000
+  settings:
+    automationAssistant: false
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 1000
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: S_cYEb5L9kuDR6-BxRCHBg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 4zdxh5eIwkmnfKKGZzJ0KQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1nF7h0J57Ei3iWvaav3hrw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: FbqjcfitiEuOAcQdx_k1cA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8DforLdNaUmoKvhV2ZURbw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: _xddkeBiAkCXL_1G0hDJWg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: oGR1F2pswU-HwM44PDtsUA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: FTIU5VKpjUqnicpZ2ofTiQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Z0PmoL5uaECB6ySPWNb5Og
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: JyPZp5KBb0-4ZoEFoLG7SQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GImkdSpghEG50lkXSCpFKQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: SvIh9vI0BkmzaE8yUao8gQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JypFDh0zNEynwDgq9CDLRw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: ABgbZM7LgE-h6zNMs-4Psw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pNtTPFbzRkmfk1-GZKMsxw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: 9GGHrKv_IUGNcctyGaFQ6A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DMvZW0ROb0a5Hw8A1_sv5A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: uQBxVvpAgkOOnfS-UR1yQQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VNJ57y9RFUuOnx6aReOp5g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: duWfhV6wAkCrD6Y80UmqHw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Z2TurVSfqEulhvOhZyIwHQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: AN7MRLfPKE6Pnq0PhCeuOg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GrPCAB4QKEyticP2ivyohg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: G72sb9Ebjk-Lufc7IMCvlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    type: Input
+auxTests: []
+elements:
+- id: 4zdxh5eIwkmnfKKGZzJ0KQ
+  name: Sale Menu Schedule List - Column No 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[1]
+    priority: 0
+  - name: XPATH
+    value: >-
+      //td[. = '
+                  1
+                ']
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[1]
+    priority: 2
+- id: FbqjcfitiEuOAcQdx_k1cA
+  name: Sale Menu Schedule List - Column Outlet Code 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[2]
+    priority: 0
+  - name: XPATH
+    value: //tr[1]/td[. = '0545']
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[2]
+    priority: 1
+- id: _xddkeBiAkCXL_1G0hDJWg
+  name: Sale Menu Schedule List - Column Menu Item Code 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[3]
+    priority: 1
+  - name: XPATH
+    value: //td[. = '1000']
+    priority: 2
+- id: FTIU5VKpjUqnicpZ2ofTiQ
+  name: Sale Menu Schedule List - Column Status 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[4]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[4]
+    priority: 1
+  - name: XPATH
+    value: //tr[1]/td[. = 'open']
+    priority: 2
+- id: JyPZp5KBb0-4ZoEFoLG7SQ
+  name: Sale Menu Schedule List - Column Begin Date 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[5]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[5]
+    priority: 1
+  - name: XPATH
+    value: //tr[1]/td[. = '10000101']
+    priority: 2
+- id: SvIh9vI0BkmzaE8yUao8gQ
+  name: Sale Menu Schedule List - Column End Date 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[6]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[6]
+    priority: 1
+  - name: XPATH
+    value: //tr[1]/td[. = '99991231']
+    priority: 2
+- id: ABgbZM7LgE-h6zNMs-4Psw
+  name: Sale Menu Schedule List - Column Begin Day 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[7]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[7]
+    priority: 1
+  - name: XPATH
+    value: //tr[1]/td[. = '1']
+    priority: 2
+- id: 9GGHrKv_IUGNcctyGaFQ6A
+  name: Sale Menu Schedule List - Column End Day 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[8]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[8]
+    priority: 1
+  - name: XPATH
+    value: //tr[1]/td[. = '7']
+    priority: 2
+- id: uQBxVvpAgkOOnfS-UR1yQQ
+  name: Sale Menu Schedule List - Column Begin Hour 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[9]
+    priority: 1
+  - name: XPATH
+    value: //tr[1]/td[. = '0']
+    priority: 2
+  - name: XPATH
+    value: //tr[1]/td[9]
+    priority: 0
+- id: duWfhV6wAkCrD6Y80UmqHw
+  name: Sale Menu Schedule List - Column End Hour 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[10]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[10]
+    priority: 1
+  - name: XPATH
+    value: //tr[1]/td[. = '235900']
+    priority: 2
+- id: AN7MRLfPKE6Pnq0PhCeuOg
+  name: Menu Group List - Column Edit Button 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDA
+    name: u
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]//u[. = 'Edit']
+    priority: 0
+  - name: XPATH
+    value: //tr[1]/td[5]//u
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[5]/div/div/u
+    priority: 2
+- id: G72sb9Ebjk-Lufc7IMCvlA
+  name: Menu Group List - Delete Button 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDA
+    name: u
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]//u[. = 'Delete']
+    priority: 0
+  - name: XPATH
+    value: //tr[1]/td[6]//u
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[6]/div/div/u
+    priority: 2
+projectParameters: []
+addons: []
