@@ -1,0 +1,67 @@
+id: jSsAO42EJEKwTsIkYrv-jw
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:20:40.3689936Z
+protocol: 1
+tests:
+- id: 3yxz27Q50Ue_XbwbY2axrg
+  name: Klik KFC Order List
+  description: This test was auto generated from steps of the 'Online Order' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-08T07:19:46.0000000
+  modificationDate: 2021-11-08T07:41:53.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 25000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Always
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: IKuW6RF45US1BXgMrr6XSA
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: r4ZuPbLR4Uit0gCYNDVDsA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: r4ZuPbLR4Uit0gCYNDVDsA
+  name: LI8
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[2]/div/ul/div/ul[1]/a/li
+    priority: 1
+  - name: XPATH
+    value: //ul[2]/div/ul/div/ul[1]//li
+    priority: 0
+projectParameters: []
+addons: []
