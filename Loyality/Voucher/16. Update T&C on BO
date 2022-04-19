@@ -1,0 +1,1161 @@
+id: IQmMRviNukmJUEnKv93udg
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:19:45.6541673Z
+protocol: 1
+tests:
+- id: SUiO1YeTu0uKz7LgbWd0Sg
+  name: 16. Update T&C on BO
+  description: Update T&C
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-10-12T03:42:11.0000000
+  modificationDate: 2021-10-12T03:42:11.0000000
+  settings:
+    automationAssistant: false
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 0
+    stepTimeout: 15000
+    stepSleepTiming: None
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: sHKAVSntCUCvfOS9VC-7-A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Addon
+    elementId: N5N5X4Cmt0yHjPM-yP3E7A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: BH5bn3efgUeILOVdco76Nw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: LZF7pxBQ6Eq7EFDaiGn0mA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: XmHRVSEG80qvfEiQvP2B_A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: Fj7yQAnHtk21m_tRi4VUWg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: brbph7CjH0KRUD_SiW5b3w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: NcGYr9i0U0KzWaN584kFLg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Zd4i3QSUWUK91ddDZbOJXQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: j8m7givzU0GoK8HxetFuQg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1Es9_cPx-UCgBw_2cJ9WWg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: GMB2UWep1keeDeI9-FbS7w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 81_kflaczEGMYnr9XlYShQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 7C2btAvolkqjjsUcgj3mqw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TBQktb_pPE2MKaq1QgxUxQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: RI5-nF86W0SrgzznXbtaZQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3_7yk3iDDkalYwtQ2SfICQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: HFVBu0nrpEufuyfJdKOoAg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FehJSGRFrE6utV-BVcd2SQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: NcGYr9i0U0KzWaN584kFLg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: >-
+        1. The validity period of the voucher is 2 (two) weeks after the voucher is redeemed. x
+
+        2. Voucher is only applicable for transaction of Pay `n Pick and Home Delivery through KFCKU Application.
+
+        3. Voucher is only applicable for transactions with DANA payment.
+
+        4. Maximum usage of voucher is 1 voucher per transaction.
+
+        5. Your voucher can be seen on the Vouchers page.
+
+        6. Please use the voucher carefully
+
+
+        ================== QA(PW) TEST ======
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ehZs3Kg3nUG8xPa0kFXXgA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: NcGYr9i0U0KzWaN584kFLg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9RLCn3NRKke8M4T6co2d3A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: NcGYr9i0U0KzWaN584kFLg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: >-
+        1. The validity period of the voucher is 2 (two) weeks after the voucher is redeemed. x
+
+
+        2. Voucher is only applicable for transaction of Pay `n Pick and Home Delivery through KFCKU Application.
+
+
+        3. Voucher is only applicable for transaction with DANA payment.
+
+
+        4. Maximum usage of voucher is 1 voucher per transaction.
+
+
+        5. Your voucher can be seen on the Vouchers page.
+
+
+        6. Please use the voucher, we love you as customers
+
+
+        7. This is automated testing
+
+
+        ================== QA(PW) TEST ================
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UAHKMe42R0O01SyiMvONtQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: GMB2UWep1keeDeI9-FbS7w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: >-
+        1. Masa berlaku voucher adalah dua minggu setelah voucher diperoleh.
+
+        2. Voucher hanya berlaku untuk transaksi Pay `n Pick dan Pesan Antar melalui aplikasi KFCKU.
+
+        3. Hanya berlaku untuk transaksi pembayaran melalui DANA
+
+        4. Test carefully
+
+        ================== QA(PW) TEST ======
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FP3mDNsmskKRVc51Uy110Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: GMB2UWep1keeDeI9-FbS7w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: p8ewUM-FjUCs6jijxmDJTw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: GMB2UWep1keeDeI9-FbS7w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: >-
+        1. Masa berlaku voucher adalah dua minggu setelah voucher diperoleh.
+
+
+        2. Voucher hanya berlaku untuk transaksi Pay `n Pick dan Pesan Antar melalui aplikasi KFCKU.
+
+
+        3. Hanya berlaku untuk transaksi pembayaran melalui DANA
+
+
+        4. This is Automated Testing
+
+
+        ================== QA(PW) TEST ================
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Pr73auq2rU64KJBy1xYJFQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Addon
+    elementId: RI5-nF86W0SrgzznXbtaZQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SNCHOP3r10us7Wm5Ef1MaQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: _eU53ASeck6vkZGFge2PlQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WslX2J10lkicnMN6J9xr1w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Addon
+    elementId: B2HiU6Etx0qkA_KJk-9UyQ
+    settings:
+      sleepTime: 4000
+      timeout: -1
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -zsiqOiin0iwDfUKJ90PGw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Addon
+    elementId: N5N5X4Cmt0yHjPM-yP3E7A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: x3qbWT6onUut1-MhtIgy1w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: LZF7pxBQ6Eq7EFDaiGn0mA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: oD6wLKvhukqdpIxck4ILTw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: Fj7yQAnHtk21m_tRi4VUWg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _xVrjX89vU2N1zk76YUyyg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: NcGYr9i0U0KzWaN584kFLg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Kq0skdTD4kS0hcYn8TscaA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: j8m7givzU0GoK8HxetFuQg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ceM5r4lTlE6T_Y1IWCGfQw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: GMB2UWep1keeDeI9-FbS7w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: J3RzjUm0YEGllAA6Bna7BA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: 7C2btAvolkqjjsUcgj3mqw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UVB3w_6CwE2BTg0OMhL10Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Action
+    elementId: RI5-nF86W0SrgzznXbtaZQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: S6EA0pozUUWMTRmBi6EG0g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Action
+    elementId: HFVBu0nrpEufuyfJdKOoAg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FlvLtzVmLE2qJ4yBT97ldw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 28
+    repeat: 1
+    type: Action
+    elementId: NcGYr9i0U0KzWaN584kFLg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: >-
+        1. The validity period of the voucher is 2 (two) weeks after the voucher is redeemed. x
+
+
+        2. Voucher is only applicable for transaction of Pay `n Pick and Home Delivery through KFCKU Application.
+
+
+        3. Voucher is only applicable for transaction with DANA payment.
+
+
+        4. Maximum usage of voucher is 1 voucher per transaction.
+
+
+        5. Your voucher can be seen on the Vouchers page.
+
+
+        6. Please use the voucher, we love you as customers
+
+
+        7. This is automated testing
+
+
+        ================== QA(PW) TEST ================
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8Zj7lnDdBE2HKh7AS54KNg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 29
+    repeat: 1
+    type: Action
+    elementId: NcGYr9i0U0KzWaN584kFLg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uIAwNhwOSUC5tZb60keMkA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 30
+    repeat: 1
+    type: Action
+    elementId: NcGYr9i0U0KzWaN584kFLg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: >-
+        1. The validity period of the voucher is 2 (two) weeks after the voucher is redeemed. x
+
+        2. Voucher is only applicable for transaction of Pay `n Pick and Home Delivery through KFCKU Application.
+
+        3. Voucher is only applicable for transactions with DANA payment.
+
+        4. Maximum usage of voucher is 1 voucher per transaction.
+
+        5. Your voucher can be seen on the Vouchers page.
+
+        6. Please use the voucher carefully
+
+
+        ================== QA(PW) TEST ======
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: H0LBlrQXMEGJiq4ZbYLTuA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 31
+    repeat: 1
+    type: Action
+    elementId: GMB2UWep1keeDeI9-FbS7w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: >-
+        1. Masa berlaku voucher adalah dua minggu setelah voucher diperoleh.
+
+
+        2. Voucher hanya berlaku untuk transaksi Pay `n Pick dan Pesan Antar melalui aplikasi KFCKU.
+
+
+        3. Hanya berlaku untuk transaksi pembayaran melalui DANA
+
+
+        4. This is Automated Testing
+
+
+        ================== QA(PW) TEST ================
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mYaQNsnIWEiVmAYQWvV_2Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 32
+    repeat: 1
+    type: Action
+    elementId: GMB2UWep1keeDeI9-FbS7w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rmTYGGkPuECl1G9wQVk9yg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 33
+    repeat: 1
+    type: Action
+    elementId: GMB2UWep1keeDeI9-FbS7w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: >-
+        1. Masa berlaku voucher adalah dua minggu setelah voucher diperoleh.
+
+        2. Voucher hanya berlaku untuk transaksi Pay `n Pick dan Pesan Antar melalui aplikasi KFCKU.
+
+        3. Hanya berlaku untuk transaksi pembayaran melalui DANA
+
+        4. Test carefully
+
+        ================== QA(PW) TEST ======
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qO3GJ6r7X0aM0WxkKVEUBw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 34
+    repeat: 1
+    type: Addon
+    elementId: RI5-nF86W0SrgzznXbtaZQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mKTLb8o3yEKe1zkRyJIOAA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 35
+    repeat: 1
+    type: Action
+    elementId: _eU53ASeck6vkZGFge2PlQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ojBm4VhvVEWfgTZut9xoLA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 36
+    repeat: 1
+    type: Addon
+    elementId: B2HiU6Etx0qkA_KJk-9UyQ
+    settings:
+      sleepTime: 4000
+      timeout: -1
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    type: Input
+auxTests: []
+elements:
+- id: N5N5X4Cmt0yHjPM-yP3E7A
+  name: Set Terms & Conditions
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/button[1]
+    priority: 0
+  - name: XPATH
+    value: >-
+      //button[. = '
+              Set Terms & Conditions
+            ']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div[1]/div//button[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[1]/div/div/div/button[1]
+    priority: 3
+- id: LZF7pxBQ6Eq7EFDaiGn0mA
+  name: Terms & Condition - Strong
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //span[. = '
+              Terms & Condition
+            ']
+    priority: 0
+  - name: XPATH
+    value: //header//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/form/div/div/div[1]/div/div/header/div/span
+    priority: 2
+- id: Fj7yQAnHtk21m_tRi4VUWg
+  name: Terms & Condition - Label Voucher Terms & Condition (EN)*
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div/div/div[1]/div/div/div/div/div/div/div[. = '
+                  Voucher Terms & Condition (EN)*
+                ']
+    priority: 0
+  - name: XPATH
+    value: //form/div/div/div[1]/div/div/div/div/div/div[1]/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div[1]/div
+    priority: 2
+- id: NcGYr9i0U0KzWaN584kFLg
+  name: Terms & Condition - Field Voucher Terms & Condition (EN)
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2OTA
+    name: textarea
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='en']"
+    priority: 0
+  - name: XPATH
+    value: //div[1]/label/textarea[@placeholder = 'Write terms & condition here']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/label/textarea
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div[1]/label/textarea
+    priority: 3
+- id: j8m7givzU0GoK8HxetFuQg
+  name: Terms & Condition - Label Voucher Terms & Condition (ID)*
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[2]/div[. = '
+                  Voucher Terms & Condition (ID)*
+                ']
+    priority: 0
+  - name: XPATH
+    value: //div/div[1]/div/div/div/div/div/div[2]/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div[2]/div
+    priority: 2
+- id: GMB2UWep1keeDeI9-FbS7w
+  name: Terms & Condition - Field Voucher Terms & Condition (ID)
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2OTA
+    name: textarea
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='id']"
+    priority: 0
+  - name: XPATH
+    value: //div[2]/label/textarea[@placeholder = 'Write terms & condition here']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/label/textarea
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div[2]/label/textarea
+    priority: 3
+- id: 7C2btAvolkqjjsUcgj3mqw
+  name: Terms & Condition - Cancel Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+              Cancel
+            ']
+    priority: 0
+  - name: XPATH
+    value: //footer//button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/form/div/div/div[1]/div/div/footer/div/button[2]
+    priority: 2
+- id: RI5-nF86W0SrgzznXbtaZQ
+  name: Terms & Condition - Set Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+              Set
+            ']
+    priority: 0
+  - name: XPATH
+    value: //footer//button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/form/div/div/div[1]/div/div/footer/div/button[1]
+    priority: 2
+- id: HFVBu0nrpEufuyfJdKOoAg
+  name: Terms & Condition - X Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //header//img
+    priority: 0
+- id: _eU53ASeck6vkZGFge2PlQ
+  name: SUCCESS T&C Save
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'SUCCESS']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]
+    priority: 2
+  - name: XPATH
+    value: //body/div[2]/div/div[2]
+    priority: 1
+- id: B2HiU6Etx0qkA_KJk-9UyQ
+  name: Data Downloaded Pop Up - OK Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'OK']
+    priority: 0
+  - name: XPATH
+    value: //div[3]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div/button
+    priority: 2
+projectParameters: []
+addons:
+- id: 9G7qW0nEqU60ObO6IXJshg
+  source: Store
+  version: 1.9
+  actions:
+  - id: c7OPWafS8kaFJUBVwrhoRw
+    name: Click (using JavaScript)
+    description: Click {{element}}
+    className: io.testproject.addon.jsactions.ClickAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 391BA51B31B3A1CADC112A2DD7D674CCC8AA80895D1FB9B1A90928D01D0153F3
