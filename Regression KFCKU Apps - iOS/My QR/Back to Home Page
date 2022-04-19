@@ -1,0 +1,73 @@
+id: EGlhfrfn9kamnVQDnpk6TQ
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:22:54.7302322Z
+protocol: 1
+tests:
+- id: b0polnXtiUaehlOi_zv8OA
+  name: Back to Home Page
+  description: This test was auto generated from steps of the 'My QR' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-19T03:49:48.0000000
+  modificationDate: 2022-04-19T03:49:48.0000000
+  settings:
+    automationAssistant: true
+    appId: oRr_dMeXGECoWNs8XJBOqA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: oRr_dMeXGECoWNs8XJBOqA
+    appleBundleId: com.kfcjv.staging
+    name: KFCKUstaging
+    platform: iOS
+  steps:
+  - id: UYcOROr6106fYOn7vFI1PQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: xoCh8esS4Eya1oG61q49Ig
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: xoCh8esS4Eya1oG61q49Ig
+  name: Home Page
+  type:
+    id: jUwODgyNjAyNzk2NTk3OTk
+    name: XCUIElementTypeOther
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: TabBarItem_Selected_AccessibilityLabel
+    priority: 2
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeOther' AND label == 'TabBarItem_Selected_AccessibilityLabel' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeTabBar/XCUIElementTypeOther[1]
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTabBar[1]/XCUIElementTypeOther[1]
+    priority: 3
+projectParameters: []
+addons: []
