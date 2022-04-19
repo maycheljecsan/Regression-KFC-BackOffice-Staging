@@ -1,0 +1,469 @@
+id: hkt02uDjz0WOBLzm0MikLQ
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:20:20.4499207Z
+protocol: 1
+tests:
+- id: 1lswRLeKCEWe1yqXleXRgA
+  name: 4. Delete Outlet
+  description: Delete previous added outlet
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-10-12T03:42:15.0000000
+  modificationDate: 2021-10-12T03:42:15.0000000
+  settings:
+    automationAssistant: false
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 0
+    stepTimeout: 15000
+    stepSleepTiming: None
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: SBZfwY5zQka2BCO6NDLwMw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 3PFcmeN5ZUCZOGSRAufDyQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 081293869156
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pqmAtVjTC0KLuqVKdSu1YQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: JXU3CZTQGUqG_SVdTJxO3w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 88ADNW9WDUW7PmoUl7EFLA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Addon
+    elementId: JXU3CZTQGUqG_SVdTJxO3w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: U3T8GVCjIk2ESiU1BZd5TQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: qIX6BPcj2UmQ0WeMcEsv7g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5SLt0W42KEeNoacuWHBL_w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: c08puhfR_UmyFu_Dote66Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3Fd7sgluTEmgJu0RjdVi6Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: I6WZ2d3OwE22UOq7bq4aeg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pOvsymzMpUGfPzMzN8Zajw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: lGJQVfn2mk22l8l2Vi3__w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kotmtwCL7EKTLGhmAqBFhQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Addon
+    elementId: lGJQVfn2mk22l8l2Vi3__w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TVvvPjBBqUO3GNFxlL__og
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: oxgXxbw8A0C7BdOt3atu6Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: deleted
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: R0x1UYhbPkmjB8gW88RIrg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Addon
+    elementId: qy53N7YA40y7UJKIDOuxuQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wK9DaIne5kCZtgkXSVGFqQ
+    comments: ''
+    enabled: true
+    invertResult: true
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: 5qdTyyot5kKRRyjFRu9kPA
+    settings:
+      sleepTime: -1
+      timeout: 2045
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 081293869156
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SkYtoftXpkaOjDESn41AOA
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Addon
+    elementId: 8gNvqb4Ml0qrf4X7CEvjOQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    type: Input
+auxTests: []
+elements:
+- id: 3PFcmeN5ZUCZOGSRAufDyQ
+  name: Outlet List - Column PhoneNumber 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //td[7]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr/td[7]
+    priority: 1
+- id: JXU3CZTQGUqG_SVdTJxO3w
+  name: Outlet Price List - Delete Button 1
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDA
+    name: u
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[5]/a[2]/u
+    priority: 0
+- id: qIX6BPcj2UmQ0WeMcEsv7g
+  name: Confirmation
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'Confirmation']
+    priority: 0
+  - name: XPATH
+    value: //body/div[2]/div/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[1]
+    priority: 2
+- id: c08puhfR_UmyFu_Dote66Q
+  name: Confirmation - Description
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div[2]/div/div[2]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]/div
+    priority: 1
+  - name: XPATH
+    value: //div[. = 'Are you sure you want to delete this outlet price?']
+    priority: 2
+- id: I6WZ2d3OwE22UOq7bq4aeg
+  name: Global List - Delete Cancel Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Cancel']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div[1]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div[1]/button
+    priority: 2
+- id: lGJQVfn2mk22l8l2Vi3__w
+  name: Global List - Delete Delete Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Delete']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div[2]/button
+    priority: 2
+- id: oxgXxbw8A0C7BdOt3atu6Q
+  name: Add Outlet Price - Record with ID XXX created
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >+
+      //div[3]/div[2]/button
+
+    priority: 0
+- id: qy53N7YA40y7UJKIDOuxuQ
+  name: Add Menu Group
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //footer//button[2]
+    priority: 0
+  - name: XPATH
+    value: //div[4]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[4]/div/button
+    priority: 2
+- id: 5qdTyyot5kKRRyjFRu9kPA
+  name: Outlet Price List - Column Price Type 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[4]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[4]
+    priority: 1
+  - name: XPATH
+    value: //tr[1]/td[. = '5']
+    priority: 2
+- id: 8gNvqb4Ml0qrf4X7CEvjOQ
+  name: Reset F
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //button[. = '
+                Reset Filter
+              ']
+    priority: 0
+projectParameters: []
+addons:
+- id: 9G7qW0nEqU60ObO6IXJshg
+  source: Store
+  version: 1.9
+  actions:
+  - id: c7OPWafS8kaFJUBVwrhoRw
+    name: Click (using JavaScript)
+    description: Click {{element}}
+    className: io.testproject.addon.jsactions.ClickAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 391BA51B31B3A1CADC112A2DD7D674CCC8AA80895D1FB9B1A90928D01D0153F3
