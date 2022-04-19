@@ -1,0 +1,72 @@
+id: SB3T5MLZBEOv4W38B1aMMg
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:22:12.0035935Z
+protocol: 1
+tests:
+- id: XcqQh92TN0Ce4SqmwJ7mOw
+  name: Verify Element - Reset Filter
+  description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-02-14T09:40:02.0000000
+  modificationDate: 2022-02-14T09:40:02.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: MqB-cFDIjkmY3Zk6my_itQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 8gNvqb4Ml0qrf4X7CEvjOQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: 8gNvqb4Ml0qrf4X7CEvjOQ
+  name: Reset F
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //button[. = '
+                Reset Filter
+              ']
+    priority: 0
+projectParameters: []
+addons: []
