@@ -1,0 +1,357 @@
+id: ZC-abhWidUyx5JRD2gKzjQ
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:21:16.8900626Z
+protocol: 1
+tests:
+- id: pmTBgT0Ux0OURxWPpihlUA
+  name: Insert Menu Info
+  description: This test was auto generated from steps of the '[BO] Datepicker for Begin Date and End Date in Menu Management' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-12-14T09:13:50.0000000
+  modificationDate: 2021-12-14T09:13:50.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: _D2Sjt0nokSztYWFdDmGpQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 29FeidZlXkWnzDH-gb-Pbg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hxTxjeoMY0meiyBqIVpvEw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 29FeidZlXkWnzDH-gb-Pbg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 666
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qZNOKvgUZE-r5M9oYTkqNA
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: JcZ-pKi4A02X-wG0y3i7_w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jQRlhDZFs0uZpoQZ6qIY3g
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: JcZ-pKi4A02X-wG0y3i7_w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: G67
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 851cwIIb4Uuu4Oy0N7-YiQ
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: JcZ-pKi4A02X-wG0y3i7_w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2vXmIqvPeU-b6l1JrVcjFg
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: v1ao4XnulUitNYFFSKmq0w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZeVUrxKH_EmOSav7RRjUvg
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: v1ao4XnulUitNYFFSKmq0w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 30
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VhOIcAv1CEyqTV4qgyTX1A
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: ZuLskn3JZEq4vTB7qmUDlQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _8DEXxubHUulIWrPIkDf6Q
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: QmQK3Zn77EWP5r0pAX9uFw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: i-QCHSfyhEyZHsQq8dVQxw
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: EUkiSX86YU2_xS54wkoiZw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: 29FeidZlXkWnzDH-gb-Pbg
+  name: menuCode
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#input-large'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='menuCode']"
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'Enter menu code']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/div/fieldset//input
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div/div/div/div/div[1]/div/div[2]/div/div/fieldset/div/input
+    priority: 4
+- id: JcZ-pKi4A02X-wG0y3i7_w
+  name: menuGroup
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__152'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='menuGroup']"
+    priority: 1
+  - name: XPATH
+    value: //select[@placeholder = 'please select MenuGroup']
+    priority: 2
+  - name: XPATH
+    value: //select
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div/div/div/div/div[3]/div[1]/div[1]/fieldset/div/select
+    priority: 4
+- id: v1ao4XnulUitNYFFSKmq0w
+  name: menuSeq
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#input-large5'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='menuSeq']"
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'Enter seq']
+    priority: 2
+  - name: XPATH
+    value: //div[3]/div[1]//input
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div/div/div/div/div[3]/div[1]/div[2]/fieldset/div/input
+    priority: 4
+- id: ZuLskn3JZEq4vTB7qmUDlQ
+  name: DIV27
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //fieldset/div/div/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div/div/div/div/div[7]/fieldset/div/div/div[2]
+    priority: 1
+- id: QmQK3Zn77EWP5r0pAX9uFw
+  name: 0226 - BLOK M PLAZA
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //li/span[. = '0226 - BLOK M PLAZA']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/ul/li[5]/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div/div/div/div/div[7]/fieldset/div/div/div[3]/ul/li[5]/span
+    priority: 2
+- id: EUkiSX86YU2_xS54wkoiZw
+  name: Next
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+              Next
+            ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[2]/button[2]
+    priority: 2
+projectParameters: []
+addons: []
