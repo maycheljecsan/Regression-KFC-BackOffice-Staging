@@ -1,0 +1,74 @@
+id: _2r_ZA_pL0aUsW3P4W-1rQ
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:21:32.9751605Z
+protocol: 1
+tests:
+- id: OgmzY89WkkWlHHNBxyGrzg
+  name: ShopeeFood Tab
+  description: This test was auto generated from steps of the 'Syncrhonize Menu' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-12-14T10:19:22.0000000
+  modificationDate: 2021-12-14T10:19:22.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: qpZgoSzkbk6j58fDDmroDw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: B9Nu9Pr31EOssVBlg5Iu6g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: B9Nu9Pr31EOssVBlg5Iu6g
+  name: ShopeeFood
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__150___BV_tab_button__'
+    priority: 0
+  - name: XPATH
+    value: //a[. = 'ShopeeFood']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/ul/li[3]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[1]/div/div[1]/ul/li[3]/a
+    priority: 3
+projectParameters: []
+addons: []
