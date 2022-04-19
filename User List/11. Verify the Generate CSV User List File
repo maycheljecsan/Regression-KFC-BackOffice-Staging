@@ -1,0 +1,216 @@
+id: Hgkz-JYcQEWmvCM1lt4eMQ
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:19:58.5370067Z
+protocol: 1
+tests:
+- id: rsuXKQhZlEOwkxSxUCMRgw
+  name: 11. Verify the Generate CSV User List File
+  description: See Generated CSV User List File
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-10-12T03:42:11.0000000
+  modificationDate: 2021-10-12T03:42:11.0000000
+  settings:
+    automationAssistant: false
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 1000
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: X3JJd2Y64kGVb5q8uYyjUA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Addon
+    elementId: JOqxjdjPKES2ryb38jqfIA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: XRVMJKaGuk-8CdRYzzv_cw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: 8000
+      timeout: -1
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: yMUzzmJJtEWqHjyOZieHnQ
+      source: Store
+      addonId: hV6EGxIFTkCyZlxUpWd6tg
+    parameterMaps:
+    - name: pathOfLastDownloadedFile
+      value: '[[LatestDownloadPath]]'
+      direction: Output
+    conditions: []
+    validations:
+    - type: Starts
+      invert: false
+      field: pathOfLastDownloadedFile
+      value: /Users/bambangtripamungkas/Downloads/
+    contexts: []
+  - id: t1j-buEODk6kHE9ZyyfRXw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: UtzAL7WOAkuSOEKnEB2qXA
+      source: Store
+      addonId: hV6EGxIFTkCyZlxUpWd6tg
+    parameterMaps:
+    - name: path
+      value: /Users/bambangtripamungkas/Downloads/
+      direction: Input
+    - name: name
+      value: '[[DownloadedFileName]]'
+      direction: Output
+    - name: lastModified
+      value: ''
+      direction: Output
+    - name: size
+      value: ''
+      direction: Output
+    - name: staleness
+      value: 10
+      direction: Input
+    conditions: []
+    validations:
+    - type: Starts
+      invert: false
+      field: name
+      value: users_
+    contexts: []
+  - id: FsLXmtbssEWF9EnaTDZ-6Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Addon
+    elementId: B2HiU6Etx0qkA_KJk-9UyQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    type: Input
+auxTests: []
+elements:
+- id: JOqxjdjPKES2ryb38jqfIA
+  name: User LIst Download Button
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div/div[1]/div[2]/div/div/button
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/div/button
+    priority: 1
+  - name: XPATH
+    value: >-
+      //button[. = '
+                Download
+              ']
+    priority: 0
+- id: B2HiU6Etx0qkA_KJk-9UyQ
+  name: Data Downloaded Pop Up - OK Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'OK']
+    priority: 0
+  - name: XPATH
+    value: //div[3]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div/button
+    priority: 2
+projectParameters: []
+addons:
+- id: 9G7qW0nEqU60ObO6IXJshg
+  source: Store
+  version: 1.9
+  actions:
+  - id: c7OPWafS8kaFJUBVwrhoRw
+    name: Click (using JavaScript)
+    description: Click {{element}}
+    className: io.testproject.addon.jsactions.ClickAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 391BA51B31B3A1CADC112A2DD7D674CCC8AA80895D1FB9B1A90928D01D0153F3
+- id: hV6EGxIFTkCyZlxUpWd6tg
+  source: Store
+  version: 1.5
+  actions:
+  - id: yMUzzmJJtEWqHjyOZieHnQ
+    name: Get path of latest downloaded file
+    description: Returns the path of the latest downloaded file
+    className: io.testproject.addons.general.GetPathOfLastDownloadedFile
+  - id: UtzAL7WOAkuSOEKnEB2qXA
+    name: Get Last Downloaded File
+    description: get last downloaded file details
+    className: io.testproject.addons.general.GetLastDownloadedFile
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 79B58FC6B198CC1D48AB3AFD7B863B1F376F94ED9671102578157B690ABC68F2
