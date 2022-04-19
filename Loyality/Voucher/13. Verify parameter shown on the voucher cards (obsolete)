@@ -1,0 +1,991 @@
+id: 2cC2esfq10KaJgpkrqObgA
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:19:45.6545248Z
+protocol: 1
+tests:
+- id: tILb0E5s90-DvZIaQ27AEw
+  name: 13. Verify parameter shown on the voucher cards (obsolete)
+  description: Voucher Config Page Parameter check
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-10-12T03:42:11.0000000
+  modificationDate: 2021-10-12T03:42:11.0000000
+  settings:
+    automationAssistant: false
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 0
+    stepTimeout: 15000
+    stepSleepTiming: None
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: tnya3SPYZUKNC-puWPcwdQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: stSB8IkGKE6FZLXecmuo7w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: q00YzXH93UaPObNrpQckLA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: SS1oKyMFM0qYEe36H86tIw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Zv1S4sS6oU29FfSAUGTczw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: kuv1PLoqCEWKEu97iDcQxw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GBxOoWNJHEaGPoyaMK_YSg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: eaiM_GgriE2z2EwgNAI0WA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VtihFQHA40-T8AMePzeEEg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: KsWLqA5xjUiSCLbPk6jeLA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: aLJuyTzH0UGpImj6s1f38g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 6B1olNusSk2cLMFgF3rXlQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8NABMlulu0CHLVGY1kh0cw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: DYcvicejLk6kgPcPeHgfvQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 17RiEJuqZEayACv53LorPA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: 9Mtd7JYmSkGkaNu2vFn1Qg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hZji_JaZDESFW4L9u8llEw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: Hh0mahIguE2xWb6x0UMagw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7czS7XBgB0WG9d1IfzXJqQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: mi81nz5O5kyDn9gFOsnG0A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qw4x2mFuRUeGQlZtcBIL7g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: _vMqCXh820mI_dvIpcZTYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8CKwB4DBpEGrDgdMMsXf5w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: UficHf_-oUmSkJvUW2bAHQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 99AVJ5W5w0m8Uhee3UMopQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: TB1xfC8jC0yEfOk0hMLk5A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rUVNYvTunU23UkLDxPbssg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: qZTRJtWnSEKSbVBwImdU9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Yau-YxKdlUy6fCOVSD3x5Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: z83S0D31CUGlOiGySdSa1Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tM7qj1jrQ0eTrJDkKYfsZw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: RzwgKQChJkuv9obeTBkMtA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qls4BfFXsEuOwoyj7jrKTQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: WgTEysytLEOlFHY2E_7Wqg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9DP7CiDOM0S9Qe6TwTt7bw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: -CCrh3ccy0yaV3U-Yt7cag
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: njVoWzUeuEunzMkfzxmtng
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: 4N9TLDLzxkCT4F7ncsHxrg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1EZ69gaQw0a6nnj6YbpVtQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: nwrenxZYKkO7M4ARawDdgA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FnNOE9k--kuE5UQW682h4g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: o5mVhkdNWkK4tUrsne-53w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hzPtaK2ymUiNyW5g6BDLwQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: rsDoa3UVR0y3fCfSePsoTA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Yewd9ydNYEmoyymZZXrE4Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: WcT14LXAzUiD96Nnv2IkhQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QBPfjwWJYUKLlnv1eur61g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: ouJD8L5OFE62IDesokiOEg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mWQQDK83h02DinCk89GxdA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: mIFk8fWd0USFXFZ-FXJJAw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    type: Input
+auxTests: []
+elements:
+- id: stSB8IkGKE6FZLXecmuo7w
+  name: Voucher Configuration - Voucher Title A1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[2]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div[2]/div[1]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    One love for everyone
+                  ']
+    priority: 2
+- id: SS1oKyMFM0qYEe36H86tIw
+  name: Voucher Configuration - Voucher Desc A1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[2]/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div[2]/div[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //div[. = concat('
+                    Knock Knock... Whos there?
+      It', "'", 's KFC Y', "'", 'all!!!!
+                  ')]
+    priority: 2
+- id: kuv1PLoqCEWKEu97iDcQxw
+  name: Voucher Configuration - Voucher Price A1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div[2]/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div[2]/div[3]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //div[1]/div/div/div[. = '
+                    1 KFC Points
+                  ']
+    priority: 2
+- id: eaiM_GgriE2z2EwgNAI0WA
+  name: Voucher Configuration - Voucher DANA img A1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div[1]/img
+    priority: 1
+- id: KsWLqA5xjUiSCLbPk6jeLA
+  name: Voucher Configuration - Voucher View Button A1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div/div[3]/div/div[1]/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div[3]/div/div[1]/img
+    priority: 1
+- id: 6B1olNusSk2cLMFgF3rXlQ
+  name: Voucher Configuration - Voucher Delete Button A1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[1]/div/div[3]/div/div[2]/img
+    priority: 1
+  - name: XPATH
+    value: //div[1]/div/div[3]/div/div[2]/img
+    priority: 0
+- id: DYcvicejLk6kgPcPeHgfvQ
+  name: Voucher Configuration - Voucher Title B1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div[2]/div/div[2]/div/div[2]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div[1]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    KFC Voucher Rp100.000
+                  ']
+    priority: 2
+- id: 9Mtd7JYmSkGkaNu2vFn1Qg
+  name: Voucher Configuration - Voucher Desc B1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div[2]/div/div/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    This is voucher desc
+                  ']
+    priority: 2
+- id: Hh0mahIguE2xWb6x0UMagw
+  name: Voucher Configuration - Voucher Price B1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[2]/div/div/div[. = '
+                    1 KFC Points
+                  ']
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div[3]
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/div[2]/div[3]
+    priority: 0
+- id: mi81nz5O5kyDn9gFOsnG0A
+  name: Voucher Configuration - Voucher DANA img B1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[2]/div/div[1]/img
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/div/img
+    priority: 0
+- id: _vMqCXh820mI_dvIpcZTYQ
+  name: Voucher Configuration - Voucher View Button B1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div[2]/div/div[2]/div/div[3]/div/div[1]/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[2]/div/div[3]/div/div[1]/img
+    priority: 1
+- id: UficHf_-oUmSkJvUW2bAHQ
+  name: Voucher Configuration - Voucher Delete Button B1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div[3]/div/div[2]/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[2]/div/div[3]/div/div[2]/img
+    priority: 1
+- id: TB1xfC8jC0yEfOk0hMLk5A
+  name: Voucher Configuration - Voucher Title C1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div[2]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[3]/div/div[2]/div[1]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    KFC Voucher Rp5.000
+                  ']
+    priority: 2
+- id: qZTRJtWnSEKSbVBwImdU9A
+  name: Voucher Configuration - Voucher Desc C1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[3]/div/div[2]/div[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //div[. = '
+                     Get discount of Rp5.000 on buying this
+                  ']
+    priority: 2
+- id: z83S0D31CUGlOiGySdSa1Q
+  name: Voucher Configuration - Voucher Price C1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[3]/div/div[2]/div[3]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    10 KFC Points
+                  ']
+    priority: 2
+- id: RzwgKQChJkuv9obeTBkMtA
+  name: Voucher Configuration - Voucher DANA img C1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[3]/div/div[1]/img
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div[2]/div/div[3]/div/div/img
+    priority: 0
+- id: WgTEysytLEOlFHY2E_7Wqg
+  name: Voucher Configuration - Voucher View Button C1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[3]/div/div[3]/div/div[1]/img
+    priority: 1
+  - name: XPATH
+    value: //div[3]/div/div[3]/div/div[1]/img
+    priority: 0
+- id: -CCrh3ccy0yaV3U-Yt7cag
+  name: Voucher Configuration - Voucher Delete Button C1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div[3]/div/div[2]/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[3]/div/div[3]/div/div[2]/img
+    priority: 1
+- id: 4N9TLDLzxkCT4F7ncsHxrg
+  name: Voucher Configuration - Voucher Title A2
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/div/div[2]/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[4]/div/div[2]/div[1]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    KFC Voucher Rp10.000
+                  ']
+    priority: 2
+- id: nwrenxZYKkO7M4ARawDdgA
+  name: Voucher Configuration - Voucher Desc A2
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/div/div/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[4]/div/div[2]/div[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //div[. = '
+                     Get discount of Rp10.000 on buying this
+                  ']
+    priority: 2
+- id: o5mVhkdNWkK4tUrsne-53w
+  name: Voucher Configuration - Voucher Price A2
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/div/div/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[4]/div/div[2]/div[3]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    100 KFC Points
+                  ']
+    priority: 2
+- id: rsDoa3UVR0y3fCfSePsoTA
+  name: Voucher Configuration - Voucher DANA img A2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/div/div/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[4]/div/div[1]/img
+    priority: 1
+- id: WcT14LXAzUiD96Nnv2IkhQ
+  name: Voucher Configuration - Voucher View Button A2
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/div/div[3]/div/div[1]/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[4]/div/div[3]/div/div[1]/img
+    priority: 1
+- id: ouJD8L5OFE62IDesokiOEg
+  name: Voucher Configuration - Voucher Delete Button A2
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/div/div[3]/div/div[2]/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[4]/div/div[3]/div/div[2]/img
+    priority: 1
+- id: mIFk8fWd0USFXFZ-FXJJAw
+  name: Voucher Configuration - Voucher Title B2
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    Voucher for Testing 1
+                  ']
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div[5]/div/div[2]/div[1]
+    priority: 1
+  - name: XPATH
+    value: //div[5]/div/div[2]/div[1]
+    priority: 0
+projectParameters: []
+addons: []
