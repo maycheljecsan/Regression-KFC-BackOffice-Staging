@@ -1,0 +1,300 @@
+id: IXyf-yMJYE-_Xmiy_JCG_A
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:19:54.3046896Z
+protocol: 1
+tests:
+- id: xImaioXxp0ub8ReHDWn9og
+  name: Logout reach Login Page
+  description: This test was auto generated from steps of the '3. Filter Content in Dashboard by Periode' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-10-12T03:42:11.0000000
+  modificationDate: 2021-10-12T03:42:11.0000000
+  settings:
+    automationAssistant: false
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 0
+    stepTimeout: 15000
+    stepSleepTiming: None
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: mpwVUETsA0WeB0LrOva_JQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Addon
+    elementId: qfn8UJ1660mj_5AL8YYwTg
+    settings:
+      sleepTime: 1000
+      timeout: -1
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: buD_8ci5xEirMS1BmfexYw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: ERHxfKloXUSniI7hu-uVdw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tfdjWMW6BEG0BMjommaQWg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Addon
+    elementId: ERHxfKloXUSniI7hu-uVdw
+    settings:
+      sleepTime: 1000
+      timeout: -1
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yQTz_T4kakOqOjzvCdC07g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: el4hvZRuM0WAVqEP0sdeig
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: l7svJ_AyakSf41qt8Xq0JQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: E2QXRPbU002y3JFns85Ukg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: aB_TYxVloEyy0OrBzdAA4A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: ROww24ab8EyKpYCyJ8K6Yw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 59FqXT3Wtk-D6RTV4c60iw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: oRq8cfJgg0qjVnAjMWISFg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: qfn8UJ1660mj_5AL8YYwTg
+  name: Profile Button
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__24__BV_toggle_'
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[1]/div/div[2]/div/button
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/button
+    priority: 0
+- id: ERHxfKloXUSniI7hu-uVdw
+  name: Profile Logout Button
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[1]/div/div[2]/div/div/a
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div/div/a
+    priority: 1
+  - name: XPATH
+    value: >-
+      //a[. = '
+                Logout
+              ']
+    priority: 0
+- id: el4hvZRuM0WAVqEP0sdeig
+  name: Login_KFCLogo_IMG
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //img[@src = '/img/logo.a3d6ed19.png']
+    priority: 0
+- id: E2QXRPbU002y3JFns85Ukg
+  name: Login_SignInToStart
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTM
+    name: Paragraph
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //p[. = '
+              Sign in to start your session
+            ']
+    priority: 0
+  - name: XPATH
+    value: //p
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/form/p
+    priority: 2
+- id: ROww24ab8EyKpYCyJ8K6Yw
+  name: Login Email Field
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#email'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Email']
+    priority: 1
+  - name: XPATH
+    value: //form/input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div/form/input[1]
+    priority: 3
+- id: oRq8cfJgg0qjVnAjMWISFg
+  name: Login Password Field
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div/form/input[2]
+    priority: 3
+  - name: XPATH
+    value: //input[2]
+    priority: 2
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 1
+projectParameters: []
+addons:
+- id: 9G7qW0nEqU60ObO6IXJshg
+  source: Store
+  version: 1.9
+  actions:
+  - id: c7OPWafS8kaFJUBVwrhoRw
+    name: Click (using JavaScript)
+    description: Click {{element}}
+    className: io.testproject.addon.jsactions.ClickAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 391BA51B31B3A1CADC112A2DD7D674CCC8AA80895D1FB9B1A90928D01D0153F3
