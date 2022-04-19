@@ -1,0 +1,542 @@
+id: vE48QFK7QUSQfz1uQwENVA
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:21:05.6191702Z
+protocol: 1
+tests:
+- id: ZjULbyImOUu7KgQWmNgyCg
+  name: Validation Bulk Upload
+  description: This test was auto generated from steps of the 'Bulk Upload' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-25T10:48:51.0000000
+  modificationDate: 2021-11-25T10:48:51.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: FDMCNTOfekeqAqnUKIq-qQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: bkRrJPgc0UC6VA4wpSA27g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FrH4eUEcB0m3l1It_TuhBg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: K2-ck2Bex0WKwLB8Lqp1kA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: eWWxjeFWjUizryR7o73qkQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 8HWpYSz4NUq0l7GBkB_fUw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: y6-Y5p-uoEOtIAzqXOiIAg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: OVSxwTnlu0qak6mf3NlGBg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iOi3AC8G_0qmMdg35es3ig
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: V5UpcRd2dkaXHS3zTHA3ng
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: EUaeSG3WUEWQRVq2ACeR9g
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 28jemkDlC0uvL1MEAIh9KQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vQflvtGQd0eA6sWX6HzbaQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: pUHcMrRklUmWnie8TPfktg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KTSZ4DV4-ESpcN67FxmuLA
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: nSEAIp59a0ytcfI-in7DtQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: w8M7DKkQfkGWH-Iat_GyAA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: jMLjpwFvKESDEcLyroIV-Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: saAFzFRDaUSlg0VmutpIhQ
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: fqAhiwKfwEawMVdA-WOIaA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fJDM1XU0BkSU0Ybgo_nLLg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: rX2NeBb4p0ivWjSdnx1FvQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dE_bDe3uJECv6WjmtkxkKg
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: bV3Rn2Jf0E6D51bU_qSLhw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: BslzG__4q0CYwmeUTGTR-A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: VDrOAhjEXUmHQg_ows7suQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: bkRrJPgc0UC6VA4wpSA27g
+  name: mult_tab_taco_GFD_8343PROD_2111251737...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //td[. = 'mult_tab_taco_GFD_8343PROD_211125173731.xlsx']
+    priority: 0
+  - name: XPATH
+    value: //tr[1]/td[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/table/tbody/tr[1]/td[1]
+    priority: 2
+- id: K2-ck2Bex0WKwLB8Lqp1kA
+  name: View Details1
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDA
+    name: u
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]//u[. = 'View Details']
+    priority: 0
+  - name: XPATH
+    value: //tr[1]//u
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/table/tbody/tr[1]/td[2]/a/u
+    priority: 2
+- id: 8HWpYSz4NUq0l7GBkB_fUw
+  name: 'Total Valid Data: 68'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[1]/div/div/div[2]/div[1]//div[. = '
+              Total Valid Data: 68
+            ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/div[2]/div[1]/div/div/div[2]/div[1]/div/div[1]/div/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div[1]/div/div/div[2]/div[1]/div/div[1]/div/div
+    priority: 2
+- id: OVSxwTnlu0qak6mf3NlGBg
+  name: MENU_SET
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__227___BV_tab_button__'
+    priority: 0
+  - name: XPATH
+    value: //a[. = 'MENU_SET']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/div[2]/div[2]/div/div/div[1]/ul/li[2]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[1]/ul/li[2]/a
+    priority: 3
+- id: V5UpcRd2dkaXHS3zTHA3ng
+  name: 'Total Valid Data: 53'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+              Total Valid Data: 53
+            ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[1]/div/div[1]/div/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[1]/div/div[1]/div/div
+    priority: 2
+- id: 28jemkDlC0uvL1MEAIh9KQ
+  name: MENU_PRICE
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__264___BV_tab_button__'
+    priority: 0
+  - name: XPATH
+    value: //a[. = 'MENU_PRICE']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/ul/li[3]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[1]/ul/li[3]/a
+    priority: 3
+- id: pUHcMrRklUmWnie8TPfktg
+  name: 'Total Valid Data: 681'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[3]//div[. = '
+              Total Valid Data: 68
+            ']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/div[2]/div[1]/div/div[1]/div/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/div[2]/div[1]/div/div[1]/div/div
+    priority: 2
+- id: nSEAIp59a0ytcfI-in7DtQ
+  name: SALE_MENU_SCHEDULE
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__301___BV_tab_button__'
+    priority: 0
+  - name: XPATH
+    value: //a[. = 'SALE_MENU_SCHEDULE']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/ul/li[4]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[1]/ul/li[4]/a
+    priority: 3
+- id: jMLjpwFvKESDEcLyroIV-Q
+  name: 'Total Valid Data: 682'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[4]//div[. = '
+              Total Valid Data: 68
+            ']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/div/div/div[2]/div[1]/div/div[1]/div/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div[4]/div/div/div[2]/div[1]/div/div[1]/div/div
+    priority: 2
+- id: fqAhiwKfwEawMVdA-WOIaA
+  name: MENU_GROUP
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__338___BV_tab_button__'
+    priority: 0
+  - name: XPATH
+    value: //a[. = 'MENU_GROUP']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/ul/li[5]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[1]/ul/li[5]/a
+    priority: 3
+- id: rX2NeBb4p0ivWjSdnx1FvQ
+  name: 'Total Valid Data: 12'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+              Total Valid Data: 12
+            ']
+    priority: 0
+  - name: XPATH
+    value: //div[5]/div/div/div[2]/div[1]/div/div[1]/div/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div[5]/div/div/div[2]/div[1]/div/div[1]/div/div
+    priority: 2
+- id: bV3Rn2Jf0E6D51bU_qSLhw
+  name: MODIFIER_ITEM
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__375___BV_tab_button__'
+    priority: 0
+  - name: XPATH
+    value: //a[. = 'MODIFIER_ITEM']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/ul/li[6]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[1]/ul/li[6]/a
+    priority: 3
+- id: VDrOAhjEXUmHQg_ows7suQ
+  name: 'Total Valid Data: 134'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+              Total Valid Data: 134
+            ']
+    priority: 0
+  - name: XPATH
+    value: //div[6]/div/div/div[2]/div[1]/div/div[1]/div/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div[6]/div/div/div[2]/div[1]/div/div[1]/div/div
+    priority: 2
+projectParameters: []
+addons: []

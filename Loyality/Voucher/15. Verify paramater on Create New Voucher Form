@@ -1,0 +1,1524 @@
+id: lwbnO9FxMUmUzw3QeRjXlA
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:19:45.6543312Z
+protocol: 1
+tests:
+- id: BmdV_WBsbECnDbqlDbCZxw
+  name: 15. Verify paramater on Create New Voucher Form
+  description: Check Parameters on Create New Voucher form
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-10-12T03:42:11.0000000
+  modificationDate: 2021-10-12T03:42:11.0000000
+  settings:
+    automationAssistant: false
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 0
+    stepTimeout: 15000
+    stepSleepTiming: None
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: yE36UhkBC0KCvhlygPoNBQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Addon
+    elementId: qYF9HB3N4UyLzFys213l5w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8CpuqFOR40CpHQFSoc2YBg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 5kjyZzm0jE-6FvXNqfKYZA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: o-ipJkHi1k2OtlDy3psImA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: SB0uLOuNzkKLHGa8uVCSvA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bA6NN8eqvUSJcq8yihsLwQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: HUAUBWjpp0e2RVHmxny7gw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SMpomTqifUyP7auhU_RRMA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: zSESovIaYE2HREP9m0n9ug
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ELTTwDEKvkiJ7SwcOmVbFQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: tpuP_pBqKUWBmRyH5QdzfQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MlNWHRmGcU6ho6tPMF0j7w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 6S2CMmVhZUaOWrq24a6GMQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Ghc12GpJa06Ac7IlzZgncA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: 7J23N3WbN0GsIQfvV86vqQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: XzumVMv7R0aqICtM_iPKAQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: MKdhLYzP2k2ZDVuRRE68RA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: f0e1EoRL7k-NBBOokl70gQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: Yt45B0x_4E-GBFXi2bkWLw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WfVYMKyQc0mSGa7hhRRmUQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: f9U82PINLUSyk6-UMcsmdg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7rBBjIOEqU6YGDQpGiyy2g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: 1JzF_yRV3EexusMkJ3jYhA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8O92g66qgk2KNGxii9DYLA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: hqpssBPKnke2Lqbvi49OVQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: d-EHvr3XNEWcT_vXySSCIA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: 4T9qzYyD_Ee5x_1HZWzYMA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZEi8UykYxEWGnOfDUvr2fA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: BxrX7MdmBUeBG9ArFtI5pw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jV7sPQK6WUmJJVr1862wHg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: X05IwxPFS0qOTHZ0bk9kSA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Kk9geMJDXkKvlEeda_LKEw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: noH4rtOB6UygnPkj6Bl6kQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fJGAGN0jA02FKrcZg9x_tg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: _vDnh3mIrkGONcFPzc9O_g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: XMJfM_iXx0e6yvRgzjmuNQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: 619fqlbv_ka5zNXpU7kKgA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Wzg2bVeKIkeAxzgb8wq14w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: _qLtNunrrkGOU8YpNOBDMw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: j_xPnkh_Ik2cTYYaRfTKuQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: mGpnFGtyk0CJLE6GAOnlkg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iWWXi8G2ckOgCoWE69W0dQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: 0nAwSradzEaoeBdi87F0eA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pD283NcAF0Gz3YZCT-2vQw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: uAJHJpoP7kaN4JEct6uuug
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bdYUhQeIcU6bBqsRJW5TyQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: 5qDvEENRnUO5vQ3wfuOdTg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JjkyN9d4DUya0RvbuMqmOA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: eC2SMHtx7EGwjLZ4-JPNPw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Cd_OU4q2oEmsYSMnPHm5Fw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Action
+    elementId: yWW5kDgEjECk2nRsjIN_Cw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8UWzcckfEEKVEUr-FnazRQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Action
+    elementId: SRqDVuDE8k6al2F1M0VTGw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ypmgzSEVHkq6M8jXtmcoeg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 28
+    repeat: 1
+    type: Action
+    elementId: wQde4lQ1yUKxeT0RXejtbQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uXIOB2qaP0-HvQ3hCwIKtg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 29
+    repeat: 1
+    type: Action
+    elementId: 2JhS8xhL6EO7-yZJK4GbAw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: f81HPvy1Fk-5ne0TusY1NA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 30
+    repeat: 1
+    type: Action
+    elementId: WDwJkLNkK0CODCNvxyn4Iw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8KOu-Mv130GzhQ0AxGqIkQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 31
+    repeat: 1
+    type: Action
+    elementId: lKgZvWKi7kmFOBScioHMMQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ihua-9O0gUOKVprJU80nlw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 32
+    repeat: 1
+    type: Action
+    elementId: jdy3SEUEbEK0hqQwoB_dlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hnKOcxHdu06qqk3117wsWg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 33
+    repeat: 1
+    type: Action
+    elementId: Fc-t7yvbvUm43pmc5n3yGA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TPG9wcVZP0G_Hvgct8d0kA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 34
+    repeat: 1
+    type: Action
+    elementId: 7p1rqIAVXEKWSs21QChcbw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 59F-8m-N7Uitk7nI-6PjXQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 35
+    repeat: 1
+    type: Action
+    elementId: bzkbjR8PFEGUIoyvWEcm4w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PsuiP8TRNUKgrITx0bIiXQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 36
+    repeat: 1
+    type: Action
+    elementId: 15V-KuFeFUW-udx_BYJA2g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: IXBQY7sh80eLJ5Zw0GbnEw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 37
+    repeat: 1
+    type: Action
+    elementId: ncKAFdx8VUG3JPaiZR5YZg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Qs8x-p7aqESevfrywjA3Pg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 38
+    repeat: 1
+    type: Addon
+    elementId: 15V-KuFeFUW-udx_BYJA2g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    type: Input
+auxTests: []
+elements:
+- id: qYF9HB3N4UyLzFys213l5w
+  name: Voucher Configuration - Create New Voucher
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/button[3]
+    priority: 0
+  - name: XPATH
+    value: //button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[1]/div/div/div/button[3]
+    priority: 2
+  - name: XPATH
+    value: >-
+      //button[. = '
+                  Create New Voucher
+                ']
+    priority: 3
+- id: 5kjyZzm0jE-6FvXNqfKYZA
+  name: Create New Voucher - Strong
+  type:
+    id: jUwODgyNjAyNzk2NTk2ODI
+    name: strong
+    source: System
+  locators:
+  - name: XPATH
+    value: //h4
+    priority: 0
+  - name: XPATH
+    value: //h4[. = 'New Voucher']
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/header/div/strong
+    priority: 2
+- id: SB0uLOuNzkKLHGa8uVCSvA
+  name: Create New Voucher - X Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //header//img
+    priority: 0
+- id: HUAUBWjpp0e2RVHmxny7gw
+  name: Create New Voucher - Label Voucher Name EN
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2Mzc
+    name: legend
+    source: System
+  locators:
+  - name: XPATH
+    value: //legend[. = 'Voucher Name (EN)*']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[1]/legend
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[1]/legend
+    priority: 2
+- id: zSESovIaYE2HREP9m0n9ug
+  name: Create New Voucher - Field Voucher Name EN
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='voucher_name_en']"
+    priority: 1
+  - name: XPATH
+    value: //fieldset[1]//input[@placeholder = 'Enter voucher name']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[1]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[1]/div/input
+    priority: 3
+- id: tpuP_pBqKUWBmRyH5QdzfQ
+  name: Create New Voucher - Label Voucher Name ID
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2Mzc
+    name: legend
+    source: System
+  locators:
+  - name: XPATH
+    value: //legend[. = 'Voucher Name (ID)*']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[2]/legend
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[2]/legend
+    priority: 2
+- id: 6S2CMmVhZUaOWrq24a6GMQ
+  name: Create New Voucher - Field Voucher Name ID
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='voucher_name_id']"
+    priority: 0
+  - name: XPATH
+    value: //fieldset[2]//input[@placeholder = 'Enter voucher name']
+    priority: 1
+  - name: XPATH
+    value: //fieldset[2]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[2]/div/input
+    priority: 3
+- id: 7J23N3WbN0GsIQfvV86vqQ
+  name: Create New Voucher - Label Voucher Price
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2Mzc
+    name: legend
+    source: System
+  locators:
+  - name: XPATH
+    value: //legend[. = 'Voucher Price*']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[3]/legend
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[3]/legend
+    priority: 2
+- id: MKdhLYzP2k2ZDVuRRE68RA
+  name: Create New Voucher - Field Voucher Price
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='voucher_price']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = '0 (ex. 750 KFC Points)']
+    priority: 1
+  - name: XPATH
+    value: //fieldset[3]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[3]/div/div/input
+    priority: 3
+- id: Yt45B0x_4E-GBFXi2bkWLw
+  name: Create New Voucher - KFC Points
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/div/div/div[. = 'KFC Points']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[3]/div/div/div/div
+    priority: 2
+  - name: XPATH
+    value: //fieldset[3]/div/div/div/div
+    priority: 1
+- id: f9U82PINLUSyk6-UMcsmdg
+  name: Create New Voucher - Label Discounted Price Amount
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2Mzc
+    name: legend
+    source: System
+  locators:
+  - name: XPATH
+    value: //legend[. = 'Discounted Price Amount*']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[4]/legend
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[4]/legend
+    priority: 2
+- id: 1JzF_yRV3EexusMkJ3jYhA
+  name: Create New Voucher - Field Discounted Price Amount
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@placeholder = 'Rp.0 (multiply by 100)']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[4]//input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[4]/div/input
+    priority: 2
+- id: hqpssBPKnke2Lqbvi49OVQ
+  name: Create New Voucher - Desc Discounted Price Amount
+  type:
+    id: jUwODgyNjAyNzk2NTk2NzU
+    name: small
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[4]/div/small
+    priority: 2
+  - name: XPATH
+    value: //fieldset[4]//small
+    priority: 1
+  - name: XPATH
+    value: //small[. = 'If user set 100, the discount amount will be 100 x 100 = Rp. 10.000 (multiply by 100).']
+    priority: 0
+- id: 4T9qzYyD_Ee5x_1HZWzYMA
+  name: Create New Voucher - Label Voucher Status
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2Mzc
+    name: legend
+    source: System
+  locators:
+  - name: XPATH
+    value: //fieldset[5]/legend
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[5]/legend
+    priority: 2
+  - name: XPATH
+    value: //legend[. = 'Voucher Status']
+    priority: 0
+- id: BxrX7MdmBUeBG9ArFtI5pw
+  name: Create New Voucher - active
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'active']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/label/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[5]/div/div/div[1]/label/span
+    priority: 2
+- id: X05IwxPFS0qOTHZ0bk9kSA
+  name: Create New Voucher - inactive
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'inactive']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/label/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[5]/div/div/div[2]/label/span
+    priority: 2
+- id: noH4rtOB6UygnPkj6Bl6kQ
+  name: Create New Voucher - Desc Voucher Status
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2NzU
+    name: small
+    source: System
+  locators:
+  - name: XPATH
+    value: //small[. = 'Changing status to Inactive will hide the voucher in the KFCKU application.']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[5]//small
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[5]/div/small
+    priority: 2
+- id: _vDnh3mIrkGONcFPzc9O_g
+  name: Create New Voucher - Label Redeem Limit
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2Mzc
+    name: legend
+    source: System
+  locators:
+  - name: XPATH
+    value: //legend[. = 'Voucher Redeem Limit*']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[6]/legend
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[6]/legend
+    priority: 2
+- id: 619fqlbv_ka5zNXpU7kKgA
+  name: Create New Voucher - Field Redeem Limit
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[6]/div/div/input
+    priority: 3
+  - name: XPATH
+    value: //input[@placeholder = '0 (ex. 3 Voucher Redeem Limit)']
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='limit']"
+    priority: 0
+  - name: XPATH
+    value: //fieldset[6]//input
+    priority: 2
+- id: _qLtNunrrkGOU8YpNOBDMw
+  name: Create New Voucher - Label Voucher Image
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2Mzc
+    name: legend
+    source: System
+  locators:
+  - name: XPATH
+    value: //fieldset[7]/legend
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[7]/legend
+    priority: 2
+  - name: XPATH
+    value: //legend[. = 'Voucher Image*']
+    priority: 0
+- id: mGpnFGtyk0CJLE6GAOnlkg
+  name: Create New Voucher - Image Upload
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#imgupload'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='image-upload']"
+    priority: 1
+  - name: XPATH
+    value: //div/div/div/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[7]/div/div/div/div[2]/input
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[4]/form/div/div/div[1]/div/div/div/div/div/div[6]/fieldset[2]/div/div/div/div[2]/input
+    priority: 4
+- id: 0nAwSradzEaoeBdi87F0eA
+  name: Create New Voucher - Desc Voucher Image
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2NzU
+    name: small
+    source: System
+  locators:
+  - name: XPATH
+    value: //small[. = 'File format only .png with resolution of 341px x 135px and maximum size of 500kb']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[7]//small[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[7]/div/small[2]
+    priority: 2
+- id: uAJHJpoP7kaN4JEct6uuug
+  name: Create New Voucher - Label Voucher Desc EN
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2Mzc
+    name: legend
+    source: System
+  locators:
+  - name: XPATH
+    value: //legend[. = 'Voucher Description (EN)*']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[8]/legend
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[8]/legend
+    priority: 2
+- id: 5qDvEENRnUO5vQ3wfuOdTg
+  name: Create New Voucher - Field Voucher Desc EN
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2OTA
+    name: textarea
+    source: System
+  locators:
+  - name: XPATH
+    value: //fieldset[8]//textarea
+    priority: 2
+  - name: CSSSELECTOR
+    value: "[name='description_en']"
+    priority: 0
+  - name: XPATH
+    value: //fieldset[8]//textarea[@placeholder = 'Write voucher description']
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[8]/div/textarea
+    priority: 3
+- id: eC2SMHtx7EGwjLZ4-JPNPw
+  name: Create New Voucher - Label Voucher Desc ID
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2Mzc
+    name: legend
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[9]/legend
+    priority: 2
+  - name: XPATH
+    value: //fieldset[9]/legend
+    priority: 1
+  - name: XPATH
+    value: //legend[. = 'Voucher Description (ID)*']
+    priority: 0
+- id: yWW5kDgEjECk2nRsjIN_Cw
+  name: Create New Voucher - Field Voucher Desc ID
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2OTA
+    name: textarea
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='description_id']"
+    priority: 0
+  - name: XPATH
+    value: //fieldset[9]//textarea[@placeholder = 'Write voucher description']
+    priority: 1
+  - name: XPATH
+    value: //fieldset[9]//textarea
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[9]/div/textarea
+    priority: 3
+- id: SRqDVuDE8k6al2F1M0VTGw
+  name: Create New Voucher - Label Voucher Type
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2Mzc
+    name: legend
+    source: System
+  locators:
+  - name: XPATH
+    value: //legend[. = 'Voucher Type*']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[10]/legend
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[10]/legend
+    priority: 2
+- id: wQde4lQ1yUKxeT0RXejtbQ
+  name: Create New Voucher - Selection Voucher Type
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='type']"
+    priority: 0
+  - name: XPATH
+    value: //select[. = 'DANA Voucher']
+    priority: 1
+  - name: XPATH
+    value: //select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[10]/div/select
+    priority: 3
+- id: 2JhS8xhL6EO7-yZJK4GbAw
+  name: Create New Voucher - Label Activity ID
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2Mzc
+    name: legend
+    source: System
+  locators:
+  - name: XPATH
+    value: //legend[. = 'Activity ID']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[11]/legend
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[11]/legend
+    priority: 2
+- id: WDwJkLNkK0CODCNvxyn4Iw
+  name: Create New Voucher - Field Activity ID
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='activity_id']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Enter activity ID']
+    priority: 1
+  - name: XPATH
+    value: //fieldset[11]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[11]/div/input
+    priority: 3
+- id: lKgZvWKi7kmFOBScioHMMQ
+  name: Create New Voucher - Desc Activity ID
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2NzU
+    name: small
+    source: System
+  locators:
+  - name: XPATH
+    value: //small[. = 'Activity ID is Voucher ID generated by DANA, please contact DANA for further support.']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[11]//small[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[11]/div/small[2]
+    priority: 2
+- id: jdy3SEUEbEK0hqQwoB_dlA
+  name: Create New Voucher - Whitelist Info
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    The user will be able to whitelist several user phone number accordingly by inputting the phone numbers to be whitelisted in a sequential order using the following format:
+                  ']
+    priority: 0
+  - name: XPATH
+    value: //form/div/div/div[1]/div/div/div/div/div/div/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/div[1]
+    priority: 2
+- id: Fc-t7yvbvUm43pmc5n3yGA
+  name: Create New Voucher - Whitelist numbers sample
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    “+6281380802020,+6281209307070,+6285273808029”
+                  ']
+    priority: 0
+  - name: XPATH
+    value: //form/div/div/div[1]/div/div/div/div/div/div/div[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/div[2]
+    priority: 2
+- id: 7p1rqIAVXEKWSs21QChcbw
+  name: Create New Voucher - Field Whitelist Phone Number
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='whitelisted_numbers']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Enter phone number here']
+    priority: 1
+  - name: XPATH
+    value: //fieldset[12]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[12]/div/input
+    priority: 3
+- id: bzkbjR8PFEGUIoyvWEcm4w
+  name: Create New Voucher - Whitelist Desc
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk2NzU
+    name: small
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //small[. = '
+                      The voucher will be shown to all users if this field is blank. You can skip the step.']
+    priority: 0
+  - name: XPATH
+    value: //fieldset[12]//small
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/div/div/div/div/fieldset[12]/div/small
+    priority: 2
+- id: 15V-KuFeFUW-udx_BYJA2g
+  name: Create New Voucher - Cancel Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/footer/div/button[2]
+    priority: 2
+  - name: XPATH
+    value: //footer//button[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //button[. = '
+                Cancel
+              ']
+    priority: 0
+- id: ncKAFdx8VUG3JPaiZR5YZg
+  name: Create New Voucher - Save Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //footer//button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[4]/form/div/div/div[1]/div/div/footer/div/button[1]
+    priority: 2
+  - name: XPATH
+    value: >-
+      //button[. = '
+                Save
+              ']
+    priority: 0
+projectParameters: []
+addons:
+- id: 9G7qW0nEqU60ObO6IXJshg
+  source: Store
+  version: 1.9
+  actions:
+  - id: c7OPWafS8kaFJUBVwrhoRw
+    name: Click (using JavaScript)
+    description: Click {{element}}
+    className: io.testproject.addon.jsactions.ClickAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 391BA51B31B3A1CADC112A2DD7D674CCC8AA80895D1FB9B1A90928D01D0153F3

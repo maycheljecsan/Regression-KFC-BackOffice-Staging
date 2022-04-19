@@ -1,0 +1,67 @@
+id: UvQXeCY-8EielaLt_HEmVw
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:20:40.3690603Z
+protocol: 1
+tests:
+- id: yXQdofNTdUW7Nw5QxeUyuA
+  name: Klik Filter Cancel Status
+  description: This test was auto generated from steps of the 'Online Order' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-11-08T07:20:33.0000000
+  modificationDate: 2021-11-08T07:41:53.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 25000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Always
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: qTOTx8A8Ok6NejRpObwGsg
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: n2xVY7BCBkKGwGfj5WeOPg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: n2xVY7BCBkKGwGfj5WeOPg
+  name: path3
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //th[12]//*[name()='path']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div[2]/div[1]/div/div[2]/div/div/div[1]/table/thead/tr/th[12]/tr/th/div/span/*[name()='svg']/*[name()='path']
+    priority: 1
+projectParameters: []
+addons: []

@@ -1,0 +1,422 @@
+id: dVV8zTyqMUCoDGON_Gh2YA
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:21:32.9761531Z
+protocol: 1
+tests:
+- id: N6sJ5Ik9aE-YjcX2SAWsQg
+  name: Download Feedback Response
+  description: This test was auto generated from steps of the 'Feedback Response' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-01-04T09:19:08.0000000
+  modificationDate: 2022-01-04T09:19:08.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: rCicF7YPIkKMX02rYkFFiw
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: OXE5immmdk-VznRX8EPiUw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lTGBstDRvEqB1chQS1uQow
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: nBu9B1BjG0ieXU3UMxQJ2w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7uTTjIPvtE-AGJP8wbFC_g
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: V0vOI-jNl0Ci6pba9X0XJg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xRSAAFbWFkOO91JWcPchDw
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: V0vOI-jNl0Ci6pba9X0XJg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Uu_ArLb5fUGOIs5EXl4fvw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 8yerNEVrp0qu08zFDryo1g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: d2M_oHomwk6xdXDTisTc6g
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: pJWErlR9OkuRggZtic-jvw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DjtF_jDpOUGW8-YgHb5UzQ
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: xU7_iknASUiiqRaSCTMe_Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: f9PAjSb9ckOu3yoxmwI73g
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: S0zo8Ho5r0mHCnuJtv7Xmg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: T7QaXFQ2PUiFzOfGAMc4Tg
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: rFp0E-eFmU2GyZ8O-mXU8A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cqYhDevat0q2Rse6RmVSxA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: 8FbEui0oyk-esR9MjICSsg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FBSbjIL88kO4xlk4m_Gd1g
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: H8Tn0_f47kqtWzdlqRreSg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: OXE5immmdk-VznRX8EPiUw
+  name: Download1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                Download
+              ']
+    priority: 0
+  - name: XPATH
+    value: //button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div[1]/button[3]
+    priority: 2
+- id: nBu9B1BjG0ieXU3UMxQJ2w
+  name: Select Start Date
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@placeholder = 'Select Start Date']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div[2]/div/div[1]/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div[5]/form/div/div/div[1]/div/div/div/div/div[1]/div[2]/div/div[1]/input
+    priority: 2
+- id: V0vOI-jNl0Ci6pba9X0XJg
+  name: <
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div[2]/div/div[2]/header/span[. = '<']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div[2]/div/div[2]/header/span[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div[5]/form/div/div/div[1]/div/div/div/div/div[1]/div[2]/div/div[2]/header/span[1]
+    priority: 2
+- id: 8yerNEVrp0qu08zFDryo1g
+  name: '>'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div[2]/div/div[2]/header/span[. = '>']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div[2]/div/div[2]/header/span[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div[5]/form/div/div/div[1]/div/div/div/div/div[1]/div[2]/div/div[2]/header/span[3]
+    priority: 2
+- id: pJWErlR9OkuRggZtic-jvw
+  name: 17
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[11][. = '1']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div[2]/div/div[2]/div/span[11]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div[5]/form/div/div/div[1]/div/div/div/div/div[1]/div[2]/div/div[2]/div/span[11]
+    priority: 2
+- id: xU7_iknASUiiqRaSCTMe_Q
+  name: Order List - Selection Download End Date
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div/div[2]/div[1]/div/div[4]/form/div/div/div[1]/div/div/div/div/div[2]/div[2]/div/div[1]/input
+    priority: 2
+  - name: XPATH
+    value: //div[2]/div[2]/div/div/input
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'Select End Date']
+    priority: 0
+- id: S0zo8Ho5r0mHCnuJtv7Xmg
+  name: 41
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[17][. = '4']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[2]/div/div[2]/div/span[17]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div[5]/form/div/div/div[1]/div/div/div/div/div[2]/div[2]/div/div[2]/div/span[17]
+    priority: 2
+- id: rFp0E-eFmU2GyZ8O-mXU8A
+  name: Download2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                    Download
+                  ']
+    priority: 0
+  - name: XPATH
+    value: //div[3]//button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div[5]/form/div/div/div[1]/div/div/div/div/div[3]/div/button[2]
+    priority: 2
+- id: 8FbEui0oyk-esR9MjICSsg
+  name: Orders Data downloaded.
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'Orders Data downloaded.']
+    priority: 0
+  - name: XPATH
+    value: //body/div[2]/div/div[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]
+    priority: 2
+- id: H8Tn0_f47kqtWzdlqRreSg
+  name: OK1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/button[. = 'OK']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div/button
+    priority: 2
+projectParameters: []
+addons: []

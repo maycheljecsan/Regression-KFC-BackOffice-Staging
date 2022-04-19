@@ -1,0 +1,427 @@
+id: zlX4YuSYwUaFlTBow6DFlg
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:22:43.5536509Z
+protocol: 1
+tests:
+- id: eQsRDypopEyw_5sHP81L6g
+  name: Input Phone Number
+  description: This test was auto generated from steps of the 'Login Apps with Phone Number' test
+  platform: iOS
+  type: Mobile
+  driverType: Appium_iOS
+  version: 1.0
+  creationDate: 2022-04-18T03:57:58.0000000
+  modificationDate: 2022-04-19T07:40:54.0000000
+  settings:
+    automationAssistant: true
+    appId: oRr_dMeXGECoWNs8XJBOqA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Always
+  application:
+    id: oRr_dMeXGECoWNs8XJBOqA
+    appleBundleId: com.kfcjv.staging
+    name: KFCKUstaging
+    platform: iOS
+  steps:
+  - id: d4nlJ7HhtkmMJsbV3HPTqQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: hMXWiHisR0aamZ8TdxImJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SlkNH6PGSU6szREY4lgEcQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: EgnVRL0eQ06-D-fR9_1jMw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HheL9x90nUqeJ-I2m_UiJg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: xwUvR9fqUk6N-kfdzWPUDQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cDleamFXCUa9tcFGyi0Rcg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 0aKds917DkSxrqIokjI98Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: EQfvjjFBsUWMQi06WYkmYA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: xwUvR9fqUk6N-kfdzWPUDQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xk8MbRuRx0KcZjcn-FUgFA
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: xwUvR9fqUk6N-kfdzWPUDQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KqTYOs7zZ0OS8mBZzRw4mA
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 0aKds917DkSxrqIokjI98Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FgQHrbnbYUqPcWOAO7TeIg
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: EgnVRL0eQ06-D-fR9_1jMw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wZHh_QJVQ0SW01sITR1dZA
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: nndzfZ89ykiwfaWCXk92Pw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bDOzR9J2fEaQ7XmjtjONiA
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: _HZdP0OVT0ejllKXEGSRWg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 66lf2hlo5kOcs76iIkyluQ
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: nndzfZ89ykiwfaWCXk92Pw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lXlYo6KXnU-R_-FCgk84Pg
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: nndzfZ89ykiwfaWCXk92Pw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3Lg5HWvxSUel0n_RCdlLcQ
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: TQrOTF-RVU6Momk4Fmg4hA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: hMXWiHisR0aamZ8TdxImJQ
+  name: 0
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODU
+    name: XCUIElementTypeKey
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 0
+    priority: 0
+  - name: IOSCLASSCHAIN
+    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '0' AND visible == 1`]"
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeKey[11]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[11]
+    priority: 3
+- id: EgnVRL0eQ06-D-fR9_1jMw
+  name: 8
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODU
+    name: XCUIElementTypeKey
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 8
+    priority: 0
+  - name: IOSCLASSCHAIN
+    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '8' AND visible == 1`]"
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeKey[8]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[8]
+    priority: 3
+- id: xwUvR9fqUk6N-kfdzWPUDQ
+  name: 1
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODU
+    name: XCUIElementTypeKey
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 1
+    priority: 0
+  - name: IOSCLASSCHAIN
+    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '1' AND visible == 1`]"
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeKey[1]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[1]
+    priority: 3
+- id: 0aKds917DkSxrqIokjI98Q
+  name: 2
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODU
+    name: XCUIElementTypeKey
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 2
+    priority: 0
+  - name: IOSCLASSCHAIN
+    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '2' AND visible == 1`]"
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeKey[2]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[2]
+    priority: 3
+- id: nndzfZ89ykiwfaWCXk92Pw
+  name: 7
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODU
+    name: XCUIElementTypeKey
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 7
+    priority: 0
+  - name: IOSCLASSCHAIN
+    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '7' AND visible == 1`]"
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeKey[7]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[7]
+    priority: 3
+- id: _HZdP0OVT0ejllKXEGSRWg
+  name: 3
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODU
+    name: XCUIElementTypeKey
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 3
+    priority: 0
+  - name: IOSCLASSCHAIN
+    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '3' AND visible == 1`]"
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeKey[3]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[3]
+    priority: 3
+- id: TQrOTF-RVU6Momk4Fmg4hA
+  name: Toolbar Done Button
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Toolbar Done Button
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Toolbar Done Button' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeToolbar/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeToolbar[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
+    priority: 3
+projectParameters: []
+addons: []
