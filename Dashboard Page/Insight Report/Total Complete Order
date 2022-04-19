@@ -1,0 +1,108 @@
+id: HEbJK0D7PEesa4YqZiIXAA
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:21:24.7541941Z
+protocol: 1
+tests:
+- id: mBCUWSwVp0CYVCRSLOp6VA
+  name: Total Complete Order
+  description: This test was auto generated from steps of the 'Insight Report' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2021-12-14T09:59:35.0000000
+  modificationDate: 2021-12-14T09:59:35.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: NQZHP6Ycq0qntXylV1fyew
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: Q2s9mjP_A0CJ-9oqLvELIg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Total Completed Order
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: esqcPofVVkm8ruMw-23yXw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: EPFSjZurzkO6oK0cOxg0Pw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: Q2s9mjP_A0CJ-9oqLvELIg
+  name: Total Completed Order
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h3[. = 'Total Completed Order']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[1]/div/div/div/div[1]/div[1]/div/h3
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[1]/div/div/div/div[1]/div[1]/div[1]/h3
+    priority: 2
+- id: EPFSjZurzkO6oK0cOxg0Pw
+  name: DIV32
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[1]/div/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[1]/div/div
+    priority: 1
+projectParameters: []
+addons: []
