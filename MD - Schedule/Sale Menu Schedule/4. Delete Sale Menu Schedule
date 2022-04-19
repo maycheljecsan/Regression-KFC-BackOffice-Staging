@@ -1,0 +1,418 @@
+id: 0dQ36NXeVU-VtfnqGUMl2A
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-04-19T10:20:20.4488626Z
+protocol: 1
+tests:
+- id: I3MxORHVoUar9LRUAeyUTA
+  name: 4. Delete Sale Menu Schedule
+  description: Delete previous added sale menu schedule
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-10-12T03:42:15.0000000
+  modificationDate: 2021-10-12T03:42:15.0000000
+  settings:
+    automationAssistant: false
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 1000
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: itJbd4yeu0KS3BDgF9chzA
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: FbqjcfitiEuOAcQdx_k1cA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 6969
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0kidLvN38U6n6aYRbfnJQw
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    elementId: JXU3CZTQGUqG_SVdTJxO3w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Sp4E_ZAv70-L34FwcU9myg
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Addon
+    elementId: JXU3CZTQGUqG_SVdTJxO3w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8WnRp_kbvkuS9o6ymlGnrQ
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: qIX6BPcj2UmQ0WeMcEsv7g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xEkrUDi28kW7k1ZcG1gc0w
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: c08puhfR_UmyFu_Dote66Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NH-T8svHOk2MKUMR5VrJ7g
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: I6WZ2d3OwE22UOq7bq4aeg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3tl00Wh_O0SKAwqriFGMBQ
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: lGJQVfn2mk22l8l2Vi3__w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9dfRdrTH50WKsMK3mXg5DA
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Addon
+    elementId: lGJQVfn2mk22l8l2Vi3__w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RvZrnGkQQUGB7NVUQ25ZKw
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: oxgXxbw8A0C7BdOt3atu6Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: deleted
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PNXEGvSqek-NhLlJriBMFg
+    comments: ''
+    enabled: false
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Addon
+    elementId: qy53N7YA40y7UJKIDOuxuQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OwW5zDfyDEK_Op8SpHGsEA
+    comments: ''
+    enabled: false
+    invertResult: true
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: FbqjcfitiEuOAcQdx_k1cA
+    settings:
+      sleepTime: 5000
+      timeout: 2000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 6969
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    type: Input
+auxTests: []
+elements:
+- id: FbqjcfitiEuOAcQdx_k1cA
+  name: Sale Menu Schedule List - Column Outlet Code 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[2]
+    priority: 0
+  - name: XPATH
+    value: //tr[1]/td[. = '0545']
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr[1]/td[2]
+    priority: 1
+- id: JXU3CZTQGUqG_SVdTJxO3w
+  name: Outlet Price List - Delete Button 1
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDA
+    name: u
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[5]/a[2]/u
+    priority: 0
+- id: qIX6BPcj2UmQ0WeMcEsv7g
+  name: Confirmation
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'Confirmation']
+    priority: 0
+  - name: XPATH
+    value: //body/div[2]/div/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[1]
+    priority: 2
+- id: c08puhfR_UmyFu_Dote66Q
+  name: Confirmation - Description
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div[2]/div/div[2]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]/div
+    priority: 1
+  - name: XPATH
+    value: //div[. = 'Are you sure you want to delete this outlet price?']
+    priority: 2
+- id: I6WZ2d3OwE22UOq7bq4aeg
+  name: Global List - Delete Cancel Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Cancel']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div[1]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div[1]/button
+    priority: 2
+- id: lGJQVfn2mk22l8l2Vi3__w
+  name: Global List - Delete Delete Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Delete']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div[2]/button
+    priority: 2
+- id: oxgXxbw8A0C7BdOt3atu6Q
+  name: Add Outlet Price - Record with ID XXX created
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >+
+      //div[3]/div[2]/button
+
+    priority: 0
+- id: qy53N7YA40y7UJKIDOuxuQ
+  name: Add Menu Group
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //footer//button[2]
+    priority: 0
+  - name: XPATH
+    value: //div[4]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[4]/div/button
+    priority: 2
+projectParameters: []
+addons:
+- id: 9G7qW0nEqU60ObO6IXJshg
+  source: Store
+  version: 1.9
+  actions:
+  - id: c7OPWafS8kaFJUBVwrhoRw
+    name: Click (using JavaScript)
+    description: Click {{element}}
+    className: io.testproject.addon.jsactions.ClickAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 391BA51B31B3A1CADC112A2DD7D674CCC8AA80895D1FB9B1A90928D01D0153F3
