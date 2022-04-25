@@ -1,7 +1,7 @@
-id: FQFzL9xQ0UaDGcPw8OwWXg
+id: pR2OawV7CkyO63fnrYXX4Q
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-25T07:40:37.9339099Z
+created: 2022-04-25T07:57:54.7815038Z
 protocol: 1
 tests:
 - id: xnBc_XVFz0CkspAZOWusbg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-01-20T04:58:51.0000000
-  modificationDate: 2022-04-25T07:40:38.0000000
+  modificationDate: 2022-04-25T07:55:56.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -140,7 +140,7 @@ tests:
     targetTestId: T0rxtgJj-0qtk1_Lb9Ve8Q
     settings:
       sleepTime: -1
-      timeout: -1
+      timeout: 25000
       sleepTiming: Inherit
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
@@ -150,17 +150,17 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: sOfQ-Q90qkCqsJZ_qP1kNQ
+  - id: jbqRqOHe4EyI1LRRlS3jLw
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
     order: 7
     repeat: 1
     type: Test
-    targetTestId: I0UqKvGWlUOwY_htVjzbcA
+    targetTestId: w5k3ttmAfEqzk6Npo6rHjw
     settings:
       sleepTime: -1
-      timeout: -1
+      timeout: 23526
       sleepTiming: Inherit
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
@@ -851,88 +851,6 @@ auxTests:
     validations: []
     contexts: []
   parameters: []
-- id: I0UqKvGWlUOwY_htVjzbcA
-  name: Search Modifier Item
-  description: This test was auto generated from steps of the 'Modifier Item' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-01-20T05:04:00.0000000
-  modificationDate: 2022-01-20T05:04:00.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: OJLpUWk9KkyLT27wYnlwkg
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: CX-Etvuf4UibCaTwtVW0SA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: _Hd8NyU6lUahdIP6Ew0drw
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: 5wtFqLsEg0SQ4knfS3-KxQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: 4444
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: GFpSq-vrvUGpQt-rLkifMw
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: rBNAVMZN1EO4Nr1Y4D_Hww
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
 - id: T9VLLMdJCUKNXpYoDiljIw
   name: Edit Modifier Item
   description: This test was auto generated from steps of the 'Modifier Item' test
@@ -1376,6 +1294,88 @@ auxTests:
     repeat: 1
     type: Action
     elementId: -qBSoC64ZU69QrV2-k4SLA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: w5k3ttmAfEqzk6Npo6rHjw
+  name: Search Modifier Item_
+  description: This test was auto generated from steps of the 'Modifier Item' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-04-25T07:42:32.0000000
+  modificationDate: 2022-04-25T07:42:32.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Always
+  steps:
+  - id: 2t851o9cw0acFp02gzYP2w
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: CX-Etvuf4UibCaTwtVW0SA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: sBq3J4a4702lC-gJ1XYOZQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: -TV2ABBQ00WA4Z-MEeVy1A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 4444
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _-HYLMzbtkG4EvNvcaEWuA
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: rBNAVMZN1EO4Nr1Y4D_Hww
     settings:
       sleepTime: -1
       timeout: -1
@@ -1842,25 +1842,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/thead/tr/th[3]/tr/th/div/span/*[name()='svg']
     priority: 1
-- id: 5wtFqLsEg0SQ4knfS3-KxQ
-  name: Search by Menu Set Code
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#__BVID__158'
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Search by Menu Set Code']
-    priority: 1
-  - name: XPATH
-    value: //input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/thead/tr/th[3]/tr/th/div/div/div/fieldset/div/input
-    priority: 3
 - id: bUhUKmPcVUKyT7xpmGyoSg
   name: LI41
   type:
@@ -1954,6 +1935,25 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div/div[2]/div
     priority: 2
+- id: -TV2ABBQ00WA4Z-MEeVy1A
+  name: Search by Modifier Group Code
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__148'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Search by Modifier Group Code']
+    priority: 1
+  - name: XPATH
+    value: //input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/thead/tr/th[3]/tr/th/div/div/div/fieldset/div/input
+    priority: 3
 projectParameters: []
 addons:
 - id: m9XGecbZqU62EXYlC04AOQ
