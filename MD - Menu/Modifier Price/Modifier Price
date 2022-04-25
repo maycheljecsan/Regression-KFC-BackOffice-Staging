@@ -1,7 +1,7 @@
-id: D1cIK8G-jkWp1YDSxKUD4g
+id: IeZD0sVhm0ed9ruHUPXEIg
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:22:02.7392129Z
+created: 2022-04-25T06:33:13.7662051Z
 protocol: 1
 tests:
 - id: m-4xe3jEiUScItRZE6BP5w
@@ -1082,14 +1082,14 @@ auxTests:
     contexts: []
   parameters: []
 - id: X4FQ90eFFEy_3h0TfBYdbA
-  name: -Delete Modifier Price
+  name: Delete Modifier Price
   description: This test was auto generated from steps of the 'Modifier Price' test
   platform: Web
   type: Web
   driverType: Chrome
   version: 1.0
   creationDate: 2022-01-20T05:29:38.0000000
-  modificationDate: 2022-01-20T05:29:38.0000000
+  modificationDate: 2022-04-25T06:33:13.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -1120,13 +1120,12 @@ auxTests:
     validations: []
     contexts: []
   - id: lQ5a92BT0USbR9fVK_0BdQ
-    comments: This step was auto generated from several steps
-    enabled: true
+    comments: 'The target test Delete Modifier Price was removed (Original comment: This step was auto generated from several steps)'
+    enabled: false
     invertResult: false
     order: 2
     repeat: 1
     type: Test
-    targetTestId: zdu1Bg-XnEu04_OPBm98-w
     settings:
       sleepTime: -1
       timeout: -1
@@ -1199,167 +1198,7 @@ auxTests:
     validations: []
     contexts: []
   parameters: []
-- id: zdu1Bg-XnEu04_OPBm98-w
-  name: Delete Modifier Price
-  description: This test was auto generated from steps of the 'Modifier Price' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-01-20T05:29:07.0000000
-  modificationDate: 2022-01-20T05:29:07.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: itdtre_nhUughwLAmCtENQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: PFFnst9tcUCWVt4QUoFvwA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: pXUpusUQ10CzymDbsROKKA
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: lGJQVfn2mk22l8l2Vi3__w
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: JdcJQS6A7UCuwTS11UXqKg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: _6kwTaz1ZkeI4lJCVEdefA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: M8rM7moWV0awzOmdlmTpiw
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: 8ftYBV9YwUimqdb0qEXafw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: SItaPbMPzkC5bmYPcTZOpQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Action
-    elementId: lJJBqFLbZ0W5Qp23A2AJCQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
-      source: System
-    parameterMaps:
-    - name: text
-      value: Sorry, no result found.
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
 elements:
-- id: PdHE0QEKYEq9c083cSIbrg
-  name: __BVID__28__BV_toggle_1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#__BVID__28__BV_toggle_'
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[1]/div/div[2]/div/button
-    priority: 2
-- id: -qBSoC64ZU69QrV2-k4SLA
-  name: Logout1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //a[. = '
-                Logout
-              ']
-    priority: 0
-  - name: XPATH
-    value: //div/a[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[1]/div/div[2]/div/div/a[2]
-    priority: 2
 - id: ROww24ab8EyKpYCyJ8K6Yw
   name: Login Email Field
   type:
@@ -1767,6 +1606,41 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[5]
     priority: 2
+- id: PdHE0QEKYEq9c083cSIbrg
+  name: __BVID__28__BV_toggle_1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__28__BV_toggle_'
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[1]/div/div[2]/div/button
+    priority: 2
+- id: -qBSoC64ZU69QrV2-k4SLA
+  name: Logout1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //a[. = '
+                Logout
+              ']
+    priority: 0
+  - name: XPATH
+    value: //div/a[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[1]/div/div[2]/div/div/a[2]
+    priority: 2
 - id: xofVotNRnEC4NBhDYSGBHg
   name: Delete7
   type:
@@ -1783,87 +1657,5 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[5]/a[2]/u
     priority: 2
-- id: PFFnst9tcUCWVt4QUoFvwA
-  name: Are you sure you want to delete this ...6
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[. = 'Are you sure you want to delete this modifier price?']
-    priority: 0
-  - name: XPATH
-    value: //body/div[2]/div/div[2]/div
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[2]/div
-    priority: 2
-- id: lGJQVfn2mk22l8l2Vi3__w
-  name: Global List - Delete Delete Button
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Delete']
-    priority: 0
-  - name: XPATH
-    value: //div[3]/div[2]/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[3]/div[2]/button
-    priority: 2
-- id: _6kwTaz1ZkeI4lJCVEdefA
-  name: Global List - Delete Record is deleted
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div[2]/div/div[2]
-    priority: 2
-  - name: XPATH
-    value: //div[. = 'Record is deleted']
-    priority: 0
-  - name: XPATH
-    value: //body/div[2]/div/div[2]
-    priority: 1
-- id: 8ftYBV9YwUimqdb0qEXafw
-  name: OK
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'OK']
-    priority: 0
-  - name: XPATH
-    value: //div[4]//button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[4]/div/button
-    priority: 2
-- id: lJJBqFLbZ0W5Qp23A2AJCQ
-  name: No Result Found Title
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTA
-    name: Heading
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/tbody/tr/td/div/div/div/div/h4
-    priority: 2
-  - name: XPATH
-    value: //td//h4
-    priority: 1
-  - name: XPATH
-    value: //h4[. = 'Sorry, no result found.']
-    priority: 0
 projectParameters: []
 addons: []
