@@ -1,7 +1,7 @@
-id: THYoT7JW9kmiFYWwOqQVhg
+id: KNey_0Vjok29ebZPMQ4dQw
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-25T06:24:02.0363153Z
+created: 2022-04-25T06:24:09.2282369Z
 protocol: 1
 tests:
 - id: S3sZYuCvsE6C2dIZzcCjJg
@@ -851,14 +851,14 @@ auxTests:
     contexts: []
   parameters: []
 - id: SmNk5inuqU6brP0ieJ8zAg
-  name: Edit Menu Item Limit_
+  name: Edit Menu Item Limit
   description: This test was auto generated from steps of the 'Menu Item Limit' test
   platform: Web
   type: Web
   driverType: Chrome
   version: 1.0
   creationDate: 2022-04-25T06:19:46.0000000
-  modificationDate: 2022-04-25T06:19:46.0000000
+  modificationDate: 2022-04-25T06:24:08.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -1724,78 +1724,6 @@ elements:
                 Reset Filter
               ']
     priority: 0
-- id: JTXJOx0fvkyOkF73-yXXPQ
-  name: Edit7
-  type:
-    id: jUwODgyNjAyNzk2NTk3MDA
-    name: u
-    source: System
-  locators:
-  - name: XPATH
-    value: //tr[1]//u[. = 'Edit']
-    priority: 0
-  - name: XPATH
-    value: //tr[1]/td[5]/a[1]/u
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/tbody/tr[1]/td[5]/a[1]/u
-    priority: 2
-- id: EkkNFdTECUiH1Vd5djrL4Q
-  name: Add Sale Menu Schedule - Field Menu Item Code
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='menuItemCode']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Enter menu item code']
-    priority: 1
-  - name: XPATH
-    value: //div[2]/div/div/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div[2]/div/div[2]/input
-    priority: 3
-- id: OzTVy5OlEUexBw9j1YlySQ
-  name: Edit Outlet Price - Save Button
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //button[. = '
-                  Save
-                ']
-    priority: 0
-  - name: XPATH
-    value: //footer//button[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/footer/div/button[2]
-    priority: 2
-- id: 8ftYBV9YwUimqdb0qEXafw
-  name: OK
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'OK']
-    priority: 0
-  - name: XPATH
-    value: //div[4]//button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[4]/div/button
-    priority: 2
 - id: 8gNvqb4Ml0qrf4X7CEvjOQ
   name: Reset F
   description: ''
@@ -1972,6 +1900,78 @@ elements:
   - name: XPATH
     value: //body/div[2]/div/div[2]
     priority: 1
+- id: 8ftYBV9YwUimqdb0qEXafw
+  name: OK
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'OK']
+    priority: 0
+  - name: XPATH
+    value: //div[4]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[4]/div/button
+    priority: 2
+- id: JTXJOx0fvkyOkF73-yXXPQ
+  name: Edit7
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDA
+    name: u
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]//u[. = 'Edit']
+    priority: 0
+  - name: XPATH
+    value: //tr[1]/td[5]/a[1]/u
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/tbody/tr[1]/td[5]/a[1]/u
+    priority: 2
+- id: EkkNFdTECUiH1Vd5djrL4Q
+  name: Add Sale Menu Schedule - Field Menu Item Code
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='menuItemCode']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Enter menu item code']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div[2]/div/div[2]/input
+    priority: 3
+- id: OzTVy5OlEUexBw9j1YlySQ
+  name: Edit Outlet Price - Save Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                  Save
+                ']
+    priority: 0
+  - name: XPATH
+    value: //footer//button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/footer/div/button[2]
+    priority: 2
 - id: 8ftYBV9YwUimqdb0qEXafw
   name: OK
   type:
