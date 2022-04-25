@@ -1,7 +1,7 @@
-id: xmPeRdsRBEOUqOxW0vjPxw
+id: DvYoal2850emeUQBnef-4Q
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-25T06:14:01.3258595Z
+created: 2022-04-25T06:23:14.6955407Z
 protocol: 1
 tests:
 - id: S3sZYuCvsE6C2dIZzcCjJg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-01-19T11:03:57.0000000
-  modificationDate: 2022-04-25T06:13:24.0000000
+  modificationDate: 2022-04-25T06:22:17.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -170,14 +170,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: w8YiEfJs90KoGarLqu4Log
+  - id: oXMfLxn8c0y0QAJyPfLUUg
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
     order: 8
     repeat: 1
     type: Test
-    targetTestId: r8q3ruSzZkugkq7Ed7TNEw
+    targetTestId: SmNk5inuqU6brP0ieJ8zAg
     settings:
       sleepTime: -1
       timeout: -1
@@ -190,14 +190,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: ENR44oM2mkut9zp8y31v3g
+  - id: T5ha4p7yLEWBPKGZFf82Rg
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
     order: 9
     repeat: 1
     type: Test
-    targetTestId: 5CceFwjxiUSKrzqj8EhvCQ
+    targetTestId: gPZRf5Ltsky_fslAWvRD9Q
     settings:
       sleepTime: -1
       timeout: -1
@@ -507,414 +507,6 @@ auxTests:
     repeat: 1
     type: Action
     elementId: rBNAVMZN1EO4Nr1Y4D_Hww
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
-- id: r8q3ruSzZkugkq7Ed7TNEw
-  name: Edit Menu Item Limit
-  description: This test was auto generated from steps of the 'Menu Item Limit' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-01-19T11:23:21.0000000
-  modificationDate: 2022-02-17T07:28:17.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: AQp-qr1F-0OIAoikx50rCg
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: HueXFppvOEuid8jfF1D64w
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 0cZ8jfWt-EO-d9EnTL6xwQ
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: EkkNFdTECUiH1Vd5djrL4Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: zCnFUqpBn0GC9LK5iaUvJA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: EkkNFdTECUiH1Vd5djrL4Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: VFxp0jIS3kuKt6bA6oTwRA
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: EkkNFdTECUiH1Vd5djrL4Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Ce9d942uhkO_R-RL2Sth2Q
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Action
-    elementId: EkkNFdTECUiH1Vd5djrL4Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: 888
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: rHNNvM0-eUyajFFRfMnZvQ
-    enabled: true
-    invertResult: false
-    order: 6
-    repeat: 1
-    type: Action
-    elementId: OzTVy5OlEUexBw9j1YlySQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: YVA11ArGdUWCo1HbAKT41Q
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 7
-    repeat: 1
-    type: Action
-    elementId: OfhVVeNljka4ZOh1Kc1j6w
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 9NnLkyOVY0a8mxIkFVM-KA
-    enabled: true
-    invertResult: false
-    order: 8
-    repeat: 1
-    type: Action
-    elementId: 8ftYBV9YwUimqdb0qEXafw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: H6MpnQhJfEGAn0USZYLQbA
-    enabled: true
-    invertResult: false
-    order: 9
-    repeat: 1
-    type: Action
-    elementId: 8gNvqb4Ml0qrf4X7CEvjOQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
-- id: 5CceFwjxiUSKrzqj8EhvCQ
-  name: Delete Menu Item Limit
-  description: This test was auto generated from steps of the 'Menu Item Limit' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-01-19T11:25:01.0000000
-  modificationDate: 2022-02-17T07:28:32.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: I-0xn6xnQkmsDXapN-XFsg
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: aG9qUuHwrEO5qL-GTpcZmw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: dMw9Tf_j5kmnRI19-gameA
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: ITJC10OCa0OFlZm6BwzLjw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: 888
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Wiok95ql9UuiW_tS8MtPfg
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: rBNAVMZN1EO4Nr1Y4D_Hww
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: c02nRjGDLESoppwwQqD-Hg
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: xofVotNRnEC4NBhDYSGBHg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: TjrzYGKeuE2L1_T52Se80w
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Action
-    elementId: xSC-I_dOp0-T0YSEkiig1g
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Xggr1GDizUChpEi_uxTO7w
-    enabled: true
-    invertResult: false
-    order: 6
-    repeat: 1
-    type: Action
-    elementId: lGJQVfn2mk22l8l2Vi3__w
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 3RqKeo3q-0OMMsvPhzfT-Q
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 7
-    repeat: 1
-    type: Action
-    elementId: _6kwTaz1ZkeI4lJCVEdefA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: tbvHAvPj2E2jH69VgOh4ew
-    enabled: true
-    invertResult: false
-    order: 8
-    repeat: 1
-    type: Action
-    elementId: 8ftYBV9YwUimqdb0qEXafw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: VW3gCPzwFESgtKMQbp8UQQ
-    enabled: true
-    invertResult: false
-    order: 9
-    repeat: 1
-    type: Action
-    elementId: 8gNvqb4Ml0qrf4X7CEvjOQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -1317,6 +909,468 @@ auxTests:
     validations: []
     contexts: []
   parameters: []
+- id: SmNk5inuqU6brP0ieJ8zAg
+  name: Edit Menu Item Limit_
+  description: This test was auto generated from steps of the 'Menu Item Limit' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-04-25T06:19:46.0000000
+  modificationDate: 2022-04-25T06:19:46.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 18642
+    stepSleepTiming: Before
+    stepFailureBehaviorType: AlwaysPass
+    stepTakeScreenshotConditionType: Always
+  steps:
+  - id: wyOIBhaKOEaP3-U8nwGgNg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: JTXJOx0fvkyOkF73-yXXPQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Ja8-q7WoW0SgyUtEt14YHA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: EkkNFdTECUiH1Vd5djrL4Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MXTCQ5L9yUCN99qSbMWu6Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: EkkNFdTECUiH1Vd5djrL4Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ATrV4xBk2ECVJcfVUr6YuQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: EkkNFdTECUiH1Vd5djrL4Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7pL9vSBqZ02wM0fdKuzGCA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: EkkNFdTECUiH1Vd5djrL4Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 1000
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TblDNjTzzESIBbXbOTk6uQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: OzTVy5OlEUexBw9j1YlySQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Af8gSF4l10SIro7bAklAAg
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 8ftYBV9YwUimqdb0qEXafw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: gPZRf5Ltsky_fslAWvRD9Q
+  name: Delete Menu Item Limit_
+  description: This test was auto generated from steps of the 'Menu Item Limit' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-04-25T06:22:13.0000000
+  modificationDate: 2022-04-25T06:22:13.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 18642
+    stepSleepTiming: Before
+    stepFailureBehaviorType: AlwaysPass
+    stepTakeScreenshotConditionType: Always
+  steps:
+  - id: 7hYG-Hhb5kGnRibomP7gtA
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 8gNvqb4Ml0qrf4X7CEvjOQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hcspw9nK5kGj7eD6UWSosg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: aG9qUuHwrEO5qL-GTpcZmw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: LWI7o3xnLE6Gg78_43mMmg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: ITJC10OCa0OFlZm6BwzLjw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 1000
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: khKDLn61Mk276YbKiQ48pg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: rBNAVMZN1EO4Nr1Y4D_Hww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: LkCaRTqr7EyRVKRlcvxPbQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: JXU3CZTQGUqG_SVdTJxO3w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FTCDt9gvFU-QREcp1ec7AA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: qIX6BPcj2UmQ0WeMcEsv7g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Confirmation
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Z73C-yma4ESYFH4hQejIVg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: xSC-I_dOp0-T0YSEkiig1g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Are you sure you want to delete this menu item limit?
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VFUK_q0zLEa5G7NPGZkpHQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: I6WZ2d3OwE22UOq7bq4aeg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _TxmNkr1rEKMuCtiCI8qig
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: lGJQVfn2mk22l8l2Vi3__w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NOFDdUeddkK8Gsb1AgKnMA
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: lGJQVfn2mk22l8l2Vi3__w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GMEvzt1o0Ei5K-r_RKD5cg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: -vDx4J49W0ioZcPwJLyuHQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xYfzyYNBGk-eeXSPbUAS3w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: _6kwTaz1ZkeI4lJCVEdefA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Record is deleted
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZnsBZ0ifsE-g6260XgZCaA
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: 8ftYBV9YwUimqdb0qEXafw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
 elements:
 - id: oRq8cfJgg0qjVnAjMWISFg
   name: Login Password Field
@@ -1414,6 +1468,23 @@ elements:
   - name: XPATH
     value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[2]/tr/th/div/div/div/div/div[1]/a
     priority: 3
+- id: I6WZ2d3OwE22UOq7bq4aeg
+  name: Global List - Delete Cancel Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Cancel']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div[1]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div[1]/button
+    priority: 2
 - id: lGJQVfn2mk22l8l2Vi3__w
   name: Global List - Delete Delete Button
   description: ''
@@ -1448,6 +1519,16 @@ elements:
   - name: XPATH
     value: //body/div[2]/div/div[2]
     priority: 1
+- id: JXU3CZTQGUqG_SVdTJxO3w
+  name: Outlet Price List - Delete Button 1
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDA
+    name: u
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[5]/a[2]/u
+    priority: 0
 - id: OzTVy5OlEUexBw9j1YlySQ
   name: Edit Outlet Price - Save Button
   description: ''
@@ -1467,6 +1548,23 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/footer/div/button[2]
+    priority: 2
+- id: qIX6BPcj2UmQ0WeMcEsv7g
+  name: Confirmation
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'Confirmation']
+    priority: 0
+  - name: XPATH
+    value: //body/div[2]/div/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[1]
     priority: 2
 - id: ITJC10OCa0OFlZm6BwzLjw
   name: Field Search by Menu Item Code
@@ -1543,23 +1641,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div/div[1]/div[2]/div/input
     priority: 4
-- id: OfhVVeNljka4ZOh1Kc1j6w
-  name: Global List - Record is Updated
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div[2]/div/div[2]
-    priority: 2
-  - name: XPATH
-    value: //body/div[2]/div/div[2]
-    priority: 0
-  - name: XPATH
-    value: //div[. = 'Record is Updated']
-    priority: 1
 - id: 8gNvqb4Ml0qrf4X7CEvjOQ
   name: Reset F
   description: ''
@@ -1642,6 +1723,19 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[1]/div/div[2]/div/button
     priority: 2
+- id: -vDx4J49W0ioZcPwJLyuHQ
+  name: DIV17
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div[2]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div
+    priority: 1
 - id: 8ftYBV9YwUimqdb0qEXafw
   name: OK
   type:
@@ -1671,38 +1765,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/thead/tr/th[2]/tr/th/div/span/*[name()='svg']
     priority: 1
-- id: HueXFppvOEuid8jfF1D64w
-  name: Edit4
-  type:
-    id: jUwODgyNjAyNzk2NTk3MDA
-    name: u
-    source: System
-  locators:
-  - name: XPATH
-    value: //u[. = 'Edit']
-    priority: 0
-  - name: XPATH
-    value: //a[1]/u
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[5]/a[1]/u
-    priority: 2
-- id: xofVotNRnEC4NBhDYSGBHg
-  name: Delete7
-  type:
-    id: jUwODgyNjAyNzk2NTk3MDA
-    name: u
-    source: System
-  locators:
-  - name: XPATH
-    value: //u[. = 'Delete']
-    priority: 0
-  - name: XPATH
-    value: //a[2]/u
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[5]/a[2]/u
-    priority: 2
 - id: QUmJhkdG9EGJhgbDUynOqA
   name: LI21
   type:
@@ -1817,6 +1879,22 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[2]/div/div[2]/div
+    priority: 2
+- id: JTXJOx0fvkyOkF73-yXXPQ
+  name: Edit7
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDA
+    name: u
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]//u[. = 'Edit']
+    priority: 0
+  - name: XPATH
+    value: //tr[1]/td[5]/a[1]/u
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/tbody/tr[1]/td[5]/a[1]/u
     priority: 2
 projectParameters: []
 addons: []
