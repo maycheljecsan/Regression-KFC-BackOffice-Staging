@@ -1,7 +1,7 @@
-id: bybWtdsHZ0i0dTfUGeq4LQ
+id: IsPfZoghNESnoxXhjNZs5A
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:21:58.7573822Z
+created: 2022-04-25T08:00:05.2349791Z
 protocol: 1
 tests:
 - id: T0rxtgJj-0qtk1_Lb9Ve8Q
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-01-20T05:03:10.0000000
-  modificationDate: 2022-01-20T05:03:10.0000000
+  modificationDate: 2022-04-25T07:59:55.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -381,6 +381,27 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: thRH9WYC_E2KA2mnKEw1kg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: oP8mdRVyUUWZAMSFj10E8w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters: []
 auxTests: []
 elements:
@@ -575,5 +596,16 @@ elements:
   - name: XPATH
     value: //div[3]//button
     priority: 1
+- id: oP8mdRVyUUWZAMSFj10E8w
+  name: wait element
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: CSSSELECTOR=#__BVID__158
+    priority: 0
 projectParameters: []
 addons: []
