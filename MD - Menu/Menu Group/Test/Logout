@@ -1,0 +1,109 @@
+id: kcxLrbAM0EaaG7oWICv1ZQ
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-07-19T09:23:22.6924333Z
+protocol: 1
+tests:
+- id: mpXHkKoTZk6ieAEh-RuLzg
+  name: Logout
+  description: This test was auto generated from steps of the 'TEST' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-05-09T07:05:33.0000000
+  modificationDate: 2022-05-09T07:05:33.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: KmooVmeWSUKKT7a-5O0Jrw
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: PdHE0QEKYEq9c083cSIbrg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: YLhYAP5vV0ONju63WmUGew
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: zsVQsi5Xz0i5Ipri9Iv7ag
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: PdHE0QEKYEq9c083cSIbrg
+  name: __BVID__28__BV_toggle_1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__28__BV_toggle_'
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[1]/div/div[2]/div/button
+    priority: 2
+- id: zsVQsi5Xz0i5Ipri9Iv7ag
+  name: Logout
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div[1]/div[1]/div/div[2]/div/div/a[2]
+    priority: 2
+  - name: XPATH
+    value: //a[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //a[. = '
+                Logout
+              ']
+    priority: 0
+projectParameters: []
+addons: []
