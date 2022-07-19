@@ -1,18 +1,18 @@
-id: ORScstLNykqenwWUQ1LnNw
+id: SsXQh3Il-0e0RqB1m_c9vw
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-07-19T09:23:16.7782600Z
+created: 2022-07-19T09:23:20.0672327Z
 protocol: 1
 tests:
-- id: xnBc_XVFz0CkspAZOWusbg
-  name: Modifier Item
-  description: ''
+- id: gsemUDoSoEGADIsdO9Fndg
+  name: Create Modifier Item_
+  description: This test was auto generated from steps of the 'Modifier Item' test
   platform: Web
   type: Web
   driverType: Chrome
-  version: 0.1
-  creationDate: 2022-01-20T04:58:51.0000000
-  modificationDate: 2022-04-25T09:57:52.0000000
+  version: 1.0
+  creationDate: 2022-04-25T09:34:53.0000000
+  modificationDate: 2022-04-25T09:34:53.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -27,13 +27,13 @@ tests:
     url: https://kfcjv-staging-3f3f4.firebaseapp.com/
     platform: Web
   steps:
-  - id: UqN4HRHulESJRY_jzI7Qbw
-    comments: Navigates the specified URL (Auto-generated)
+  - id: IM2EiFpcg0CFeuqiwkpRIg
     enabled: true
     invertResult: false
     order: 1
     repeat: 1
     type: Action
+    elementId: ZUQbHwgow0Os6p8mE1DlXA
     settings:
       sleepTime: -1
       timeout: -1
@@ -41,23 +41,19 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
-    parameterMaps:
-    - name: url
-      value: '{{ApplicationURL}}'
-      direction: Input
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: Guk3qpo7U06XmNojP4T9PA
-    comments: This step was auto generated from several steps
+  - id: expHqW6a60KkevbrBoUgTQ
     enabled: true
     invertResult: false
     order: 2
     repeat: 1
-    type: Test
-    targetTestId: tHSB12dFtEm0ZFlxErlSsw
+    type: Action
+    elementId: LNtPa8Y_BUmCWo3hj6SPwQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -65,19 +61,19 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      source: None
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
     parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: -w4buwpPJkiR6vMnoXAYJQ
-    comments: This step was auto generated from several steps
+  - id: xPPinnWZ9kuH-9KBw69uHQ
     enabled: true
     invertResult: false
     order: 3
     repeat: 1
-    type: Test
-    targetTestId: vXwl28jGZkmgHsCStswnPg
+    type: Action
+    elementId: LNtPa8Y_BUmCWo3hj6SPwQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -85,19 +81,22 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      source: None
-    parameterMaps: []
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 0006
+      direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: p9V8cUQycUaqjKTleH6G4w
-    comments: This step was auto generated from several steps
+  - id: lZrAfjQHxE6wpV9yEqce3g
     enabled: true
     invertResult: false
     order: 4
     repeat: 1
-    type: Test
-    targetTestId: CclSEbekEkGiF6HLtjLKog
+    type: Action
+    elementId: DKNRN94z4UKtF_kbUyvAlw
     settings:
       sleepTime: -1
       timeout: -1
@@ -105,19 +104,19 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      source: None
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
     parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: NiALcSOufkyUiW79cZutNA
-    comments: This step was auto generated from several steps
+  - id: yEsr01GMEEqIQTQZ2fbf4Q
     enabled: true
     invertResult: false
     order: 5
     repeat: 1
-    type: Test
-    targetTestId: DAGX55lZZ0iNnFAz6TdA_w
+    type: Action
+    elementId: DKNRN94z4UKtF_kbUyvAlw
     settings:
       sleepTime: -1
       timeout: -1
@@ -125,62 +124,22 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      source: None
-    parameterMaps: []
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: M17
+      direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: qpR81aFk30CNXecR69PUNg
-    comments: This step was auto generated from several steps
+  - id: 6u3b5pp-UUuUEyMsVLFFsg
     enabled: true
     invertResult: false
     order: 6
     repeat: 1
-    type: Test
-    targetTestId: 5ZstvSBBOkKgtsAwi1-Eqg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      source: None
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://kfcjv-staging-3f3f4.firebaseapp.com/
-    type: Input
-auxTests:
-- id: tHSB12dFtEm0ZFlxErlSsw
-  name: Login BackOffice
-  description: This test was auto generated from steps of the 'Modifier Item' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-01-20T04:59:56.0000000
-  modificationDate: 2022-01-20T04:59:56.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: Zqp71qgV-Ua5KHveK8-jGA
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
     type: Action
-    elementId: ROww24ab8EyKpYCyJ8K6Yw
+    elementId: 5gHMMj-YrECzIUOV9ynRVQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -194,13 +153,13 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
-  - id: J-heSKPlSkOEoN16csbqHA
+  - id: b0Z_nNO010GrEVjrtzAAzA
     enabled: true
     invertResult: false
-    order: 2
+    order: 7
     repeat: 1
     type: Action
-    elementId: ROww24ab8EyKpYCyJ8K6Yw
+    elementId: 5gHMMj-YrECzIUOV9ynRVQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -212,18 +171,18 @@ auxTests:
       source: System
     parameterMaps:
     - name: keys
-      value: admin@dana.ffi.co.id
+      value: 7777
       direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: OUbSQJ-NHk-WlBJAXxBWLg
+  - id: 4EVt8BdveEqcMJlQf-39sQ
     enabled: true
     invertResult: false
-    order: 3
+    order: 8
     repeat: 1
     type: Action
-    elementId: oRq8cfJgg0qjVnAjMWISFg
+    elementId: kPE5fxx3z0ejnil3oawrDw
     settings:
       sleepTime: -1
       timeout: -1
@@ -237,13 +196,54 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
-  - id: RNb3KN-lskia5wd7eleDDA
+  - id: -k5L-1L0_0em7ScRszEOMw
+    comments: ''
     enabled: true
     invertResult: false
-    order: 4
+    order: 9
     repeat: 1
     type: Action
-    elementId: oRq8cfJgg0qjVnAjMWISFg
+    elementId: kPE5fxx3z0ejnil3oawrDw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7BIgU1H6JEesy1fKW7sMrw
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: kPE5fxx3z0ejnil3oawrDw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Hf2Q0-BDfEaDZCK2R_rUCg
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: kPE5fxx3z0ejnil3oawrDw
     settings:
       sleepTime: -1
       timeout: -1
@@ -255,18 +255,122 @@ auxTests:
       source: System
     parameterMaps:
     - name: keys
-      value: 12345678
+      value: 30
       direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: OMx58snxdEySb1jlq1naEA
+  - id: yDGHcfIED0u2cbT7fzDuig
     enabled: true
     invertResult: false
-    order: 5
+    order: 12
     repeat: 1
     type: Action
-    elementId: e9-Kq9bGykew-9HS4B1WcQ
+    elementId: zoCVy_p3Fk2eiEshPxxPeQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lNpy4NKRbkqTpFYtI12Q6A
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: 43fG7dhQhUecYbWXiluRiA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xxsS_FbGMUaGivHf7O7rTA
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: zb1bu5D3ikujeNxmxDou0w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NnhB0N47bEyuO5zjnwek-g
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: OVS6eBpD0kKsYec4mex64w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GdFL3aY9tk60vhXOSQJCCg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: AvkHeu1mKky3w-_q-bJlKg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Record is created
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5PkFql4CpU-rWgnUK3Agkg
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: LqXfkS12202E22EY5VOhuw
     settings:
       sleepTime: -1
       timeout: -1
@@ -281,223 +385,10 @@ auxTests:
     validations: []
     contexts: []
   parameters: []
-- id: vXwl28jGZkmgHsCStswnPg
-  name: Click Master Data
-  description: This test was auto generated from steps of the 'Modifier Item' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-01-20T05:02:00.0000000
-  modificationDate: 2022-01-20T05:02:00.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: 2Rl3j7mfyE-9-qhCvsrv3w
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: p106E5VxNkCY9QTNkK4WeQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
-- id: CclSEbekEkGiF6HLtjLKog
-  name: Click Manual Upload Menu
-  description: This test was auto generated from steps of the 'Modifier Item' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-01-20T05:02:16.0000000
-  modificationDate: 2022-01-20T05:02:16.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: 9qMpFvAtDkuR14yg_HjF6A
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: QUmJhkdG9EGJhgbDUynOqA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
-- id: DAGX55lZZ0iNnFAz6TdA_w
-  name: Click Modifier Item
-  description: This test was auto generated from steps of the 'Modifier Item' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-01-20T05:02:31.0000000
-  modificationDate: 2022-01-20T05:02:31.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: hPnNQG3JaUO8s78KqZIFNQ
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: bUhUKmPcVUKyT7xpmGyoSg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
-- id: 5ZstvSBBOkKgtsAwi1-Eqg
-  name: Logout
-  description: This test was auto generated from steps of the 'Modifier Item' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-01-20T05:07:29.0000000
-  modificationDate: 2022-01-20T05:07:29.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: JM9egdVOAkymhYsj_k3DHA
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: PdHE0QEKYEq9c083cSIbrg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: so0VqLB-QECgyu2V7H6J0g
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: -qBSoC64ZU69QrV2-k4SLA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
+auxTests: []
 elements:
-- id: ROww24ab8EyKpYCyJ8K6Yw
-  name: Login Email Field
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#email'
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Email']
-    priority: 1
-  - name: XPATH
-    value: //form/input[1]
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div/form/input[1]
-    priority: 3
-- id: oRq8cfJgg0qjVnAjMWISFg
-  name: Login Password Field
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#password'
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div/div/form/input[2]
-    priority: 3
-  - name: XPATH
-    value: //input[2]
-    priority: 2
-  - name: XPATH
-    value: //input[@placeholder = 'Password']
-    priority: 1
-- id: e9-Kq9bGykew-9HS4B1WcQ
-  name: Login Sign In Button
+- id: ZUQbHwgow0Os6p8mE1DlXA
+  name: New Modifier Item
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
@@ -506,88 +397,204 @@ elements:
   - name: XPATH
     value: >-
       //button[. = '
-                  Sign In
-                ']
-    priority: 1
-  - name: XPATH
-    value: //button
+                New Modifier Item
+              ']
     priority: 0
   - name: XPATH
-    value: /html/body/div/div/div/form/div/div[2]/button
+    value: //button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[1]/div[2]/button[3]
     priority: 2
-- id: p106E5VxNkCY9QTNkK4WeQ
-  name: LI10
+- id: LNtPa8Y_BUmCWo3hj6SPwQ
+  name: Add Outlet Open Schedule - Field Outlet Code
+  description: ''
   type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //ul[4]/li
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[4]/li
-    priority: 1
-- id: QUmJhkdG9EGJhgbDUynOqA
-  name: LI21
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //ul/div/ul[3]/li
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[4]/div/ul[3]/li
-    priority: 1
-- id: bUhUKmPcVUKyT7xpmGyoSg
-  name: LI41
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTk
-    name: ListItem
-    source: System
-  locators:
-  - name: XPATH
-    value: //ul[8]/a/li
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[4]/div/ul[3]/div/ul[8]/a/li
-    priority: 1
-- id: PdHE0QEKYEq9c083cSIbrg
-  name: __BVID__28__BV_toggle_1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
     source: System
   locators:
   - name: CSSSELECTOR
-    value: '#__BVID__28__BV_toggle_'
+    value: "[name='outletCode']"
     priority: 0
   - name: XPATH
-    value: //div[2]/div/button
+    value: //input[@placeholder = 'Enter outlet code']
     priority: 1
   - name: XPATH
-    value: /html/body/div/div[1]/div[1]/div/div[2]/div/button
+    value: //div[1]/div[1]/div/input
     priority: 2
-- id: -qBSoC64ZU69QrV2-k4SLA
-  name: Logout1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div[1]/div[1]/div[2]/input
+    priority: 3
+- id: DKNRN94z4UKtF_kbUyvAlw
+  name: Add Modifier Price - Field Modifier Group Code
+  description: ''
   type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/input
+    priority: 3
+  - name: XPATH
+    value: //div[2]/div/input
+    priority: 2
+  - name: XPATH
+    value: //input[@placeholder = 'Enter menu group code']
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='modifierGroupCode']"
+    priority: 0
+- id: 5gHMMj-YrECzIUOV9ynRVQ
+  name: Add Modifier Price - Field Modifier Item Code
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div/div[1]/div[2]/input
+    priority: 3
+  - name: XPATH
+    value: //div[1]/div/input
+    priority: 2
+  - name: XPATH
+    value: //input[@placeholder = 'Enter modifier item code']
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='modifierItemCode']"
+    priority: 0
+- id: kPE5fxx3z0ejnil3oawrDw
+  name: Add Menu Set - Field Sequence
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div/div[5]/div[2]/input
+    priority: 3
+  - name: XPATH
+    value: //div[5]//input
+    priority: 2
+  - name: XPATH
+    value: //input[@placeholder = 'Enter sequence']
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='sequence']"
+    priority: 0
+- id: zoCVy_p3Fk2eiEshPxxPeQ
+  name: off1
+  type:
+    id: jUwODgyNjAyNzk2NTk2NzU
+    name: small
     source: System
   locators:
   - name: XPATH
     value: >-
-      //a[. = '
-                Logout
-              ']
+      //div[5]//small[. = '
+              off
+            ']
     priority: 0
   - name: XPATH
-    value: //div/a[2]
+    value: //div[5]//small[2]
     priority: 1
   - name: XPATH
-    value: /html/body/div/div[1]/div[1]/div/div[2]/div/div/a[2]
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div/div[5]/div[2]/div/div/label/span/small[2]
     priority: 2
+- id: 43fG7dhQhUecYbWXiluRiA
+  name: off2
+  type:
+    id: jUwODgyNjAyNzk2NTk2NzU
+    name: small
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[6]//small[. = '
+              off
+            ']
+    priority: 0
+  - name: XPATH
+    value: //div[6]//small[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div/div[6]/div[2]/div/div/label/span/small[2]
+    priority: 2
+- id: zb1bu5D3ikujeNxmxDou0w
+  name: off3
+  type:
+    id: jUwODgyNjAyNzk2NTk2NzU
+    name: small
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[7]//small[. = '
+              off
+            ']
+    priority: 0
+  - name: XPATH
+    value: //div[7]//small[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div/div[7]/div[2]/div/div/label/span/small[2]
+    priority: 2
+- id: OVS6eBpD0kKsYec4mex64w
+  name: Add
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                  Add
+                ']
+    priority: 0
+  - name: XPATH
+    value: //footer//button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/footer/div/button[2]
+    priority: 2
+- id: AvkHeu1mKky3w-_q-bJlKg
+  name: Global List - Add Global Record is created
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]
+    priority: 2
+  - name: XPATH
+    value: //body/div[2]/div/div[2]
+    priority: 0
+  - name: XPATH
+    value: //div[. = 'Record is created']
+    priority: 1
+- id: LqXfkS12202E22EY5VOhuw
+  name: Button Record is Created - OK
+  description: Button Record is Created - OK After Add New Modifier Price
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div/button
+    priority: 2
+  - name: XPATH
+    value: //button[. = 'OK']
+    priority: 0
+  - name: XPATH
+    value: //div[3]//button
+    priority: 1
 projectParameters: []
 addons: []

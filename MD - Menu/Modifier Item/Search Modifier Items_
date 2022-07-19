@@ -1,18 +1,18 @@
-id: 3tEfbFaaNEmtGBqK_IJXyQ
+id: 1gyzbFdXH06AxPm6Z89C8Q
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-07-19T09:23:14.6679950Z
+created: 2022-07-19T09:23:20.0673454Z
 protocol: 1
 tests:
-- id: 9EKN4RcAyEeD0Oo4ZkxxeA
-  name: Search Menu Group
-  description: This test was auto generated from steps of the 'Menu Group Limit' test
+- id: HA235DCPbUKwKEORwJ-YLw
+  name: Search Modifier Items_
+  description: This test was auto generated from steps of the 'Modifier Item' test
   platform: Web
   type: Web
   driverType: Chrome
   version: 1.0
-  creationDate: 2022-01-19T10:56:33.0000000
-  modificationDate: 2022-07-07T03:12:19.0000000
+  creationDate: 2022-04-25T09:36:58.0000000
+  modificationDate: 2022-04-25T09:36:58.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -20,20 +20,20 @@ tests:
     stepTimeout: 15000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
+    stepTakeScreenshotConditionType: Always
   application:
     id: jhoxZe3bH0CG9tjx3ikrgw
     name: KFC Staging Back Office v2.0
     url: https://kfcjv-staging-3f3f4.firebaseapp.com/
     platform: Web
   steps:
-  - id: 4pMf_WCaSES5w0AZb6SYJg
+  - id: bV0Pa93PAkund17nZjhEEQ
     enabled: true
     invertResult: false
     order: 1
     repeat: 1
     type: Action
-    elementId: R0hsnlVNq0OwdVYvNcLGOw
+    elementId: BfY5RbJC8kG6DmHYWPFfWQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -47,13 +47,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: Urqwq9s1okOBE17z63_55w
+  - id: z0rQIsAZ6EyKVoK2z95NCw
     enabled: true
     invertResult: false
     order: 2
     repeat: 1
     type: Action
-    elementId: kB_ZSoZjYUyiO0oZDbGUFw
+    elementId: K3hXk0JysUWSNP-KOvcC8w
     settings:
       sleepTime: -1
       timeout: -1
@@ -65,12 +65,12 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: 222
+      value: 7777
       direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: PWNFDoFnaEm8f2KrXJ0wPg
+  - id: yDDyoC5EEk-d1XzFWGqwZg
     enabled: true
     invertResult: false
     order: 3
@@ -93,37 +93,37 @@ tests:
   parameters: []
 auxTests: []
 elements:
-- id: R0hsnlVNq0OwdVYvNcLGOw
-  name: svg8
+- id: BfY5RbJC8kG6DmHYWPFfWQ
+  name: path11
   type:
     id: jUwODgyNjAyNzk2NTk1NDM
     name: Generic Web Element
     source: System
   locators:
   - name: XPATH
-    value: //th[1]/tr//*[name()='svg']
+    value: //th[4]//*[name()='path']
     priority: 0
   - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/thead/tr/th[1]/tr/th/div/span/*[name()='svg']
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/thead/tr/th[4]/tr/th/div/span/*[name()='svg']/*[name()='path']
     priority: 1
-- id: kB_ZSoZjYUyiO0oZDbGUFw
-  name: Search by Menu Group
+- id: K3hXk0JysUWSNP-KOvcC8w
+  name: Search by Modifier Item Code
   type:
     id: jUwODgyNjAyNzk2NTk1NDY
     name: Textbox
     source: System
   locators:
   - name: CSSSELECTOR
-    value: '#__BVID__156'
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Search by Menu Group']
+    value: '#__BVID__152'
     priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'Search by Modifier Item Code']
+    priority: 0
   - name: XPATH
     value: //input
     priority: 2
   - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/thead/tr/th[1]/tr/th/div/div/div/fieldset/div/input
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/thead/tr/th[2]/tr/th/div/div/div/fieldset/div/input
     priority: 3
 - id: rBNAVMZN1EO4Nr1Y4D_Hww
   name: Global List - Code Search Button

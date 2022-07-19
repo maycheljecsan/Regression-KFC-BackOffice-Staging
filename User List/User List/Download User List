@@ -1,18 +1,18 @@
-id: zDMhNh3ZFUmNBg4OsGqNQA
+id: v_yZ5Ujx8EupAPevQ9xF_g
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:20:51.1505766Z
+created: 2022-07-19T09:23:10.7011832Z
 protocol: 1
 tests:
 - id: rXzjU8KS90ySrUKOv4KrVQ
-  name: KFC-338 - Download User List
+  name: Download User List
   description: Cancel the Process
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-08T10:22:08.0000000
-  modificationDate: 2021-11-08T11:04:16.0000000
+  modificationDate: 2022-06-16T07:21:23.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -662,87 +662,6 @@ auxTests:
     contexts: []
   parameters: []
 elements:
-- id: A--D5wHREkyl3YQyleitVA
-  name: Download data aborted
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[. = 'Download data aborted']
-    priority: 0
-  - name: XPATH
-    value: //body/div[2]/div/div[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[2]
-    priority: 2
-- id: -vDx4J49W0ioZcPwJLyuHQ
-  name: DIV17
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //body/div[2]/div
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[2]/div
-    priority: 1
-- id: Lj26DUpG1E2g2kls-IdW2A
-  name: __BVID__28__BV_toggle_3
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#__BVID__28__BV_toggle_'
-    priority: 0
-  - name: XPATH
-    value: //div[1]/div[1]/div/div[2]//button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[1]/div/div[2]/div/button
-    priority: 2
-- id: zsVQsi5Xz0i5Ipri9Iv7ag
-  name: Logout
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div/div[1]/div[1]/div/div[2]/div/div/a[2]
-    priority: 2
-  - name: XPATH
-    value: //a[2]
-    priority: 1
-  - name: XPATH
-    value: >-
-      //a[. = '
-                Logout
-              ']
-    priority: 0
-- id: LqXfkS12202E22EY5VOhuw
-  name: Button Record is Created - OK
-  description: Button Record is Created - OK After Add New Modifier Price
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div[2]/div/div[3]/div/button
-    priority: 2
-  - name: XPATH
-    value: //button[. = 'OK']
-    priority: 0
-  - name: XPATH
-    value: //div[3]//button
-    priority: 1
 - id: ROww24ab8EyKpYCyJ8K6Yw
   name: Login Email Field
   type:
@@ -864,5 +783,86 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[1]/div[2]/div/div/button[2]
     priority: 2
+- id: A--D5wHREkyl3YQyleitVA
+  name: Download data aborted
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'Download data aborted']
+    priority: 0
+  - name: XPATH
+    value: //body/div[2]/div/div[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]
+    priority: 2
+- id: -vDx4J49W0ioZcPwJLyuHQ
+  name: DIV17
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div[2]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[2]/div
+    priority: 1
+- id: Lj26DUpG1E2g2kls-IdW2A
+  name: __BVID__28__BV_toggle_3
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__28__BV_toggle_'
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div[1]/div/div[2]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[1]/div/div[2]/div/button
+    priority: 2
+- id: zsVQsi5Xz0i5Ipri9Iv7ag
+  name: Logout
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div[1]/div[1]/div/div[2]/div/div/a[2]
+    priority: 2
+  - name: XPATH
+    value: //a[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //a[. = '
+                Logout
+              ']
+    priority: 0
+- id: LqXfkS12202E22EY5VOhuw
+  name: Button Record is Created - OK
+  description: Button Record is Created - OK After Add New Modifier Price
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div/button
+    priority: 2
+  - name: XPATH
+    value: //button[. = 'OK']
+    priority: 0
+  - name: XPATH
+    value: //div[3]//button
+    priority: 1
 projectParameters: []
 addons: []
