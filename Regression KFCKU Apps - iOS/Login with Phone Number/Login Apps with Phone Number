@@ -1,7 +1,7 @@
-id: WxM2C2DPg0OsxBie01e38g
+id: eAmjq2tMjU6Lz4KbHrexCg
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:50:49.6846919Z
+created: 2022-07-19T09:23:18.7873636Z
 protocol: 1
 tests:
 - id: d_osrH2_3kuZeCrTiAO11Q
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_iOS
   version: 0.1
   creationDate: 2022-04-18T03:36:06.0000000
-  modificationDate: 2022-04-19T10:45:15.0000000
+  modificationDate: 2022-04-19T11:13:28.0000000
   settings:
     automationAssistant: true
     deviceId: 00008030-000A61C93679802E
@@ -204,6 +204,46 @@ tests:
       takeScreenshotConditionType: Inherit
     action:
       source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QtGXbZWxuUWlRPFhj5_plw
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: jXIKAGluykOzNKKEfY9zLQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dgP4CDOfFU6wHUO2M6dvfw
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: jXIKAGluykOzNKKEfY9zLQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
     parameterMaps: []
     conditions: []
     validations: []
@@ -1568,6 +1608,19 @@ auxTests:
     contexts: []
   parameters: []
 elements:
+- id: jXIKAGluykOzNKKEfY9zLQ
+  name: XCUIELEMENTTYPEOTHER
+  type:
+    id: jUwODgyNjAyNzk2NTk3OTk
+    name: XCUIElementTypeOther
+    source: System
+  locators:
+  - name: XPATH
+    value: //XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther
+    priority: 0
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]
+    priority: 1
 - id: j-dnkIhDTk2LlW0P4YEEOQ
   name: home_kfcLogo_imageView
   type:
@@ -1741,6 +1794,139 @@ elements:
   - name: XPATH
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTabBar[1]/XCUIElementTypeOther[5]
     priority: 1
+- id: hMXWiHisR0aamZ8TdxImJQ
+  name: 0
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODU
+    name: XCUIElementTypeKey
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 0
+    priority: 0
+  - name: IOSCLASSCHAIN
+    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '0' AND visible == 1`]"
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeKey[11]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[11]
+    priority: 3
+- id: EgnVRL0eQ06-D-fR9_1jMw
+  name: 8
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODU
+    name: XCUIElementTypeKey
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 8
+    priority: 0
+  - name: IOSCLASSCHAIN
+    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '8' AND visible == 1`]"
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeKey[8]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[8]
+    priority: 3
+- id: xwUvR9fqUk6N-kfdzWPUDQ
+  name: 1
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODU
+    name: XCUIElementTypeKey
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 1
+    priority: 0
+  - name: IOSCLASSCHAIN
+    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '1' AND visible == 1`]"
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeKey[1]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[1]
+    priority: 3
+- id: 0aKds917DkSxrqIokjI98Q
+  name: 2
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODU
+    name: XCUIElementTypeKey
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 2
+    priority: 0
+  - name: IOSCLASSCHAIN
+    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '2' AND visible == 1`]"
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeKey[2]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[2]
+    priority: 3
+- id: nndzfZ89ykiwfaWCXk92Pw
+  name: 7
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODU
+    name: XCUIElementTypeKey
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 7
+    priority: 0
+  - name: IOSCLASSCHAIN
+    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '7' AND visible == 1`]"
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeKey[7]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[7]
+    priority: 3
+- id: _HZdP0OVT0ejllKXEGSRWg
+  name: 3
+  type:
+    id: jUwODgyNjAyNzk2NTk3ODU
+    name: XCUIElementTypeKey
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: 3
+    priority: 0
+  - name: IOSCLASSCHAIN
+    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '3' AND visible == 1`]"
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeKey[3]
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[3]
+    priority: 3
+- id: TQrOTF-RVU6Momk4Fmg4hA
+  name: Toolbar Done Button
+  type:
+    id: jUwODgyNjAyNzk2NTk3NjY
+    name: XCUIElementTypeButton
+    source: System
+  locators:
+  - name: ACCESSIBILITYID
+    value: Toolbar Done Button
+    priority: 0
+  - name: IOSPREDICATE
+    value: type == 'XCUIElementTypeButton' AND label == 'Toolbar Done Button' AND visible == 1
+    priority: 1
+  - name: XPATH
+    value: //XCUIElementTypeToolbar/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton
+    priority: 2
+  - name: XPATH
+    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeToolbar[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
+    priority: 3
 - id: jXIKAGluykOzNKKEfY9zLQ
   name: XCUIELEMENTTYPEOTHER
   type:
@@ -1973,138 +2159,5 @@ elements:
   - name: XPATH
     value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeImage[1]
     priority: 2
-- id: hMXWiHisR0aamZ8TdxImJQ
-  name: 0
-  type:
-    id: jUwODgyNjAyNzk2NTk3ODU
-    name: XCUIElementTypeKey
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: 0
-    priority: 0
-  - name: IOSCLASSCHAIN
-    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '0' AND visible == 1`]"
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeKey[11]
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[11]
-    priority: 3
-- id: EgnVRL0eQ06-D-fR9_1jMw
-  name: 8
-  type:
-    id: jUwODgyNjAyNzk2NTk3ODU
-    name: XCUIElementTypeKey
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: 8
-    priority: 0
-  - name: IOSCLASSCHAIN
-    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '8' AND visible == 1`]"
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeKey[8]
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[8]
-    priority: 3
-- id: xwUvR9fqUk6N-kfdzWPUDQ
-  name: 1
-  type:
-    id: jUwODgyNjAyNzk2NTk3ODU
-    name: XCUIElementTypeKey
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: 1
-    priority: 0
-  - name: IOSCLASSCHAIN
-    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '1' AND visible == 1`]"
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeKey[1]
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[1]
-    priority: 3
-- id: 0aKds917DkSxrqIokjI98Q
-  name: 2
-  type:
-    id: jUwODgyNjAyNzk2NTk3ODU
-    name: XCUIElementTypeKey
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: 2
-    priority: 0
-  - name: IOSCLASSCHAIN
-    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '2' AND visible == 1`]"
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeKey[2]
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[2]
-    priority: 3
-- id: nndzfZ89ykiwfaWCXk92Pw
-  name: 7
-  type:
-    id: jUwODgyNjAyNzk2NTk3ODU
-    name: XCUIElementTypeKey
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: 7
-    priority: 0
-  - name: IOSCLASSCHAIN
-    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '7' AND visible == 1`]"
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeKey[7]
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[7]
-    priority: 3
-- id: _HZdP0OVT0ejllKXEGSRWg
-  name: 3
-  type:
-    id: jUwODgyNjAyNzk2NTk3ODU
-    name: XCUIElementTypeKey
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: 3
-    priority: 0
-  - name: IOSCLASSCHAIN
-    value: "**/XCUIElementTypeKeyboard/**/XCUIElementTypeKey[`label == '3' AND visible == 1`]"
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeKey[3]
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeKeyboard[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeKey[3]
-    priority: 3
-- id: TQrOTF-RVU6Momk4Fmg4hA
-  name: Toolbar Done Button
-  type:
-    id: jUwODgyNjAyNzk2NTk3NjY
-    name: XCUIElementTypeButton
-    source: System
-  locators:
-  - name: ACCESSIBILITYID
-    value: Toolbar Done Button
-    priority: 0
-  - name: IOSPREDICATE
-    value: type == 'XCUIElementTypeButton' AND label == 'Toolbar Done Button' AND visible == 1
-    priority: 1
-  - name: XPATH
-    value: //XCUIElementTypeToolbar/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeButton
-    priority: 2
-  - name: XPATH
-    value: //XCUIElementTypeApplication[1]/XCUIElementTypeWindow[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeToolbar[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]
-    priority: 3
 projectParameters: []
 addons: []
