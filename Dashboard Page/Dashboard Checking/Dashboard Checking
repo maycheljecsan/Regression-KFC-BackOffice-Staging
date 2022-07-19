@@ -1,7 +1,7 @@
-id: OcU2J7GXUE2y5JRjfEFtrw
+id: lmg6R0ADqkqedfQ0UYXZBQ
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:21:29.3554208Z
+created: 2022-07-19T09:23:12.1245434Z
 protocol: 1
 tests:
 - id: 3-3cOXVrS0KpuCWIKN-CaQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-14T10:11:59.0000000
-  modificationDate: 2022-02-17T04:45:23.0000000
+  modificationDate: 2022-06-10T06:30:56.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -110,14 +110,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: Xh1UZqMRcEmdCsVP6WfmWQ
+  - id: K8vurLrlx0isjCKmRsRWIQ
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
     order: 5
     repeat: 1
     type: Test
-    targetTestId: WBbGkGzWlU-1vJWRRq_Kwg
+    targetTestId: l4OimcOjJEWsMhqLjThyJQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -521,15 +521,15 @@ auxTests:
     validations: []
     contexts: []
   parameters: []
-- id: WBbGkGzWlU-1vJWRRq_Kwg
-  name: Verified Transaction Online vs Offline
+- id: l4OimcOjJEWsMhqLjThyJQ
+  name: Verified-Transaction Online vs Offline
   description: This test was auto generated from steps of the 'Dashboard Checking' test
   platform: Web
   type: Web
   driverType: Chrome
   version: 1.0
-  creationDate: 2022-02-17T04:24:38.0000000
-  modificationDate: 2022-02-17T04:24:38.0000000
+  creationDate: 2022-06-10T06:30:41.0000000
+  modificationDate: 2022-06-10T06:30:41.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -539,13 +539,13 @@ auxTests:
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   steps:
-  - id: 5PEYzwTWK0iLwhmSQKrh4Q
-    comments: ''
+  - id: lIbuqwhFCEW99PuHHby8qQ
     enabled: true
     invertResult: false
     order: 1
     repeat: 1
-    type: Addon
+    type: Action
+    elementId: g419uHOnvkCS0A-Qlo0D0A
     settings:
       sleepTime: -1
       timeout: -1
@@ -553,27 +553,20 @@ auxTests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: nnPtZ4gVPEqI8xOtbNEAqg
-      source: Store
-      addonId: m9XGecbZqU62EXYlC04AOQ
-    parameterMaps:
-    - name: xpath
-      value: //div[2]/div/div/canvas
-      direction: Input
-    - name: numberOfScrolls
-      value: 100
-      direction: Input
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: J888BQ2Tg0S9boER-ZX7sQ
+  - id: SAuFW5FhEE-fQBpfDUWn8Q
     comments: ''
     enabled: true
     invertResult: false
     order: 2
     repeat: 1
-    type: Action
-    elementId: pEnsREDA9EmqnM50r61CFA
+    type: Addon
+    elementId: GlGpav62MEqRhgltwct8DA
     settings:
       sleepTime: -1
       timeout: -1
@@ -581,9 +574,13 @@ auxTests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
+      id: tlxDTzMxe0eErx2PMkql2g
+      source: Store
+      addonId: m9XGecbZqU62EXYlC04AOQ
+    parameterMaps:
+    - name: numberOfScrolls
+      value: 100
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -743,7 +740,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-02-17T04:26:48.0000000
-  modificationDate: 2022-02-17T04:26:48.0000000
+  modificationDate: 2022-06-10T04:48:02.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -772,7 +769,7 @@ auxTests:
       addonId: m9XGecbZqU62EXYlC04AOQ
     parameterMaps:
     - name: xpath
-      value: //div[6]/div[1]/div
+      value: //div[2]/div/div/canvas
       direction: Input
     - name: numberOfScrolls
       value: 100
@@ -1159,19 +1156,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[1]/div
     priority: 1
-- id: pEnsREDA9EmqnM50r61CFA
-  name: DIV71
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[2]/div[2]/div[2]/div[2]/div
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[2]/div
-    priority: 1
 - id: tpo0Egdan0SMyQmFqOil0g
   name: DIV72
   type:
@@ -1311,6 +1295,35 @@ elements:
                 Logout
               ']
     priority: 0
+- id: g419uHOnvkCS0A-Qlo0D0A
+  name: Transaction Online vs Offline
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h5[. = 'Transaction Online vs Offline']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div[2]//h5
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[3]/div[2]/div/h5
+    priority: 2
+- id: GlGpav62MEqRhgltwct8DA
+  name: pie-chart
+  type:
+    id: jUwODgyNjAyNzk2NTk1ODY
+    name: canvas
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div/canvas
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[3]/div[2]/div/div/canvas
+    priority: 1
 projectParameters: []
 addons:
 - id: m9XGecbZqU62EXYlC04AOQ
@@ -1321,6 +1334,10 @@ addons:
     name: Scroll to element by xpath
     description: Run Scroll to element by xpath
     className: io.testproject.addon.scrollelement.ByXpath
+  - id: tlxDTzMxe0eErx2PMkql2g
+    name: Scroll to element
+    description: Scrolls to an element with defined amount of swipes
+    className: io.testproject.addon.scrollelement.ScrollToElement
   minSdkLevel: 2
   minSdkVersion: 0.65.0
   sdkGeneration: 1
