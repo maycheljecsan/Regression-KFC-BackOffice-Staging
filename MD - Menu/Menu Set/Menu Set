@@ -1,7 +1,7 @@
-id: cJrfPbvJJUWtZJyoDsdcJQ
+id: MIeF-i-iB0S-uxj3o79vzQ
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-08-08T10:39:42.3903567Z
+created: 2022-08-08T17:03:11.8012913Z
 protocol: 1
 tests:
 - id: shHEEjpi-EGs1lIaB5XONQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-01-20T03:58:15.0000000
-  modificationDate: 2022-08-08T10:10:18.0000000
+  modificationDate: 2022-08-08T17:03:06.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -152,7 +152,7 @@ tests:
     contexts: []
   - id: EWOUAuSVeE-kQYmXg_PLKg
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
     order: 7
     repeat: 1
@@ -173,7 +173,7 @@ tests:
     contexts: []
   - id: z8iF7-WNwESk1x84gdcg2w
     comments: This step was auto generated from several steps
-    enabled: true
+    enabled: false
     invertResult: false
     order: 8
     repeat: 1
@@ -193,7 +193,7 @@ tests:
     contexts: []
   - id: YCs0APvUF0qfMujUl80Tug
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
     order: 9
     repeat: 1
@@ -214,7 +214,7 @@ tests:
     contexts: []
   - id: 4u_j37XF40GBOgXI4X2dSg
     comments: This step was auto generated from several steps
-    enabled: true
+    enabled: false
     invertResult: false
     order: 10
     repeat: 1
@@ -234,7 +234,7 @@ tests:
     contexts: []
   - id: 5niF4O910EiwrGlqnTfxTQ
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
     order: 11
     repeat: 3
@@ -255,7 +255,7 @@ tests:
     contexts: []
   - id: nJNVXmBIiESUGSqCRrBYgA
     comments: This step was auto generated from several steps
-    enabled: true
+    enabled: false
     invertResult: false
     order: 12
     repeat: 1
@@ -275,7 +275,7 @@ tests:
     contexts: []
   - id: Iz2RM5exM0CGxDxrZS-6cg
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
     order: 13
     repeat: 1
@@ -296,7 +296,7 @@ tests:
     contexts: []
   - id: wqIFOGXlGkmeSm8Jh002tA
     comments: This step was auto generated from several steps
-    enabled: true
+    enabled: false
     invertResult: false
     order: 14
     repeat: 1
@@ -316,7 +316,7 @@ tests:
     contexts: []
   - id: uUNgAyfG5kGbKnjckPXMPw
     comments: This step was auto generated from several steps
-    enabled: true
+    enabled: false
     invertResult: false
     order: 15
     repeat: 1
