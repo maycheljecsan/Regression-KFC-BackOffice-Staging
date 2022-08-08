@@ -1,7 +1,7 @@
-id: UXTaquL6CEKmssMq0W8Tvg
+id: b3QTW9tGeU-gYen3ZNCElg
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-08-08T06:53:52.4332258Z
+created: 2022-08-08T07:25:30.0345111Z
 protocol: 1
 tests:
 - id: O6HnbH4s2kSe6yk-veQspw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-01-19T10:48:11.0000000
-  modificationDate: 2022-08-08T06:53:45.0000000
+  modificationDate: 2022-08-08T07:11:19.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -210,14 +210,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: UK_wkU7Lm0ShoKp9htWCsQ
-    comments: This step was auto generated from several steps
+  - id: kOKrk28q8E6Dt34oJnT9lA
     enabled: true
     invertResult: false
     order: 10
     repeat: 1
-    type: Test
-    targetTestId: go-Efw9hHEqgbNZ46tnuXA
+    type: Action
+    elementId: vvCVbWhDtE6WFsSSKhLSlA
     settings:
       sleepTime: -1
       timeout: -1
@@ -225,7 +224,8 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      source: None
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
     parameterMaps: []
     conditions: []
     validations: []
@@ -1236,65 +1236,6 @@ auxTests:
     validations: []
     contexts: []
   parameters: []
-- id: go-Efw9hHEqgbNZ46tnuXA
-  name: Reset Filter
-  description: This test was auto generated from steps of the 'Menu Group Limit' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-01-19T10:59:44.0000000
-  modificationDate: 2022-01-19T10:59:44.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: z2MUTp4_wkyysW6CijbYSA
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: 8gNvqb4Ml0qrf4X7CEvjOQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 5YFXOqAz10Gc1zHrqUA2qA
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: a0e3r-1Z7EGppgEOc7LNvg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
 - id: vDRxOQuQt0-9xLKX8Lw2Bw
   name: Logout
   description: This test was auto generated from steps of the 'Menu Group Limit' test
@@ -1562,42 +1503,6 @@ elements:
   - name: XPATH
     value: //div[. = 'Record is Updated']
     priority: 1
-- id: 8gNvqb4Ml0qrf4X7CEvjOQ
-  name: Reset F
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[2]
-    priority: 1
-  - name: XPATH
-    value: >-
-      //button[. = '
-                Reset Filter
-              ']
-    priority: 0
-- id: a0e3r-1Z7EGppgEOc7LNvg
-  name: Refresh2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[2]/button[1]
-    priority: 1
-  - name: XPATH
-    value: >-
-      //button[. = '
-                Refresh
-              ']
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[1]/div[2]/button[1]
-    priority: 2
 - id: p106E5VxNkCY9QTNkK4WeQ
   name: LI10
   type:
@@ -1888,6 +1793,25 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[2]/div/div[2]/div
+    priority: 2
+- id: vvCVbWhDtE6WFsSSKhLSlA
+  name: Reset Filter2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                  Reset Filter
+                ']
+    priority: 0
+  - name: XPATH
+    value: //button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[1]/div[2]/span[1]/button[2]
     priority: 2
 projectParameters: []
 addons: []
