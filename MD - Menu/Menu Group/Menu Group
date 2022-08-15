@@ -1,7 +1,7 @@
-id: qKRabUYpPEqPhJkSqLFIsw
+id: 2zi99O5bfEmh0r5AjllsbQ
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:21:01.9312596Z
+created: 2022-08-15T09:53:24.4079708Z
 protocol: 1
 tests:
 - id: m1V2DAzpl0iKOeXcaAuXjg
@@ -19,7 +19,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-25T09:55:25.0000000
-  modificationDate: 2022-02-17T04:46:13.0000000
+  modificationDate: 2022-08-15T09:51:33.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -36,7 +36,7 @@ tests:
   steps:
   - id: bqu5WdFhfEWcYvgK1T5qlw
     comments: Navigates the specified URL (Auto-generated)
-    enabled: false
+    enabled: true
     invertResult: false
     order: 1
     repeat: 1
@@ -1403,283 +1403,6 @@ auxTests:
     contexts: []
   parameters: []
 elements:
-- id: aG9qUuHwrEO5qL-GTpcZmw
-  name: svg2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDM
-    name: Generic Web Element
-    source: System
-  locators:
-  - name: XPATH
-    value: //th[2]//*[name()='svg']
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/thead/tr/th[2]/tr/th/div/span/*[name()='svg']
-    priority: 1
-- id: cV1-jR8q_kihw1scd49XuQ
-  name: Field Search by Outlet Code
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //input[@placeholder = 'Search by Outlet Code']
-    priority: 0
-  - name: XPATH
-    value: //input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/thead/tr/th[2]/tr/th/div/div/div/fieldset/div/input
-    priority: 2
-  - name: CSSSELECTOR
-    value: '#__BVID__115'
-    priority: 3
-  - name: XPATH
-    value: /html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[2]/tr/th/div/div/div/fieldset/div/input
-    priority: 4
-  - name: CSSSELECTOR
-    value: '#__BVID__127'
-    priority: 5
-  - name: CSSSELECTOR
-    value: '#__BVID__191'
-    priority: 6
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[2]/tr/th/div/div/div/fieldset/div/input
-    priority: 7
-- id: rBNAVMZN1EO4Nr1Y4D_Hww
-  name: Global List - Code Search Button
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //a[. = '
-                  Search
-                ']
-    priority: 0
-  - name: XPATH
-    value: //th/div/div/div/div/div[1]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[3]/tr/th/div/div/div/div/div[1]/a
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[2]/tr/th/div/div/div/div/div[1]/a
-    priority: 3
-- id: HueXFppvOEuid8jfF1D64w
-  name: Edit4
-  type:
-    id: jUwODgyNjAyNzk2NTk3MDA
-    name: u
-    source: System
-  locators:
-  - name: XPATH
-    value: //u[. = 'Edit']
-    priority: 0
-  - name: XPATH
-    value: //a[1]/u
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[5]/a[1]/u
-    priority: 2
-- id: LNtPa8Y_BUmCWo3hj6SPwQ
-  name: Add Outlet Open Schedule - Field Outlet Code
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='outletCode']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Enter outlet code']
-    priority: 1
-  - name: XPATH
-    value: //div[1]/div[1]/div/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div[1]/div[1]/div[2]/input
-    priority: 3
-- id: OzTVy5OlEUexBw9j1YlySQ
-  name: Edit Outlet Price - Save Button
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //button[. = '
-                  Save
-                ']
-    priority: 0
-  - name: XPATH
-    value: //footer//button[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/footer/div/button[2]
-    priority: 2
-- id: OfhVVeNljka4ZOh1Kc1j6w
-  name: Global List - Record is Updated
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div[2]/div/div[2]
-    priority: 2
-  - name: XPATH
-    value: //body/div[2]/div/div[2]
-    priority: 0
-  - name: XPATH
-    value: //div[. = 'Record is Updated']
-    priority: 1
-- id: 8ftYBV9YwUimqdb0qEXafw
-  name: OK
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'OK']
-    priority: 0
-  - name: XPATH
-    value: //div[4]//button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[4]/div/button
-    priority: 2
-- id: oC_-yRrvhEu0BYrUuSUlLQ
-  name: 1003
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[. = '
-                    1003
-                  ']
-    priority: 0
-  - name: XPATH
-    value: //td[2]/div
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[2]/div
-    priority: 2
-- id: xofVotNRnEC4NBhDYSGBHg
-  name: Delete7
-  type:
-    id: jUwODgyNjAyNzk2NTk3MDA
-    name: u
-    source: System
-  locators:
-  - name: XPATH
-    value: //u[. = 'Delete']
-    priority: 0
-  - name: XPATH
-    value: //a[2]/u
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[5]/a[2]/u
-    priority: 2
-- id: lGJQVfn2mk22l8l2Vi3__w
-  name: Global List - Delete Delete Button
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Delete']
-    priority: 0
-  - name: XPATH
-    value: //div[3]/div[2]/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[3]/div[2]/button
-    priority: 2
-- id: 8ftYBV9YwUimqdb0qEXafw
-  name: OK
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'OK']
-    priority: 0
-  - name: XPATH
-    value: //div[4]//button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[4]/div/button
-    priority: 2
-- id: PdHE0QEKYEq9c083cSIbrg
-  name: __BVID__28__BV_toggle_1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#__BVID__28__BV_toggle_'
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[1]/div/div[2]/div/button
-    priority: 2
-- id: zsVQsi5Xz0i5Ipri9Iv7ag
-  name: Logout
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div/div[1]/div[1]/div/div[2]/div/div/a[2]
-    priority: 2
-  - name: XPATH
-    value: //a[2]
-    priority: 1
-  - name: XPATH
-    value: >-
-      //a[. = '
-                Logout
-              ']
-    priority: 0
-- id: ROww24ab8EyKpYCyJ8K6Yw
-  name: Login Email Field
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#email'
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Email']
-    priority: 1
-  - name: XPATH
-    value: //form/input[1]
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div/form/input[1]
-    priority: 3
 - id: oRq8cfJgg0qjVnAjMWISFg
   name: Login Password Field
   type:
@@ -1718,32 +1441,231 @@ elements:
   - name: XPATH
     value: /html/body/div/div/div/form/div/div[2]/button
     priority: 2
-- id: p106E5VxNkCY9QTNkK4WeQ
-  name: LI10
+- id: ROww24ab8EyKpYCyJ8K6Yw
+  name: Login Email Field
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#email'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Email']
+    priority: 1
+  - name: XPATH
+    value: //form/input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div/form/input[1]
+    priority: 3
+- id: rBNAVMZN1EO4Nr1Y4D_Hww
+  name: Global List - Code Search Button
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //a[. = '
+                  Search
+                ']
+    priority: 0
+  - name: XPATH
+    value: //th/div/div/div/div/div[1]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[3]/tr/th/div/div/div/div/div[1]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[2]/tr/th/div/div/div/div/div[1]/a
+    priority: 3
+- id: lGJQVfn2mk22l8l2Vi3__w
+  name: Global List - Delete Delete Button
+  description: ''
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
   - name: XPATH
-    value: //ul[4]/li
+    value: //button[. = 'Delete']
     priority: 0
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[4]/li
+    value: //div[3]/div[2]/button
     priority: 1
-- id: tE4BYnPtcEWrcoT868WL9w
-  name: LI17
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div[2]/button
+    priority: 2
+- id: cV1-jR8q_kihw1scd49XuQ
+  name: Field Search by Outlet Code
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@placeholder = 'Search by Outlet Code']
+    priority: 0
+  - name: XPATH
+    value: //input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/thead/tr/th[2]/tr/th/div/div/div/fieldset/div/input
+    priority: 2
+  - name: CSSSELECTOR
+    value: '#__BVID__115'
+    priority: 3
+  - name: XPATH
+    value: /html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[2]/tr/th/div/div/div/fieldset/div/input
+    priority: 4
+  - name: CSSSELECTOR
+    value: '#__BVID__127'
+    priority: 5
+  - name: CSSSELECTOR
+    value: '#__BVID__191'
+    priority: 6
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[2]/tr/th/div/div/div/fieldset/div/input
+    priority: 7
+- id: 4V4EHz3u5UGbG4v99kpu3A
+  name: Edit Outlet Price - Cancel Button
+  description: ''
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
   - name: XPATH
-    value: //ul/div/ul[2]/li
+    value: >-
+      //button[. = '
+                  Cancel
+                ']
     priority: 0
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[4]/div/ul[2]/li
+    value: //footer//button[1]
     priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/footer/div/button[1]
+    priority: 2
+- id: OzTVy5OlEUexBw9j1YlySQ
+  name: Edit Outlet Price - Save Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                  Save
+                ']
+    priority: 0
+  - name: XPATH
+    value: //footer//button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/footer/div/button[2]
+    priority: 2
+- id: DKNRN94z4UKtF_kbUyvAlw
+  name: Add Modifier Price - Field Modifier Group Code
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/input
+    priority: 3
+  - name: XPATH
+    value: //div[2]/div/input
+    priority: 2
+  - name: XPATH
+    value: //input[@placeholder = 'Enter menu group code']
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='modifierGroupCode']"
+    priority: 0
+- id: kPE5fxx3z0ejnil3oawrDw
+  name: Add Menu Set - Field Sequence
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div/div[5]/div[2]/input
+    priority: 3
+  - name: XPATH
+    value: //div[5]//input
+    priority: 2
+  - name: XPATH
+    value: //input[@placeholder = 'Enter sequence']
+    priority: 1
+  - name: CSSSELECTOR
+    value: "[name='sequence']"
+    priority: 0
+- id: LNtPa8Y_BUmCWo3hj6SPwQ
+  name: Add Outlet Open Schedule - Field Outlet Code
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='outletCode']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Enter outlet code']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/div[1]/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div[1]/div[1]/div[2]/input
+    priority: 3
+- id: OfhVVeNljka4ZOh1Kc1j6w
+  name: Global List - Record is Updated
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]
+    priority: 2
+  - name: XPATH
+    value: //body/div[2]/div/div[2]
+    priority: 0
+  - name: XPATH
+    value: //div[. = 'Record is Updated']
+    priority: 1
+- id: zsVQsi5Xz0i5Ipri9Iv7ag
+  name: Logout
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div[1]/div[1]/div/div[2]/div/div/a[2]
+    priority: 2
+  - name: XPATH
+    value: //a[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //a[. = '
+                Logout
+              ']
+    priority: 0
 - id: Zis2OAxUxk2T0RP_3fuq5A
   name: Manual Upload Menu
   type:
@@ -1759,6 +1681,100 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[3]/div/ul[3]/li/div[1]/span
+    priority: 2
+- id: LqXfkS12202E22EY5VOhuw
+  name: Button Record is Created - OK
+  description: Button Record is Created - OK After Add New Modifier Price
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div/button
+    priority: 2
+  - name: XPATH
+    value: //button[. = 'OK']
+    priority: 0
+  - name: XPATH
+    value: //div[3]//button
+    priority: 1
+- id: p106E5VxNkCY9QTNkK4WeQ
+  name: LI10
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //ul[4]/li
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[4]/li
+    priority: 1
+- id: OVS6eBpD0kKsYec4mex64w
+  name: Add
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                  Add
+                ']
+    priority: 0
+  - name: XPATH
+    value: //footer//button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/footer/div/button[2]
+    priority: 2
+- id: PdHE0QEKYEq9c083cSIbrg
+  name: __BVID__28__BV_toggle_1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__28__BV_toggle_'
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[1]/div/div[2]/div/button
+    priority: 2
+- id: tE4BYnPtcEWrcoT868WL9w
+  name: LI17
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //ul/div/ul[2]/li
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[4]/div/ul[2]/li
+    priority: 1
+- id: 8ftYBV9YwUimqdb0qEXafw
+  name: OK
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'OK']
+    priority: 0
+  - name: XPATH
+    value: //div[4]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[4]/div/button
     priority: 2
 - id: wdPCA4wl1k61OyJuj7irdw
   name: LI20
@@ -1792,200 +1808,19 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[1]/div[2]/button[3]
     priority: 2
-- id: LNtPa8Y_BUmCWo3hj6SPwQ
-  name: Add Outlet Open Schedule - Field Outlet Code
-  description: ''
+- id: aG9qUuHwrEO5qL-GTpcZmw
+  name: svg2
   type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='outletCode']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Enter outlet code']
-    priority: 1
-  - name: XPATH
-    value: //div[1]/div[1]/div/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div[1]/div[1]/div[2]/input
-    priority: 3
-- id: DKNRN94z4UKtF_kbUyvAlw
-  name: Add Modifier Price - Field Modifier Group Code
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
     source: System
   locators:
   - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/input
-    priority: 3
-  - name: XPATH
-    value: //div[2]/div/input
-    priority: 2
-  - name: XPATH
-    value: //input[@placeholder = 'Enter menu group code']
-    priority: 1
-  - name: CSSSELECTOR
-    value: "[name='modifierGroupCode']"
-    priority: 0
-- id: kPE5fxx3z0ejnil3oawrDw
-  name: Add Menu Set - Field Sequence
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div/div[5]/div[2]/input
-    priority: 3
-  - name: XPATH
-    value: //div[5]//input
-    priority: 2
-  - name: XPATH
-    value: //input[@placeholder = 'Enter sequence']
-    priority: 1
-  - name: CSSSELECTOR
-    value: "[name='sequence']"
-    priority: 0
-- id: OVS6eBpD0kKsYec4mex64w
-  name: Add
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //button[. = '
-                  Add
-                ']
+    value: //th[2]//*[name()='svg']
     priority: 0
   - name: XPATH
-    value: //footer//button[2]
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/thead/tr/th[2]/tr/th/div/span/*[name()='svg']
     priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/footer/div/button[2]
-    priority: 2
-- id: LqXfkS12202E22EY5VOhuw
-  name: Button Record is Created - OK
-  description: Button Record is Created - OK After Add New Modifier Price
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div[2]/div/div[3]/div/button
-    priority: 2
-  - name: XPATH
-    value: //button[. = 'OK']
-    priority: 0
-  - name: XPATH
-    value: //div[3]//button
-    priority: 1
-- id: aJ2lEUguTEKmDeTd9zoq9A
-  name: New Menu Group
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //button[. = '
-                New Menu Group
-              ']
-    priority: 0
-  - name: XPATH
-    value: //button[3]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[1]/div[2]/button[3]
-    priority: 2
-- id: LNtPa8Y_BUmCWo3hj6SPwQ
-  name: Add Outlet Open Schedule - Field Outlet Code
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='outletCode']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Enter outlet code']
-    priority: 1
-  - name: XPATH
-    value: //div[1]/div[1]/div/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div[1]/div[1]/div[2]/input
-    priority: 3
-- id: DKNRN94z4UKtF_kbUyvAlw
-  name: Add Modifier Price - Field Modifier Group Code
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/input
-    priority: 3
-  - name: XPATH
-    value: //div[2]/div/input
-    priority: 2
-  - name: XPATH
-    value: //input[@placeholder = 'Enter menu group code']
-    priority: 1
-  - name: CSSSELECTOR
-    value: "[name='modifierGroupCode']"
-    priority: 0
-- id: kPE5fxx3z0ejnil3oawrDw
-  name: Add Menu Set - Field Sequence
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/div/div/div/div/div[5]/div[2]/input
-    priority: 3
-  - name: XPATH
-    value: //div[5]//input
-    priority: 2
-  - name: XPATH
-    value: //input[@placeholder = 'Enter sequence']
-    priority: 1
-  - name: CSSSELECTOR
-    value: "[name='sequence']"
-    priority: 0
-- id: OVS6eBpD0kKsYec4mex64w
-  name: Add
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //button[. = '
-                  Add
-                ']
-    priority: 0
-  - name: XPATH
-    value: //footer//button[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/footer/div/button[2]
-    priority: 2
 - id: GXxOmP-P1Euya22zQYdhvw
   name: Something wrong
   type:
@@ -2018,41 +1853,56 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div/div[3]
     priority: 2
-- id: 8ftYBV9YwUimqdb0qEXafw
-  name: OK
+- id: HueXFppvOEuid8jfF1D64w
+  name: Edit4
   type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
+    id: jUwODgyNjAyNzk2NTk3MDA
+    name: u
     source: System
   locators:
   - name: XPATH
-    value: //button[. = 'OK']
+    value: //u[. = 'Edit']
     priority: 0
   - name: XPATH
-    value: //div[4]//button
+    value: //a[1]/u
     priority: 1
   - name: XPATH
-    value: /html/body/div[2]/div/div[4]/div/button
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[5]/a[1]/u
     priority: 2
-- id: 4V4EHz3u5UGbG4v99kpu3A
-  name: Edit Outlet Price - Cancel Button
-  description: ''
+- id: oC_-yRrvhEu0BYrUuSUlLQ
+  name: 1003
   type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
     source: System
   locators:
   - name: XPATH
     value: >-
-      //button[. = '
-                  Cancel
-                ']
+      //div[. = '
+                    1003
+                  ']
     priority: 0
   - name: XPATH
-    value: //footer//button[1]
+    value: //td[2]/div
     priority: 1
   - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div[2]/form/div/div/div[1]/div/div/footer/div/button[1]
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[2]/div
+    priority: 2
+- id: xofVotNRnEC4NBhDYSGBHg
+  name: Delete7
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDA
+    name: u
+    source: System
+  locators:
+  - name: XPATH
+    value: //u[. = 'Delete']
+    priority: 0
+  - name: XPATH
+    value: //a[2]/u
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[5]/a[2]/u
     priority: 2
 projectParameters: []
 addons:
@@ -2060,10 +1910,6 @@ addons:
   source: Store
   version: 1.2
   actions:
-  - id: U0rU8_fPDE25vsF7Hj2_JA
-    name: Scroll to element that contains text
-    description: Run Scroll to element that contains text
-    className: io.testproject.addon.scrollelement.ByContainsText
   - id: nnPtZ4gVPEqI8xOtbNEAqg
     name: Scroll to element by xpath
     description: Run Scroll to element by xpath
