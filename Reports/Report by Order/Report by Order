@@ -1,7 +1,7 @@
-id: RA-F5n1HiEi7fnU0SD95Rg
+id: lgC_px7d-0WriCD8jcmvKA
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-08-31T09:32:47.8532687Z
+created: 2022-08-31T09:34:56.4450969Z
 protocol: 1
 tests:
 - id: ocmfpe2Nykmpwlxqy_pdzw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-08-31T09:08:38.0000000
-  modificationDate: 2022-08-31T09:31:21.0000000
+  modificationDate: 2022-08-31T09:34:54.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -50,10 +50,154 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: GkKYefUGJ0CJ_j_umKGpCg
+  - id: 1XT1_whVy0aauYrt2XCOLw
+    comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
     order: 2
+    repeat: 1
+    type: Test
+    targetTestId: bRkRhiRuxEaTBi0RIJd6Jw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cgeR70qrYkaT1eanmOmkaQ
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Test
+    targetTestId: ZLyDrfuxWEeqMjKgP4nm6A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rp3eLbLM2E-RvXcpTHM4Tw
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Test
+    targetTestId: eGWXmn9-QUm7esudJtCa6A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: B_IgQIuwOE-as5BUrbb4hQ
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Test
+    targetTestId: 95SwHjlMbkW-vwlKfT-e9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OGGFGsYBEUGqSmJ-IXnOUw
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Test
+    targetTestId: HBB0LrVgIkOGaTtP2I2Fdg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nALjB35NfEWp0fgXInFKgg
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Test
+    targetTestId: P8XoXeO8M0CU2u3rxFfPug
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    type: Input
+auxTests:
+- id: bRkRhiRuxEaTBi0RIJd6Jw
+  name: Login Sukses
+  description: This test was auto generated from steps of the 'Report by Order' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-08-31T09:33:11.0000000
+  modificationDate: 2022-08-31T09:33:11.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: GkKYefUGJ0CJ_j_umKGpCg
+    enabled: true
+    invertResult: false
+    order: 1
     repeat: 1
     type: Action
     elementId: ROww24ab8EyKpYCyJ8K6Yw
@@ -73,7 +217,7 @@ tests:
   - id: ZNTX-RSCXkO46cU2KdeBrA
     enabled: true
     invertResult: false
-    order: 3
+    order: 2
     repeat: 1
     type: Action
     elementId: ROww24ab8EyKpYCyJ8K6Yw
@@ -96,7 +240,7 @@ tests:
   - id: F1ZmgreseEm1j9NSbmvUYQ
     enabled: true
     invertResult: false
-    order: 4
+    order: 3
     repeat: 1
     type: Action
     elementId: oRq8cfJgg0qjVnAjMWISFg
@@ -116,7 +260,7 @@ tests:
   - id: 2P0swGM70UKTcY2PYy0Itw
     enabled: true
     invertResult: false
-    order: 5
+    order: 4
     repeat: 1
     type: Action
     elementId: oRq8cfJgg0qjVnAjMWISFg
@@ -139,7 +283,7 @@ tests:
   - id: v5KRsjbvvk6RSFPeR8cSvg
     enabled: true
     invertResult: false
-    order: 6
+    order: 5
     repeat: 1
     type: Action
     elementId: e9-Kq9bGykew-9HS4B1WcQ
@@ -156,11 +300,30 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  parameters: []
+- id: ZLyDrfuxWEeqMjKgP4nm6A
+  name: Click Report Menu
+  description: This test was auto generated from steps of the 'Report by Order' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-08-31T09:33:51.0000000
+  modificationDate: 2022-08-31T09:33:51.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
   - id: PjmuWvqb3UC5cs5y1l64Zg
     comments: ''
     enabled: true
     invertResult: false
-    order: 7
+    order: 1
     repeat: 1
     type: Action
     elementId: qIiC4OhZu0SABZWTyd5idA
@@ -181,7 +344,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 8
+    order: 2
     repeat: 1
     type: Addon
     settings:
@@ -204,10 +367,29 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  parameters: []
+- id: eGWXmn9-QUm7esudJtCa6A
+  name: Click Report by Order
+  description: This test was auto generated from steps of the 'Report by Order' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-08-31T09:34:10.0000000
+  modificationDate: 2022-08-31T09:34:10.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
   - id: bpPAvAiPckyol4tsFnjnrg
     enabled: true
     invertResult: false
-    order: 9
+    order: 1
     repeat: 1
     type: Action
     elementId: LdxTzSkvxU686HM9wV0eXQ
@@ -224,10 +406,29 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  parameters: []
+- id: 95SwHjlMbkW-vwlKfT-e9A
+  name: Verify Element
+  description: This test was auto generated from steps of the 'Report by Order' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-08-31T09:34:33.0000000
+  modificationDate: 2022-08-31T09:34:33.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
   - id: FPPcZ6v3L0W08AFLbYAFFg
     enabled: true
     invertResult: false
-    order: 10
+    order: 1
     repeat: 1
     type: Action
     elementId: 7HqeBf59hUmGiRjSZzmu9A
@@ -247,7 +448,7 @@ tests:
   - id: o6v_-upg8kKZp6f0_P5zmA
     enabled: true
     invertResult: false
-    order: 11
+    order: 2
     repeat: 1
     type: Action
     elementId: 7HqeBf59hUmGiRjSZzmu9A
@@ -267,7 +468,7 @@ tests:
   - id: PsmKf4UyIEK-olM1ghDudA
     enabled: true
     invertResult: false
-    order: 12
+    order: 3
     repeat: 1
     type: Action
     elementId: 1YdMSOmtyE2cbhwo_8bOkQ
@@ -287,7 +488,7 @@ tests:
   - id: hWsjx87RQU2OC9nM0o2rKQ
     enabled: true
     invertResult: false
-    order: 13
+    order: 4
     repeat: 1
     type: Action
     elementId: wVj0cGOyaUu9dtFIeEnd7w
@@ -304,10 +505,29 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  parameters: []
+- id: HBB0LrVgIkOGaTtP2I2Fdg
+  name: Click Download
+  description: This test was auto generated from steps of the 'Report by Order' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-08-31T09:34:45.0000000
+  modificationDate: 2022-08-31T09:34:45.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
   - id: exyXbOyA6UiluSzWR0OxCA
     enabled: true
     invertResult: false
-    order: 14
+    order: 1
     repeat: 1
     type: Action
     elementId: NBELizHaUUmB1Ud_BgdNJA
@@ -324,10 +544,29 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  parameters: []
+- id: P8XoXeO8M0CU2u3rxFfPug
+  name: Logout
+  description: This test was auto generated from steps of the 'Report by Order' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-08-31T09:34:54.0000000
+  modificationDate: 2022-08-31T09:34:54.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
   - id: 6Siwdmrq80CeKLArrmoR3g
     enabled: true
     invertResult: false
-    order: 15
+    order: 1
     repeat: 1
     type: Action
     elementId: 4YWEjYLMNE6GzSY1Dqr09A
@@ -347,7 +586,7 @@ tests:
   - id: IkH1ZqsQbUOHeZw9IkChmA
     enabled: true
     invertResult: false
-    order: 16
+    order: 2
     repeat: 1
     type: Action
     elementId: zsVQsi5Xz0i5Ipri9Iv7ag
@@ -364,12 +603,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://kfcjv-staging-3f3f4.firebaseapp.com/
-    type: Input
-auxTests: []
+  parameters: []
 elements:
 - id: oRq8cfJgg0qjVnAjMWISFg
   name: Login Password Field
