@@ -1,7 +1,7 @@
-id: J7K6CLmT9ku42zINNKgWuA
+id: Kjyu31EOn0O4L928L0ahbw
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:22:12.0029304Z
+created: 2022-08-31T18:54:58.3942700Z
 protocol: 1
 tests:
 - id: ZERMQ5pYJka2NPfmjasLYQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-02-14T09:34:08.0000000
-  modificationDate: 2022-03-09T10:23:00.0000000
+  modificationDate: 2022-08-31T18:33:40.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -110,14 +110,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: YTB-OanRGUK9fwjei1ikEA
-    comments: This step was auto generated from several steps
+  - id: MmXUinVIvkWAmOIK_8gtHg
+    comments: ''
     enabled: true
     invertResult: false
     order: 5
     repeat: 1
-    type: Test
-    targetTestId: bx49ZqRPj0unVChNsoqcGg
+    type: Action
+    elementId: MvnICJGNQkKa3qFlBH0bFg
     settings:
       sleepTime: -1
       timeout: -1
@@ -125,7 +125,8 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      source: None
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
     parameterMaps: []
     conditions: []
     validations: []
@@ -310,11 +311,91 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: OHowWwTxuECsdpnZTBtDXA
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: ZEClssJYNUKgSSb0hiM7Cg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3YbodgMjRUK5ha2WxpFt3Q
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: 8eIq4kVBhUqnaBsIf9awXg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4k9FiZx7ZE2CrZOZgsxViQ
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: Er9Af8c6aU6zuGNeRMWXvg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VXMOqZpZOk2l08uI7azi1A
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: XxCH7ra6uUuY1CmJHLN6rg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   - id: LVMm3xO4aU2sh62rw-hCkw
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
-    order: 15
+    order: 19
     repeat: 1
     type: Test
     targetTestId: 0W_LcjFSLUSKJVX0wWcfYA
@@ -334,7 +415,7 @@ tests:
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
-    order: 16
+    order: 20
     repeat: 1
     type: Test
     targetTestId: d7PkWm3CYkuN1aGDJ0i9eg
@@ -354,7 +435,7 @@ tests:
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
-    order: 17
+    order: 21
     repeat: 1
     type: Test
     targetTestId: aMZHEV7Dj0aRWYQitQcArQ
@@ -374,7 +455,7 @@ tests:
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
-    order: 18
+    order: 22
     repeat: 1
     type: Test
     targetTestId: KHwMKUEcxEauOYOKwEfuBg
@@ -390,11 +471,31 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: Y1Qup0ATM0-o0xH7LlqOYQ
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: TBx1qnfOdkGtMKUPkh5KAA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   - id: mJn219xl8EuRTpLqKUfWWA
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
-    order: 19
+    order: 24
     repeat: 1
     type: Test
     targetTestId: ZQgm7Swsb06_ghN6SqOKJw
@@ -414,7 +515,7 @@ tests:
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
-    order: 20
+    order: 25
     repeat: 1
     type: Test
     targetTestId: RUryuD_dLEuMJ9LVOWHrcQ
@@ -432,9 +533,9 @@ tests:
     contexts: []
   - id: hJQrAuCuXUCbDLpoA_FuJg
     comments: This step was auto generated from several steps
-    enabled: true
+    enabled: false
     invertResult: false
-    order: 21
+    order: 26
     repeat: 1
     type: Test
     targetTestId: FJgsFniYrkOJTiH3QboszQ
@@ -454,7 +555,7 @@ tests:
     comments: This step was auto generated from several steps
     enabled: true
     invertResult: false
-    order: 22
+    order: 27
     repeat: 1
     type: Test
     targetTestId: 80eYAPL1eUehWv-tU9nseQ
@@ -677,46 +778,6 @@ auxTests:
       takeScreenshotConditionType: Inherit
     action:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
-- id: bx49ZqRPj0unVChNsoqcGg
-  name: Verify Element - Button Refresh
-  description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-02-14T09:39:49.0000000
-  modificationDate: 2022-02-14T09:39:49.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: K3gsM0uDzEW3B_x2O7cBtg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: a0e3r-1Z7EGppgEOc7LNvg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
       source: System
     parameterMaps: []
     conditions: []
@@ -1286,6 +1347,546 @@ auxTests:
       takeScreenshotConditionType: Inherit
     action:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: d7PkWm3CYkuN1aGDJ0i9eg
+  name: Promo Successful Created
+  description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-03-09T09:46:21.0000000
+  modificationDate: 2022-03-09T09:46:21.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: Q4z3da7U3ki2w2EIdcfhzQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: xc0eAtSv1EKY0EHVbrKE4w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Do you want to finish and create this promotion?
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yVArZFWejECK5ODkJz709w
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: itNSjI_u0kO7cO5bd9gI0g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UXAPnARpe0KgBcVABpjE5g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: AvkHeu1mKky3w-_q-bJlKg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Record is created
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3EnHHUqvg0GDJh1f0gFOlg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: LqXfkS12202E22EY5VOhuw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: aMZHEV7Dj0aRWYQitQcArQ
+  name: Search Promo
+  description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-03-09T09:48:28.0000000
+  modificationDate: 2022-03-09T09:48:28.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: RLoPGhHawUqHUOCGwxRySg
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 9S6gov1JFE2imoG8zWv-VA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: p1KpLbSe70uowurL8yCYag
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: sTbhW3cb-U26BAxv536YPw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Buy 2
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KWfN1-R4FEuyeLIYpeqKwA
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: rBNAVMZN1EO4Nr1Y4D_Hww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: EkClPlvrG0a23ep84HOyAg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: VYgTi33Dy0-f_082M0NYBg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4KB3G3oBmUe33s8708U8GA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: JLTainpEQECDOJn2EYi99Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Buy 2 Get 1
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5HmyTOhB00GekHnsdzTuLg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: nnPtZ4gVPEqI8xOtbNEAqg
+      source: Store
+      addonId: m9XGecbZqU62EXYlC04AOQ
+    parameterMaps:
+    - name: xpath
+      value: //a[2]/u
+      direction: Input
+    - name: numberOfScrolls
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: KHwMKUEcxEauOYOKwEfuBg
+  name: View Detail Promo
+  description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-03-09T09:50:52.0000000
+  modificationDate: 2022-03-09T09:50:52.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: yEGDxzYCmU6dlQVLoYO3Ag
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: EyIhk30RG0eFGizp182Twg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PQ5cJztDUEaH6HoA6E5n2A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: WypI2ZMUH0elhtkNDOX7nA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zkvIUS2RTUiXGNKOQn6vJw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: WypI2ZMUH0elhtkNDOX7nA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RtlZbfaGEEyOdD963dmmhw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 3FFdQZDgkEekJpEVC20xRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: re1E8Ofzck6bLHV8jSZ72Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: nnPtZ4gVPEqI8xOtbNEAqg
+      source: Store
+      addonId: m9XGecbZqU62EXYlC04AOQ
+    parameterMaps:
+    - name: xpath
+      value: //form/div[1]/div/div/div[3]
+      direction: Input
+    - name: numberOfScrolls
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: k5NEl-C6A0ej_0MIcLoIUg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: nnPtZ4gVPEqI8xOtbNEAqg
+      source: Store
+      addonId: m9XGecbZqU62EXYlC04AOQ
+    parameterMaps:
+    - name: xpath
+      value: //form/div[1]/div/div/div[5]
+      direction: Input
+    - name: numberOfScrolls
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+- id: RUryuD_dLEuMJ9LVOWHrcQ
+  name: View List Promo-
+  description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-03-09T09:56:39.0000000
+  modificationDate: 2022-03-09T09:56:39.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: dpEIF6OXM0auAMDQFXUqOA
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 8gNvqb4Ml0qrf4X7CEvjOQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dmkakLp6e0qZw1sClw_fXg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 9S6gov1JFE2imoG8zWv-VA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5pV4AQ5-20yMO1a3IPKBtg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: sTbhW3cb-U26BAxv536YPw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: buy 1
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WJT3uGRMLE-vxRmUHi-mMA
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: rBNAVMZN1EO4Nr1Y4D_Hww
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: oOt357H5oEO9wvDIHFFLQQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: bOmBLQHjskyQMfxQMmQ_qw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
       source: System
     parameterMaps: []
     conditions: []
@@ -1974,423 +2575,6 @@ auxTests:
     validations: []
     contexts: []
   parameters: []
-- id: d7PkWm3CYkuN1aGDJ0i9eg
-  name: Promo Successful Created
-  description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-03-09T09:46:21.0000000
-  modificationDate: 2022-03-09T09:46:21.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: Q4z3da7U3ki2w2EIdcfhzQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: xc0eAtSv1EKY0EHVbrKE4w
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
-      source: System
-    parameterMaps:
-    - name: text
-      value: Do you want to finish and create this promotion?
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: yVArZFWejECK5ODkJz709w
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: itNSjI_u0kO7cO5bd9gI0g
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: UXAPnARpe0KgBcVABpjE5g
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: AvkHeu1mKky3w-_q-bJlKg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
-      source: System
-    parameterMaps:
-    - name: text
-      value: Record is created
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 3EnHHUqvg0GDJh1f0gFOlg
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: LqXfkS12202E22EY5VOhuw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
-- id: aMZHEV7Dj0aRWYQitQcArQ
-  name: Search Promo
-  description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-03-09T09:48:28.0000000
-  modificationDate: 2022-03-09T09:48:28.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: RLoPGhHawUqHUOCGwxRySg
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: 9S6gov1JFE2imoG8zWv-VA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: p1KpLbSe70uowurL8yCYag
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: sTbhW3cb-U26BAxv536YPw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: Buy 2
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: KWfN1-R4FEuyeLIYpeqKwA
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: rBNAVMZN1EO4Nr1Y4D_Hww
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: EkClPlvrG0a23ep84HOyAg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: VYgTi33Dy0-f_082M0NYBg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 4KB3G3oBmUe33s8708U8GA
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Action
-    elementId: JLTainpEQECDOJn2EYi99Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
-      source: System
-    parameterMaps:
-    - name: text
-      value: Buy 2 Get 1
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 5HmyTOhB00GekHnsdzTuLg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 6
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: nnPtZ4gVPEqI8xOtbNEAqg
-      source: Store
-      addonId: m9XGecbZqU62EXYlC04AOQ
-    parameterMaps:
-    - name: xpath
-      value: //a[2]/u
-      direction: Input
-    - name: numberOfScrolls
-      value: 100
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
-- id: KHwMKUEcxEauOYOKwEfuBg
-  name: View Detail Promo
-  description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-03-09T09:50:52.0000000
-  modificationDate: 2022-03-09T09:50:52.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: yEGDxzYCmU6dlQVLoYO3Ag
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: EyIhk30RG0eFGizp182Twg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: PQ5cJztDUEaH6HoA6E5n2A
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: WypI2ZMUH0elhtkNDOX7nA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: zkvIUS2RTUiXGNKOQn6vJw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: WypI2ZMUH0elhtkNDOX7nA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: RtlZbfaGEEyOdD963dmmhw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: 3FFdQZDgkEekJpEVC20xRw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: re1E8Ofzck6bLHV8jSZ72Q
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: nnPtZ4gVPEqI8xOtbNEAqg
-      source: Store
-      addonId: m9XGecbZqU62EXYlC04AOQ
-    parameterMaps:
-    - name: xpath
-      value: //form/div[1]/div/div/div[3]
-      direction: Input
-    - name: numberOfScrolls
-      value: 100
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: k5NEl-C6A0ej_0MIcLoIUg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 6
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: nnPtZ4gVPEqI8xOtbNEAqg
-      source: Store
-      addonId: m9XGecbZqU62EXYlC04AOQ
-    parameterMaps:
-    - name: xpath
-      value: //form/div[1]/div/div/div[5]
-      direction: Input
-    - name: numberOfScrolls
-      value: 100
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
 - id: ZQgm7Swsb06_ghN6SqOKJw
   name: Edit Promo-
   description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
@@ -2694,129 +2878,6 @@ auxTests:
     validations: []
     contexts: []
   parameters: []
-- id: RUryuD_dLEuMJ9LVOWHrcQ
-  name: View List Promo-
-  description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-03-09T09:56:39.0000000
-  modificationDate: 2022-03-09T09:56:39.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: dpEIF6OXM0auAMDQFXUqOA
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: 8gNvqb4Ml0qrf4X7CEvjOQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: dmkakLp6e0qZw1sClw_fXg
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    elementId: 9S6gov1JFE2imoG8zWv-VA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 5pV4AQ5-20yMO1a3IPKBtg
-    enabled: true
-    invertResult: false
-    order: 3
-    repeat: 1
-    type: Action
-    elementId: sTbhW3cb-U26BAxv536YPw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: buy 1
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: WJT3uGRMLE-vxRmUHi-mMA
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: rBNAVMZN1EO4Nr1Y4D_Hww
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: oOt357H5oEO9wvDIHFFLQQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Action
-    elementId: bOmBLQHjskyQMfxQMmQ_qw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a9ab4ae7-38ca-4451-a636-1b801a774503
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
 - id: FJgsFniYrkOJTiH3QboszQ
   name: Delete Promo
   description: This test was auto generated from steps of the 'KFCKU App Management - Promotion Setup' test
@@ -3048,8 +3109,27 @@ auxTests:
     contexts: []
   parameters: []
 elements:
-- id: 8KHFOg8FmUyX3kgsbGh7GA
-  name: New Promo
+- id: oRq8cfJgg0qjVnAjMWISFg
+  name: Login Password Field
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div/form/input[2]
+    priority: 3
+  - name: XPATH
+    value: //input[2]
+    priority: 2
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 1
+- id: e9-Kq9bGykew-9HS4B1WcQ
+  name: Login Sign In Button
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
@@ -3058,14 +3138,206 @@ elements:
   - name: XPATH
     value: >-
       //button[. = '
-                New Promo
+                  Sign In
+                ']
+    priority: 1
+  - name: XPATH
+    value: //button
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div/div/form/div/div[2]/button
+    priority: 2
+- id: ROww24ab8EyKpYCyJ8K6Yw
+  name: Login Email Field
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#email'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Email']
+    priority: 1
+  - name: XPATH
+    value: //form/input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div/form/input[1]
+    priority: 3
+- id: AvkHeu1mKky3w-_q-bJlKg
+  name: Global List - Add Global Record is created
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]
+    priority: 2
+  - name: XPATH
+    value: //body/div[2]/div/div[2]
+    priority: 0
+  - name: XPATH
+    value: //div[. = 'Record is created']
+    priority: 1
+- id: rBNAVMZN1EO4Nr1Y4D_Hww
+  name: Global List - Code Search Button
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //a[. = '
+                  Search
+                ']
+    priority: 0
+  - name: XPATH
+    value: //th/div/div/div/div/div[1]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[3]/tr/th/div/div/div/div/div[1]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[2]/tr/th/div/div/div/div/div[1]/a
+    priority: 3
+- id: lGJQVfn2mk22l8l2Vi3__w
+  name: Global List - Delete Delete Button
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Delete']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div[2]/button
+    priority: 2
+- id: 8gNvqb4Ml0qrf4X7CEvjOQ
+  name: Reset F
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //button[. = '
+                Reset Filter
+              ']
+    priority: 0
+- id: fuB9K_3opkS6Chh0IT1mHg
+  name: LI6
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //ul[6]/li
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[6]/li
+    priority: 1
+- id: LqXfkS12202E22EY5VOhuw
+  name: Button Record is Created - OK
+  description: Button Record is Created - OK After Add New Modifier Price
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[2]/div/div[3]/div/button
+    priority: 2
+  - name: XPATH
+    value: //button[. = 'OK']
+    priority: 0
+  - name: XPATH
+    value: //div[3]//button
+    priority: 1
+- id: PdHE0QEKYEq9c083cSIbrg
+  name: __BVID__28__BV_toggle_1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__28__BV_toggle_'
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[1]/div/div[2]/div/button
+    priority: 2
+- id: 8ftYBV9YwUimqdb0qEXafw
+  name: OK
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'OK']
+    priority: 0
+  - name: XPATH
+    value: //div[4]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[4]/div/button
+    priority: 2
+- id: -qBSoC64ZU69QrV2-k4SLA
+  name: Logout1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //a[. = '
+                Logout
               ']
     priority: 0
   - name: XPATH
-    value: //a/button
+    value: //div/a[2]
     priority: 1
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div/div[1]/div[2]/a/button
+    value: /html/body/div/div[1]/div[1]/div/div[2]/div/div/a[2]
+    priority: 2
+- id: wbXqFVCDrEaBjSVNKIvgNQ
+  name: Next1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+              Next
+            ']
+    priority: 0
+  - name: XPATH
+    value: //button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[2]/button[3]
     priority: 2
 - id: LyL6tWYOkkiucImR4G6bWw
   name: DIV49
@@ -3079,6 +3351,19 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div
+    priority: 1
+- id: DLO08_U1w0-A5m5OgwqhCg
+  name: LI43
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //ul[6]/div/ul[1]//li
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[6]/div/ul[1]/a/li
     priority: 1
 - id: 8KHFOg8FmUyX3kgsbGh7GA
   name: New Promo
@@ -3117,101 +3402,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/h4
-    priority: 2
-- id: XRJO7dgEn0iWe1r7v8iACw
-  name: Platform1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //span[. = '
-                  Platform
-                ']
-    priority: 0
-  - name: XPATH
-    value: //fieldset/div/div[1]/div/div/div/span
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[1]/span
-    priority: 2
-- id: hBvU31LL5Eaq91ICk6MCTw
-  name: HMD1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[. = '
-                    HMD
-                  ']
-    priority: 0
-  - name: XPATH
-    value: //div/div[3]/div/div[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[1]
-    priority: 2
-- id: sCIsOfNsr0OJn9iMVAQ-Pg
-  name: PNP1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[. = '
-                    PNP
-                  ']
-    priority: 0
-  - name: XPATH
-    value: //div/div[4]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[4]
-    priority: 2
-- id: zXeIpAdAtkCzASLrIOENOw
-  name: GoFood2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[. = '
-                    GoFood
-                  ']
-    priority: 0
-  - name: XPATH
-    value: //div[7]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[7]
-    priority: 2
-- id: 9XSHaUFEzEqgiYZOo1C2lg
-  name: GrabFood1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[. = '
-                    GrabFood
-                  ']
-    priority: 0
-  - name: XPATH
-    value: //div[10]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[10]
     priority: 2
 - id: xM07H5NYsEOI-EBL7kkVXQ
   name: SPAN14
@@ -3258,19 +3448,25 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[4]/button[2]
     priority: 2
-- id: bnVkoJxupkaUypT0QERMFw
-  name: DIV53
+- id: XRJO7dgEn0iWe1r7v8iACw
+  name: Platform1
   type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
     source: System
   locators:
   - name: XPATH
-    value: //fieldset/div/div[1]/div[1]/div/div[1]/div
+    value: >-
+      //span[. = '
+                  Platform
+                ']
     priority: 0
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div[1]/div
+    value: //fieldset/div/div[1]/div/div/div/span
     priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[1]/span
+    priority: 2
 - id: zon67YY2EEy7X18-BhR4Kw
   name: Apply to all outlet
   type:
@@ -3290,25 +3486,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div[4]/div[1]
     priority: 2
-- id: z0HoBRiOpESzknO3Gx8IVw
-  name: Add Outlet1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTM
-    name: Paragraph
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //p[. = '
-                        Add Outlet
-                      ']
-    priority: 0
-  - name: XPATH
-    value: //div/p
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div[4]/div[4]/div/div/p
-    priority: 2
 - id: G4EIYqblWkO9E69jG01ztQ
   name: SPAN16
   type:
@@ -3322,322 +3499,25 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div[4]/div[2]/div/div/label/span
     priority: 1
-- id: noBN76NdGUehYvDSIbjgLQ
-  name: DIV84
+- id: ku5elokeY0miJBiM2VXvug
+  name: Reward Menu
   type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //fieldset/div/div[1]/div[2]/div/div
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div
-    priority: 1
-- id: wbXqFVCDrEaBjSVNKIvgNQ
-  name: Next1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
+    id: jUwODgyNjAyNzk2NTk1NTM
+    name: Paragraph
     source: System
   locators:
   - name: XPATH
     value: >-
-      //button[. = '
-              Next
-            ']
-    priority: 0
-  - name: XPATH
-    value: //button[3]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[2]/button[3]
-    priority: 2
-- id: xc0eAtSv1EKY0EHVbrKE4w
-  name: Do you want to finish and create this...1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[. = '
-                Do you want to finish and create this promotion?
+      //p[. = '
+                Reward Menu
               ']
     priority: 0
   - name: XPATH
-    value: //div[2]/div/div[1]/div/div/div/div/div[2]
+    value: //div[6]/p
     priority: 1
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[2]/div/div[1]/div/div/div/div/div[2]
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[6]/p
     priority: 2
-- id: itNSjI_u0kO7cO5bd9gI0g
-  name: Yes1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[2]/div/div[1]//button[. = '
-                  Yes
-                ']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div/div[1]/div/div/div/div/div/button[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[2]/div/div[1]/div/div/div/div/div[3]/button[1]
-    priority: 2
-- id: AvkHeu1mKky3w-_q-bJlKg
-  name: Global List - Add Global Record is created
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div[2]/div/div[2]
-    priority: 2
-  - name: XPATH
-    value: //body/div[2]/div/div[2]
-    priority: 0
-  - name: XPATH
-    value: //div[. = 'Record is created']
-    priority: 1
-- id: LqXfkS12202E22EY5VOhuw
-  name: Button Record is Created - OK
-  description: Button Record is Created - OK After Add New Modifier Price
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div[2]/div/div[3]/div/button
-    priority: 2
-  - name: XPATH
-    value: //button[. = 'OK']
-    priority: 0
-  - name: XPATH
-    value: //div[3]//button
-    priority: 1
-- id: 9S6gov1JFE2imoG8zWv-VA
-  name: path10
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDM
-    name: Generic Web Element
-    source: System
-  locators:
-  - name: XPATH
-    value: //th[2]//*[name()='path']
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/thead/tr/th[2]/tr/th/div/span/*[name()='svg']/*[name()='path']
-    priority: 1
-- id: sTbhW3cb-U26BAxv536YPw
-  name: Search by Promo Name
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#__BVID__326'
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Search by Promo Name']
-    priority: 1
-  - name: XPATH
-    value: //input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/thead/tr/th[2]/tr/th/div/div/div/fieldset/div/input
-    priority: 3
-- id: rBNAVMZN1EO4Nr1Y4D_Hww
-  name: Global List - Code Search Button
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //a[. = '
-                  Search
-                ']
-    priority: 0
-  - name: XPATH
-    value: //th/div/div/div/div/div[1]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[3]/tr/th/div/div/div/div/div[1]/a
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[2]/tr/th/div/div/div/div/div[1]/a
-    priority: 3
-- id: VYgTi33Dy0-f_082M0NYBg
-  name: DIV54
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[2]/div[2]/div
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div
-    priority: 1
-- id: JLTainpEQECDOJn2EYi99Q
-  name: Buy 2 Get 1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTY
-    name: TableCell
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //td[. = '
-            Buy 2 Get 1
-          ']
-    priority: 0
-  - name: XPATH
-    value: //td[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr/td[2]
-    priority: 2
-- id: EyIhk30RG0eFGizp182Twg
-  name: View Details2
-  type:
-    id: jUwODgyNjAyNzk2NTk3MDA
-    name: u
-    source: System
-  locators:
-  - name: XPATH
-    value: //u[. = 'View Details']
-    priority: 0
-  - name: XPATH
-    value: //a[1]/u
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr/td[9]/a[1]/u
-    priority: 2
-- id: WypI2ZMUH0elhtkNDOX7nA
-  name: DIV55
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //form/div[1]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]
-    priority: 1
-- id: 3FFdQZDgkEekJpEVC20xRw
-  name: DIV87
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //form/div[1]/div/div/div[4]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/div[4]
-    priority: 1
-- id: 8gNvqb4Ml0qrf4X7CEvjOQ
-  name: Reset F
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[2]
-    priority: 1
-  - name: XPATH
-    value: >-
-      //button[. = '
-                Reset Filter
-              ']
-    priority: 0
-- id: 9S6gov1JFE2imoG8zWv-VA
-  name: path10
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDM
-    name: Generic Web Element
-    source: System
-  locators:
-  - name: XPATH
-    value: //th[2]//*[name()='path']
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/thead/tr/th[2]/tr/th/div/span/*[name()='svg']/*[name()='path']
-    priority: 1
-- id: sTbhW3cb-U26BAxv536YPw
-  name: Search by Promo Name
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#__BVID__326'
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Search by Promo Name']
-    priority: 1
-  - name: XPATH
-    value: //input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/thead/tr/th[2]/tr/th/div/div/div/fieldset/div/input
-    priority: 3
-- id: rBNAVMZN1EO4Nr1Y4D_Hww
-  name: Global List - Code Search Button
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //a[. = '
-                  Search
-                ']
-    priority: 0
-  - name: XPATH
-    value: //th/div/div/div/div/div[1]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[3]/tr/th/div/div/div/div/div[1]/a
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div/table/thead/tr/th[2]/tr/th/div/div/div/div/div[1]/a
-    priority: 3
-- id: bOmBLQHjskyQMfxQMmQ_qw
-  name: DIV60
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[2]/div[2]/div/div
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div
-    priority: 1
 - id: ihEEgnxswUqhr1TMzHacTg
   name: promo name
   type:
@@ -3714,93 +3594,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[1]/div[2]/div[2]/fieldset/div/div/div[1]/input
     priority: 3
-- id: tHYaC16RjUuCGmrteCEDUw
-  name: 312
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[2]/fieldset//span[. = '31']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/fieldset//span[40]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[1]/div[2]/div[2]/fieldset/div/div/div[2]/div/span[40]
-    priority: 2
-- id: jVcvJvMyKkyTfotaQrP_tA
-  name: DIV88
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //fieldset/div/div[1]/div[1]/div/div/div[1]/fieldset[1]/div/div/div/div[1]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[1]/fieldset[1]/div/div/div[2]/div[1]
-    priority: 1
-- id: E5IMzxdXkUSwlNEZRAL61g
-  name: DIV89
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //fieldset[2]/div/div/div/div[1]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[1]/fieldset[2]/div/div/div[2]/div[1]
-    priority: 1
-- id: 6pgAB3EUUUCn9-XWLP8a7Q
-  name: DIV90
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //fieldset/div/div[1]/div[1]/div/div/div[2]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[2]
-    priority: 1
-- id: K1kp5QhS5UeJXVAPLkaMhQ
-  name: DIV91
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //fieldset/div/div[1]/div[1]/div/div/div[3]/div
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[3]/div
-    priority: 1
-- id: 4wuVsySnRECDsh4sP0fFgw
-  name: Scheme 11
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[. = '
-              Scheme 1
-            ']
-    priority: 0
-  - name: XPATH
-    value: //fieldset/div/div[1]/div[2]/div/div/div[1]/div[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[1]
-    priority: 2
 - id: -cNk8PuLJUSk_Rhi3rMXGg
   name: Condition
   type:
@@ -3819,107 +3612,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[1]/p
-    priority: 2
-- id: ColcPYE3KkqTmKrZj-D5pA
-  name: amountType
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#__BVID__189'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='amountType']"
-    priority: 1
-  - name: XPATH
-    value: //select[. = 'Subtotal']
-    priority: 2
-  - name: XPATH
-    value: //select[@placeholder = 'please select conditon']
-    priority: 3
-  - name: XPATH
-    value: //div[1]/fieldset/div/select
-    priority: 4
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[1]/fieldset/div/select
-    priority: 5
-- id: BYAIvYzCgkCKtnTDaSI5tw
-  name: Value Type
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTM
-    name: Paragraph
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //p[. = '
-                Value Type
-              ']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div/div/div[1]/div[2]/div[2]/p
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[2]/p
-    priority: 2
-- id: sUoubWYtR0OpjeuaSbrfBQ
-  name: conditionType
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#__BVID__291'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='conditionType']"
-    priority: 1
-  - name: XPATH
-    value: //select[@placeholder = 'please select value type']
-    priority: 2
-  - name: XPATH
-    value: //div[2]/fieldset//select
-    priority: 3
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[2]/fieldset/div/select
-    priority: 4
-- id: nIYuRZz9H0-ik7x4N-3FDQ
-  name: Minimum Price1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTM
-    name: Paragraph
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //p[. = '
-                Minimum Price
-              ']
-    priority: 0
-  - name: XPATH
-    value: //div[3]/p
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[3]/p
-    priority: 2
-- id: YChbGb5oYUC7leL2FETSmw
-  name: __BVID__598
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#__BVID__598'
-    priority: 0
-  - name: XPATH
-    value: //div[3]/div/div/div/input[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[3]/div/div/div/input[1]
     priority: 2
 - id: 5vkdb58PLEOhGQozYwuiAw
   name: Reward
@@ -4000,8 +3692,40 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[5]/div/div/div/input
     priority: 3
-- id: ku5elokeY0miJBiM2VXvug
-  name: Reward Menu
+- id: itNSjI_u0kO7cO5bd9gI0g
+  name: Yes1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[2]/div/div[1]//button[. = '
+                  Yes
+                ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div/div/div/div/button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[2]/div/div[1]/div/div/div/div/div[3]/button[1]
+    priority: 2
+- id: bnVkoJxupkaUypT0QERMFw
+  name: DIV53
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //fieldset/div/div[1]/div[1]/div/div[1]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div[1]/div
+    priority: 1
+- id: z0HoBRiOpESzknO3Gx8IVw
+  name: Add Outlet1
   type:
     id: jUwODgyNjAyNzk2NTk1NTM
     name: Paragraph
@@ -4010,14 +3734,189 @@ elements:
   - name: XPATH
     value: >-
       //p[. = '
-                Reward Menu
+                        Add Outlet
+                      ']
+    priority: 0
+  - name: XPATH
+    value: //div/p
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div[4]/div[4]/div/div/p
+    priority: 2
+- id: 4wuVsySnRECDsh4sP0fFgw
+  name: Scheme 11
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+              Scheme 1
+            ']
+    priority: 0
+  - name: XPATH
+    value: //fieldset/div/div[1]/div[2]/div/div/div[1]/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[1]
+    priority: 2
+- id: BYAIvYzCgkCKtnTDaSI5tw
+  name: Value Type
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTM
+    name: Paragraph
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //p[. = '
+                Value Type
               ']
     priority: 0
   - name: XPATH
-    value: //div[6]/p
+    value: //div[2]/div/div/div[1]/div[2]/div[2]/p
     priority: 1
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[6]/p
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[2]/p
+    priority: 2
+- id: sUoubWYtR0OpjeuaSbrfBQ
+  name: conditionType
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__291'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='conditionType']"
+    priority: 1
+  - name: XPATH
+    value: //select[@placeholder = 'please select value type']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/fieldset//select
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[2]/fieldset/div/select
+    priority: 4
+- id: xc0eAtSv1EKY0EHVbrKE4w
+  name: Do you want to finish and create this...1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+                Do you want to finish and create this promotion?
+              ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[1]/div/div/div/div/div[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[2]/div/div[1]/div/div/div/div/div[2]
+    priority: 2
+- id: sTbhW3cb-U26BAxv536YPw
+  name: Search by Promo Name
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__326'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Search by Promo Name']
+    priority: 1
+  - name: XPATH
+    value: //input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/thead/tr/th[2]/tr/th/div/div/div/fieldset/div/input
+    priority: 3
+- id: VYgTi33Dy0-f_082M0NYBg
+  name: DIV54
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div[2]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div
+    priority: 1
+- id: EyIhk30RG0eFGizp182Twg
+  name: View Details2
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDA
+    name: u
+    source: System
+  locators:
+  - name: XPATH
+    value: //u[. = 'View Details']
+    priority: 0
+  - name: XPATH
+    value: //a[1]/u
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr/td[9]/a[1]/u
+    priority: 2
+- id: WypI2ZMUH0elhtkNDOX7nA
+  name: DIV55
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //form/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]
+    priority: 1
+- id: TBx1qnfOdkGtMKUPkh5KAA
+  name: Back
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+              Back
+            ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[2]/button
+    priority: 2
+- id: hGDS2UPaoEG6Js3oKClSMQ
+  name: Edit6
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDA
+    name: u
+    source: System
+  locators:
+  - name: XPATH
+    value: //u[. = 'Edit']
+    priority: 0
+  - name: XPATH
+    value: //a[2]/u
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr/td[9]/a[2]/u
     priority: 2
 - id: xbAIVQUSGUa5NCRJIs_ckA
   name: DIV57
@@ -4032,6 +3931,213 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[6]/fieldset/div/div/div[2]
     priority: 1
+- id: bOmBLQHjskyQMfxQMmQ_qw
+  name: DIV60
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div[2]/div/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div
+    priority: 1
+- id: OAUdjehqIkagJyiUYGbAjA
+  name: Delete8
+  type:
+    id: jUwODgyNjAyNzk2NTk3MDA
+    name: u
+    source: System
+  locators:
+  - name: XPATH
+    value: //u[. = 'Delete']
+    priority: 0
+  - name: XPATH
+    value: //a[3]/u
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr/td[9]/a[3]/u
+    priority: 2
+- id: 4GHzXYYf10WfUvZv8oiNxw
+  name: Promotion is deleted
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'Promotion is deleted']
+    priority: 0
+  - name: XPATH
+    value: //body/div[2]/div/div[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]
+    priority: 2
+- id: hBvU31LL5Eaq91ICk6MCTw
+  name: HMD1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    HMD
+                  ']
+    priority: 0
+  - name: XPATH
+    value: //div/div[3]/div/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[1]
+    priority: 2
+- id: sCIsOfNsr0OJn9iMVAQ-Pg
+  name: PNP1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    PNP
+                  ']
+    priority: 0
+  - name: XPATH
+    value: //div/div[4]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[4]
+    priority: 2
+- id: zXeIpAdAtkCzASLrIOENOw
+  name: GoFood2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    GoFood
+                  ']
+    priority: 0
+  - name: XPATH
+    value: //div[7]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[7]
+    priority: 2
+- id: 9XSHaUFEzEqgiYZOo1C2lg
+  name: GrabFood1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[. = '
+                    GrabFood
+                  ']
+    priority: 0
+  - name: XPATH
+    value: //div[10]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/div/div[3]/div/div[10]
+    priority: 2
+- id: noBN76NdGUehYvDSIbjgLQ
+  name: DIV84
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //fieldset/div/div[1]/div[2]/div/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div
+    priority: 1
+- id: tHYaC16RjUuCGmrteCEDUw
+  name: 312
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/fieldset//span[. = '31']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/fieldset//span[40]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[1]/div[2]/div[2]/fieldset/div/div/div[2]/div/span[40]
+    priority: 2
+- id: 8eIq4kVBhUqnaBsIf9awXg
+  name: P1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTM
+    name: Paragraph
+    source: System
+  locators:
+  - name: XPATH
+    value: //fieldset[2]//p
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[1]/fieldset[2]/div/div/div[2]/div[1]/p
+    priority: 1
+- id: ColcPYE3KkqTmKrZj-D5pA
+  name: amountType
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__189'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='amountType']"
+    priority: 1
+  - name: XPATH
+    value: //select[. = 'Subtotal']
+    priority: 2
+  - name: XPATH
+    value: //select[@placeholder = 'please select conditon']
+    priority: 3
+  - name: XPATH
+    value: //div[1]/fieldset/div/select
+    priority: 4
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[1]/fieldset/div/select
+    priority: 5
+- id: nIYuRZz9H0-ik7x4N-3FDQ
+  name: Minimum Price1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTM
+    name: Paragraph
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //p[. = '
+                Minimum Price
+              ']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/p
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[3]/p
+    priority: 2
 - id: sxhePvR6lE6R5BVpWxL_nQ
   name: 10502 - Free Kruncy Burger4
   type:
@@ -4047,6 +4153,138 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[6]/fieldset/div/div/div[3]/ul/li[2]/span/span
+    priority: 2
+- id: F_rIqJMmQEuiUpdIlR8ORw
+  name: Save2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+              Save
+            ']
+    priority: 0
+  - name: XPATH
+    value: //div/button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[4]/button[3]
+    priority: 2
+- id: 9S6gov1JFE2imoG8zWv-VA
+  name: path10
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //th[2]//*[name()='path']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/thead/tr/th[2]/tr/th/div/span/*[name()='svg']/*[name()='path']
+    priority: 1
+- id: JLTainpEQECDOJn2EYi99Q
+  name: Buy 2 Get 1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //td[. = '
+            Buy 2 Get 1
+          ']
+    priority: 0
+  - name: XPATH
+    value: //td[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr/td[2]
+    priority: 2
+- id: 3FFdQZDgkEekJpEVC20xRw
+  name: DIV87
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //form/div[1]/div/div/div[4]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/div[4]
+    priority: 1
+- id: jVcvJvMyKkyTfotaQrP_tA
+  name: DIV88
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //fieldset/div/div[1]/div[1]/div/div/div[1]/fieldset[1]/div/div/div/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[1]/fieldset[1]/div/div/div[2]/div[1]
+    priority: 1
+- id: E5IMzxdXkUSwlNEZRAL61g
+  name: DIV89
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //fieldset[2]/div/div/div/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[1]/fieldset[2]/div/div/div[2]/div[1]
+    priority: 1
+- id: 6pgAB3EUUUCn9-XWLP8a7Q
+  name: DIV90
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //fieldset/div/div[1]/div[1]/div/div/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[2]
+    priority: 1
+- id: K1kp5QhS5UeJXVAPLkaMhQ
+  name: DIV91
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //fieldset/div/div[1]/div[1]/div/div/div[3]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[3]/div
+    priority: 1
+- id: YChbGb5oYUC7leL2FETSmw
+  name: __BVID__598
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__598'
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/div/input[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[2]/div[3]/div/div/div/input[1]
     priority: 2
 - id: fRAr1ssgcUGuCQFu6dSDuw
   name: 10502 - Free Kruncy Burger5
@@ -4086,101 +4324,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[2]/div/div/div[1]/div[3]/a
     priority: 2
-- id: hGDS2UPaoEG6Js3oKClSMQ
-  name: Edit6
-  type:
-    id: jUwODgyNjAyNzk2NTk3MDA
-    name: u
-    source: System
-  locators:
-  - name: XPATH
-    value: //u[. = 'Edit']
-    priority: 0
-  - name: XPATH
-    value: //a[2]/u
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr/td[9]/a[2]/u
-    priority: 2
-- id: Nr85-YIZ4kG8dP_MyjZcbw
-  name: Next2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //button[. = '
-              Next
-            ']
-    priority: 0
-  - name: XPATH
-    value: //div[4]/button[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[4]/button[2]
-    priority: 2
-- id: wbXqFVCDrEaBjSVNKIvgNQ
-  name: Next1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //button[. = '
-              Next
-            ']
-    priority: 0
-  - name: XPATH
-    value: //button[3]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[2]/button[3]
-    priority: 2
-- id: ihEEgnxswUqhr1TMzHacTg
-  name: promo name
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#input-large'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='promo name']"
-    priority: 1
-  - name: XPATH
-    value: //input[@placeholder = 'Enter promo name']
-    priority: 2
-  - name: XPATH
-    value: //fieldset/div/input
-    priority: 3
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[1]/div[1]/div/fieldset/div/input
-    priority: 4
-- id: N6V2Fh-oLEa1otydaTPsYw
-  name: end date2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='end date']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Enter end date']
-    priority: 1
-  - name: XPATH
-    value: //div[2]/fieldset//input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[1]/div[2]/div[2]/fieldset/div/div/div[1]/input
-    priority: 3
 - id: 2qeXsEcGF0e29rF3T7LrDA
   name: 7
   type:
@@ -4196,93 +4339,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[1]/div[2]/div[2]/fieldset/div/div/div[2]/div/span[16]
-    priority: 2
-- id: F_rIqJMmQEuiUpdIlR8ORw
-  name: Save2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //button[. = '
-              Save
-            ']
-    priority: 0
-  - name: XPATH
-    value: //div/button[3]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[4]/button[3]
-    priority: 2
-- id: itNSjI_u0kO7cO5bd9gI0g
-  name: Yes1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[2]/div/div[1]//button[. = '
-                  Yes
-                ']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div/div[1]/div/div/div/div/div/button[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[2]/div/div[1]/div/div/div/div/div[3]/button[1]
-    priority: 2
-- id: 8ftYBV9YwUimqdb0qEXafw
-  name: OK
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'OK']
-    priority: 0
-  - name: XPATH
-    value: //div[4]//button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[4]/div/button
-    priority: 2
-- id: 8gNvqb4Ml0qrf4X7CEvjOQ
-  name: Reset F
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[2]
-    priority: 1
-  - name: XPATH
-    value: >-
-      //button[. = '
-                Reset Filter
-              ']
-    priority: 0
-- id: OAUdjehqIkagJyiUYGbAjA
-  name: Delete8
-  type:
-    id: jUwODgyNjAyNzk2NTk3MDA
-    name: u
-    source: System
-  locators:
-  - name: XPATH
-    value: //u[. = 'Delete']
-    priority: 0
-  - name: XPATH
-    value: //a[3]/u
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/table/tbody/tr/td[9]/a[3]/u
     priority: 2
 - id: pnLaJGbG8U6vfHu98NabCg
   name: Are you sure you want to delete this ...8
@@ -4300,226 +4356,64 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div/div[2]/div
     priority: 2
-- id: lGJQVfn2mk22l8l2Vi3__w
-  name: Global List - Delete Delete Button
-  description: ''
+- id: MvnICJGNQkKa3qFlBH0bFg
+  name: Refresh3
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
   - name: XPATH
-    value: //button[. = 'Delete']
+    value: >-
+      //button[. = '
+                  Refresh
+                ']
     priority: 0
   - name: XPATH
-    value: //div[3]/div[2]/button
+    value: //span/button[1]
     priority: 1
   - name: XPATH
-    value: /html/body/div[2]/div/div[3]/div[2]/button
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div/div[1]/div[2]/span[1]/button[1]
     priority: 2
-- id: 4GHzXYYf10WfUvZv8oiNxw
-  name: Promotion is deleted
+- id: ZEClssJYNUKgSSb0hiM7Cg
+  name: DIV96
   type:
     id: jUwODgyNjAyNzk2NTk1NjM
     name: Div
     source: System
   locators:
   - name: XPATH
-    value: //div[. = 'Promotion is deleted']
+    value: //fieldset/div/div[1]/div[1]/div/div/div[1]/fieldset[1]/div/div/div/div[1]
     priority: 0
   - name: XPATH
-    value: //body/div[2]/div/div[2]
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[1]/fieldset[1]/div/div/div[2]/div[1]
     priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[2]
-    priority: 2
-- id: 8ftYBV9YwUimqdb0qEXafw
-  name: OK
+- id: Er9Af8c6aU6zuGNeRMWXvg
+  name: DIV97
   type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
     source: System
   locators:
   - name: XPATH
-    value: //button[. = 'OK']
+    value: //fieldset[2]/div/div/div/div[1]
     priority: 0
   - name: XPATH
-    value: //div[4]//button
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]/div/div/div[1]/fieldset[2]/div/div/div[2]/div[1]
     priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[4]/div/button
-    priority: 2
-- id: 8gNvqb4Ml0qrf4X7CEvjOQ
-  name: Reset F
-  description: ''
+- id: XxCH7ra6uUuY1CmJHLN6rg
+  name: DIV98
   type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
     source: System
   locators:
   - name: XPATH
-    value: //button[2]
-    priority: 1
-  - name: XPATH
-    value: >-
-      //button[. = '
-                Reset Filter
-              ']
-    priority: 0
-- id: PdHE0QEKYEq9c083cSIbrg
-  name: __BVID__28__BV_toggle_1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#__BVID__28__BV_toggle_'
+    value: //form/div[1]/div/div/fieldset/div/div[1]/div[1]
     priority: 0
   - name: XPATH
-    value: //div[2]/div/button
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div[1]
     priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[1]/div/div[2]/div/button
-    priority: 2
-- id: -qBSoC64ZU69QrV2-k4SLA
-  name: Logout1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //a[. = '
-                Logout
-              ']
-    priority: 0
-  - name: XPATH
-    value: //div/a[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[1]/div/div[2]/div/div/a[2]
-    priority: 2
-- id: ROww24ab8EyKpYCyJ8K6Yw
-  name: Login Email Field
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#email'
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Email']
-    priority: 1
-  - name: XPATH
-    value: //form/input[1]
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div/form/input[1]
-    priority: 3
-- id: oRq8cfJgg0qjVnAjMWISFg
-  name: Login Password Field
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#password'
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div/div/form/input[2]
-    priority: 3
-  - name: XPATH
-    value: //input[2]
-    priority: 2
-  - name: XPATH
-    value: //input[@placeholder = 'Password']
-    priority: 1
-- id: e9-Kq9bGykew-9HS4B1WcQ
-  name: Login Sign In Button
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //button[. = '
-                  Sign In
-                ']
-    priority: 1
-  - name: XPATH
-    value: //button
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div/div/form/div/div[2]/button
-    priority: 2
-- id: fuB9K_3opkS6Chh0IT1mHg
-  name: LI6
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //ul[6]/li
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[6]/li
-    priority: 1
-- id: DLO08_U1w0-A5m5OgwqhCg
-  name: LI43
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTk
-    name: ListItem
-    source: System
-  locators:
-  - name: XPATH
-    value: //ul[6]/div/ul[1]//li
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[6]/div/ul[1]/a/li
-    priority: 1
-- id: a0e3r-1Z7EGppgEOc7LNvg
-  name: Refresh2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[2]/button[1]
-    priority: 1
-  - name: XPATH
-    value: >-
-      //button[. = '
-                Refresh
-              ']
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[1]/div[2]/button[1]
-    priority: 2
-- id: 8gNvqb4Ml0qrf4X7CEvjOQ
-  name: Reset F
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[2]
-    priority: 1
-  - name: XPATH
-    value: >-
-      //button[. = '
-                Reset Filter
-              ']
-    priority: 0
 projectParameters: []
 addons:
 - id: m9XGecbZqU62EXYlC04AOQ
