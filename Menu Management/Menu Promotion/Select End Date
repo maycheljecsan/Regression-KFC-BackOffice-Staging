@@ -1,0 +1,70 @@
+id: ESUfwMVqlEmh1gI2rAu0jA
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-11-16T07:37:26.9557396Z
+protocol: 1
+tests:
+- id: cy7YWlNmNkuukjmWIa2N9g
+  name: Select End Date
+  description: This test was auto generated from steps of the 'Menu Promotion' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-10-25T07:03:39.0000000
+  modificationDate: 2022-10-25T07:03:39.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: OeKyg0cLqkmUHPztGJv7iA
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: s-K6r-6K7EOsc-8TiUghvA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: s-K6r-6K7EOsc-8TiUghvA
+  name: 315
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/fieldset//span[. = '31']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/fieldset//span[44]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div/div/fieldset/div/div/div/div/div/div[1]/div[2]/div[2]/fieldset/div/div/div[2]/div/span[44]
+    priority: 2
+projectParameters: []
+addons: []
