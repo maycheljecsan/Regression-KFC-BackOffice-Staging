@@ -1,0 +1,70 @@
+id: KETJdmKEF0ev0zUD8xkl-w
+projectId: gHMXNt1U0kShPfRxnEWcng
+projectName: Maychel KFCStaging-BackOffice
+created: 2022-11-16T07:37:23.7785930Z
+protocol: 1
+tests:
+- id: eGWXmn9-QUm7esudJtCa6A
+  name: Click Report by Order
+  description: This test was auto generated from steps of the 'Report by Order' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-08-31T09:34:10.0000000
+  modificationDate: 2022-08-31T09:34:10.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: jhoxZe3bH0CG9tjx3ikrgw
+    name: KFC Staging Back Office v2.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: bpPAvAiPckyol4tsFnjnrg
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: LdxTzSkvxU686HM9wV0eXQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: LdxTzSkvxU686HM9wV0eXQ
+  name: Transaction by order
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Transaction by order']
+    priority: 0
+  - name: XPATH
+    value: //ul[8]/div/ul[3]//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/ul[8]/div/ul[3]/a/li/div/span
+    priority: 2
+projectParameters: []
+addons: []
