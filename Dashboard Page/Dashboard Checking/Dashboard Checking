@@ -1,7 +1,7 @@
-id: lmg6R0ADqkqedfQ0UYXZBQ
+id: 2-qvitSGeE2G4tlY6XtXhw
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-07-19T09:23:12.1245434Z
+created: 2022-12-09T06:29:57.0896777Z
 protocol: 1
 tests:
 - id: 3-3cOXVrS0KpuCWIKN-CaQ
@@ -12,15 +12,15 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-14T10:11:59.0000000
-  modificationDate: 2022-06-10T06:30:56.0000000
+  modificationDate: 2022-12-09T06:29:57.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
+    stepSleepTime: 940
+    stepTimeout: 20728
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
+    stepTakeScreenshotConditionType: Always
   application:
     id: jhoxZe3bH0CG9tjx3ikrgw
     name: KFC Staging Back Office v2.0
@@ -521,70 +521,6 @@ auxTests:
     validations: []
     contexts: []
   parameters: []
-- id: l4OimcOjJEWsMhqLjThyJQ
-  name: Verified-Transaction Online vs Offline
-  description: This test was auto generated from steps of the 'Dashboard Checking' test
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 1.0
-  creationDate: 2022-06-10T06:30:41.0000000
-  modificationDate: 2022-06-10T06:30:41.0000000
-  settings:
-    automationAssistant: true
-    appId: jhoxZe3bH0CG9tjx3ikrgw
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  steps:
-  - id: lIbuqwhFCEW99PuHHby8qQ
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    elementId: g419uHOnvkCS0A-Qlo0D0A
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: SAuFW5FhEE-fQBpfDUWn8Q
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Addon
-    elementId: GlGpav62MEqRhgltwct8DA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: tlxDTzMxe0eErx2PMkql2g
-      source: Store
-      addonId: m9XGecbZqU62EXYlC04AOQ
-    parameterMaps:
-    - name: numberOfScrolls
-      value: 100
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  parameters: []
 - id: Cy8PdcX4eEynPNIGEV5_Hw
   name: Verified Offline Transaction Payment Method
   description: This test was auto generated from steps of the 'Dashboard Checking' test
@@ -1072,26 +1008,71 @@ auxTests:
     validations: []
     contexts: []
   parameters: []
+- id: l4OimcOjJEWsMhqLjThyJQ
+  name: Verified-Transaction Online vs Offline
+  description: This test was auto generated from steps of the 'Dashboard Checking' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-06-10T06:30:41.0000000
+  modificationDate: 2022-06-10T06:30:41.0000000
+  settings:
+    automationAssistant: true
+    appId: jhoxZe3bH0CG9tjx3ikrgw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: lIbuqwhFCEW99PuHHby8qQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: g419uHOnvkCS0A-Qlo0D0A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SAuFW5FhEE-fQBpfDUWn8Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    elementId: GlGpav62MEqRhgltwct8DA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: tlxDTzMxe0eErx2PMkql2g
+      source: Store
+      addonId: m9XGecbZqU62EXYlC04AOQ
+    parameterMaps:
+    - name: numberOfScrolls
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
 elements:
-- id: ROww24ab8EyKpYCyJ8K6Yw
-  name: Login Email Field
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#email'
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Email']
-    priority: 1
-  - name: XPATH
-    value: //form/input[1]
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div/div/form/input[1]
-    priority: 3
 - id: oRq8cfJgg0qjVnAjMWISFg
   name: Login Password Field
   type:
@@ -1129,6 +1110,60 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div/div/form/div/div[2]/button
+    priority: 2
+- id: ROww24ab8EyKpYCyJ8K6Yw
+  name: Login Email Field
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#email'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Email']
+    priority: 1
+  - name: XPATH
+    value: //form/input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div/div/form/input[1]
+    priority: 3
+- id: zsVQsi5Xz0i5Ipri9Iv7ag
+  name: Logout
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div[1]/div[1]/div/div[2]/div/div/a[2]
+    priority: 2
+  - name: XPATH
+    value: //a[2]
+    priority: 1
+  - name: XPATH
+    value: >-
+      //a[. = '
+                Logout
+              ']
+    priority: 0
+- id: PdHE0QEKYEq9c083cSIbrg
+  name: __BVID__28__BV_toggle_1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#__BVID__28__BV_toggle_'
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[1]/div/div[2]/div/button
     priority: 2
 - id: owwrLDKI0EusxM-tKf9_9w
   name: DIV69
@@ -1260,41 +1295,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[8]/div
     priority: 1
-- id: PdHE0QEKYEq9c083cSIbrg
-  name: __BVID__28__BV_toggle_1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#__BVID__28__BV_toggle_'
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[1]/div/div[2]/div/button
-    priority: 2
-- id: zsVQsi5Xz0i5Ipri9Iv7ag
-  name: Logout
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: /html/body/div/div[1]/div[1]/div/div[2]/div/div/a[2]
-    priority: 2
-  - name: XPATH
-    value: //a[2]
-    priority: 1
-  - name: XPATH
-    value: >-
-      //a[. = '
-                Logout
-              ']
-    priority: 0
 - id: g419uHOnvkCS0A-Qlo0D0A
   name: Transaction Online vs Offline
   type:
