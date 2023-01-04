@@ -1,7 +1,7 @@
-id: gZhg-eGLC0OwdJcak_gskw
+id: KaWY6Qa9sEiuSyjOLHvGCg
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:21:24.7544659Z
+created: 2023-01-04T03:35:52.8130187Z
 protocol: 1
 tests:
 - id: hRlxAUgLiEa3_VKGQxczqQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2021-12-14T10:02:31.0000000
-  modificationDate: 2021-12-14T10:02:31.0000000
+  modificationDate: 2022-12-09T06:39:39.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -72,6 +72,26 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: 6FyVv8BM30GFlpWsTOp3Mw
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: VNlN3BeC7EWjekc__kE22Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters: []
 auxTests: []
 elements:
@@ -103,6 +123,19 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[3]/div[2]/div
+    priority: 1
+- id: VNlN3BeC7EWjekc__kE22Q
+  name: IMG10
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div[2]/div/div/div[1]/div/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[3]/div[2]/div/div/div[1]/div[1]/img
     priority: 1
 projectParameters: []
 addons: []
