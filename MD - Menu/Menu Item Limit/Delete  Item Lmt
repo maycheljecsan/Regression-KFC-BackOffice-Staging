@@ -1,7 +1,7 @@
-id: hiKJ-fxi20qw1OL3NKPUXw
+id: LSB_yCAEZUaSjupvfleaOg
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-07-19T09:23:26.3720938Z
+created: 2023-01-04T03:36:05.6015493Z
 protocol: 1
 tests:
 - id: b8MEE_x1yUmfcx-uEjB_Jg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-07-18T10:01:52.0000000
-  modificationDate: 2022-07-18T10:01:52.0000000
+  modificationDate: 2022-12-09T07:55:36.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -156,13 +156,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: iw7bEcEt1UWNbE5XLHIkVw
+  - id: l2Ik8PV4jE20ntqfiYr9Nw
     enabled: true
     invertResult: false
     order: 7
     repeat: 1
     type: Action
-    elementId: 8gNvqb4Ml0qrf4X7CEvjOQ
+    elementId: vvCVbWhDtE6WFsSSKhLSlA
     settings:
       sleepTime: -1
       timeout: -1
@@ -173,6 +173,29 @@ tests:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xps_4uRg2k-tF6PAG1uq0g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5ac5d621-7a53-45a6-94e5-a3348be3969e
+      source: System
+    parameterMaps:
+    - name: milliseconds
+      value: 5000
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -241,23 +264,25 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div/div[4]/div/button
     priority: 2
-- id: 8gNvqb4Ml0qrf4X7CEvjOQ
-  name: Reset F
-  description: ''
+- id: vvCVbWhDtE6WFsSSKhLSlA
+  name: Reset Filter2
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
   - name: XPATH
+    value: >-
+      //button[. = '
+                  Reset Filter
+                ']
+    priority: 0
+  - name: XPATH
     value: //button[2]
     priority: 1
   - name: XPATH
-    value: >-
-      //button[. = '
-                Reset Filter
-              ']
-    priority: 0
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[1]/div[2]/span[1]/button[2]
+    priority: 2
 projectParameters: []
 addons:
 - id: m9XGecbZqU62EXYlC04AOQ
