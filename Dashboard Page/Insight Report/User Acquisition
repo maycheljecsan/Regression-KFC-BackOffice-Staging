@@ -1,7 +1,7 @@
-id: OIYJORQ8_065Rq-NCaIKQg
+id: fI-2nP3_5Umi_vJwsNL0bQ
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:21:29.3548368Z
+created: 2023-01-04T03:35:54.7943413Z
 protocol: 1
 tests:
 - id: 82GqMKYhuEeFanjNOkQfVg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2021-12-14T10:03:39.0000000
-  modificationDate: 2021-12-14T10:03:39.0000000
+  modificationDate: 2022-12-09T06:41:48.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -72,6 +72,206 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: GpZ7_BZpq0isXfOyeQMACw
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: RcFtl4l2Q02it8UGspW1EA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qnr3V9L1h0yszXfAQE9lRQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: kmq2fEROo0Czn5o1AvVDQw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: H0v539SllU-lfVv5omDfyA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: kmq2fEROo0Czn5o1AvVDQw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kDHQn-0uckigHP2z2HeuUg
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: RcFtl4l2Q02it8UGspW1EA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kTKaAkAn40umxSTVEnYe5A
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: aMbeggZbX0WSkX4EimTh2A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Jm2z2ewc-UyZK77taGzb3A
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: kmq2fEROo0Czn5o1AvVDQw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uDuvP5kGPkGY0bJBT9Fhfg
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: ihWdkXIvLEKHBEqscRdrAA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: AojbmC7H_0GgEpobS3G6BQ
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: kmq2fEROo0Czn5o1AvVDQw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ldGhQ5tIP0qfIREQnkzY7Q
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: LzFjqsWlYkaWCDS313e8ew
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Qdfdi7s7mECpBdiTxyvisg
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: rucUZGlcGUCXAswCkv9XkQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters: []
 auxTests: []
 elements:
@@ -103,6 +303,93 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[4]/div[2]/div
+    priority: 1
+- id: RcFtl4l2Q02it8UGspW1EA
+  name: DIV101
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div/div[1]/div[1]/div[2]/div[1]/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[4]/div[2]/div/div/div[1]/div[1]/div[2]/div[1]/div[2]
+    priority: 1
+- id: kmq2fEROo0Czn5o1AvVDQw
+  name: DIV102
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/div[2]/div/div/div[1]/div[1]/div[2]/div[2]/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[4]/div[2]/div/div/div[1]/div[1]/div[2]/div[2]/div[2]
+    priority: 1
+- id: aMbeggZbX0WSkX4EimTh2A
+  name: IOS1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //li/span[. = 'IOS']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/div[1]/div[1]/div[2]/div[1]/div[3]/ul/li[2]/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[4]/div[2]/div/div/div[1]/div[1]/div[2]/div[1]/div[3]/ul/li[2]/span
+    priority: 2
+- id: ihWdkXIvLEKHBEqscRdrAA
+  name: Weekly1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div/div[1]/div[1]/div[2]/div[2]/div[3]/ul/li/span[. = 'Weekly']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/div[1]/div[1]/div[2]/div[2]/div[3]/ul/li[2]/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[4]/div[2]/div/div/div[1]/div[1]/div[2]/div[2]/div[3]/ul/li[2]/span
+    priority: 2
+- id: LzFjqsWlYkaWCDS313e8ew
+  name: Monthly1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div/div[1]/div[1]/div[2]/div[2]/div[3]/ul/li/span[. = 'Monthly']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/div[1]/div[1]/div[2]/div[2]/div[3]/ul/li[3]/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[4]/div[2]/div/div/div[1]/div[1]/div[2]/div[2]/div[3]/ul/li[3]/span
+    priority: 2
+- id: rucUZGlcGUCXAswCkv9XkQ
+  name: IMG12
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div/div[1]/div[1]/div[2]/div[3]/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[4]/div[2]/div/div/div[1]/div[1]/div[2]/div[3]/img
     priority: 1
 projectParameters: []
 addons: []
