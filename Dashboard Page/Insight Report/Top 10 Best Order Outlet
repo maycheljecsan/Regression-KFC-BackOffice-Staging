@@ -1,7 +1,7 @@
-id: sMtkww5ZFUa3pJQNc1gS2A
+id: _HHuX19_6kuFEqQ56bI9yA
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:21:29.3552231Z
+created: 2023-01-04T03:35:54.7944464Z
 protocol: 1
 tests:
 - id: OpGFnC3tB06aza4scOW1lw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2021-12-14T10:06:43.0000000
-  modificationDate: 2021-12-14T10:06:43.0000000
+  modificationDate: 2022-12-09T06:45:19.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -27,11 +27,38 @@ tests:
     url: https://kfcjv-staging-3f3f4.firebaseapp.com/
     platform: Web
   steps:
-  - id: bvR3tVVoKE-8iA57_oVF9A
+  - id: 55m4UXw_t0iznb2dvwLhMQ
     comments: ''
     enabled: true
     invertResult: false
     order: 1
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: nnPtZ4gVPEqI8xOtbNEAqg
+      source: Store
+      addonId: m9XGecbZqU62EXYlC04AOQ
+    parameterMaps:
+    - name: xpath
+      value: //div[8]/div[1]//h3
+      direction: Input
+    - name: numberOfScrolls
+      value: 10
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bvR3tVVoKE-8iA57_oVF9A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
     repeat: 1
     type: Action
     elementId: Gv9lcs1tcUCabpe9SPTBMw
@@ -55,7 +82,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 2
+    order: 3
     repeat: 1
     type: Action
     elementId: ojp_7PQSWUuBkkGRU3LcAQ
@@ -67,6 +94,46 @@ tests:
       takeScreenshotConditionType: Inherit
     action:
       id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JNAzhGEuzkO8QtfL3iBjjA
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: uguM0fnXgkOIztUEMicvTA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GgXap3eN5Uy5SVqo8zClyw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 3hd4kPV7bU-AO5irM_y1Fg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
     conditions: []
@@ -104,5 +171,44 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[8]/div[1]/div
     priority: 1
+- id: uguM0fnXgkOIztUEMicvTA
+  name: DIV105
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[8]/div[1]/div/div/div[1]/div/div[2]/div[1]/div/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[8]/div[1]/div/div/div[1]/div/div[2]/div[1]/div/div[2]
+    priority: 1
+- id: 3hd4kPV7bU-AO5irM_y1Fg
+  name: IMG14
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div/div/div[1]/div/div[2]/div[2]/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[8]/div[1]/div/div/div[1]/div/div[2]/div[2]/img
+    priority: 1
 projectParameters: []
-addons: []
+addons:
+- id: m9XGecbZqU62EXYlC04AOQ
+  source: Store
+  version: 1.2
+  actions:
+  - id: nnPtZ4gVPEqI8xOtbNEAqg
+    name: Scroll to element by xpath
+    description: Run Scroll to element by xpath
+    className: io.testproject.addon.scrollelement.ByXpath
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 9515D3EA1A72962193B9A741936156612D00749D066C103B8C535043505EC1D9

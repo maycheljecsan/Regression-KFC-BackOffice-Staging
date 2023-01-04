@@ -1,7 +1,7 @@
-id: 92HH_bnp_kWzdwDU2VJSHw
+id: 1BO8XFqvd02GLsKENoLMVA
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:21:24.7544081Z
+created: 2023-01-04T03:35:52.8129839Z
 protocol: 1
 tests:
 - id: ayAhFRYlRkqHLEHIXwbwsg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2021-12-14T10:02:15.0000000
-  modificationDate: 2021-12-14T10:02:15.0000000
+  modificationDate: 2022-12-09T06:39:24.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -27,11 +27,38 @@ tests:
     url: https://kfcjv-staging-3f3f4.firebaseapp.com/
     platform: Web
   steps:
-  - id: 3FsWR6PYAUmPmcIDLzdOJQ
+  - id: LHeWrFqXYUWaRYlaJ5M6TQ
     comments: ''
     enabled: true
     invertResult: false
     order: 1
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: nnPtZ4gVPEqI8xOtbNEAqg
+      source: Store
+      addonId: m9XGecbZqU62EXYlC04AOQ
+    parameterMaps:
+    - name: xpath
+      value: //div[3]/div[1]//h3
+      direction: Input
+    - name: numberOfScrolls
+      value: 10
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3FsWR6PYAUmPmcIDLzdOJQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
     repeat: 1
     type: Action
     elementId: q4dyrwRUzUGmNZZOOgEQ2g
@@ -55,7 +82,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 2
+    order: 3
     repeat: 1
     type: Action
     elementId: jZBh3pGZgE-ypTSVeIdZAw
@@ -67,6 +94,26 @@ tests:
       takeScreenshotConditionType: Inherit
     action:
       id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JcB7YvZPZkas7amTTIlUFg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: J8DHNFkOf0SgkgMq7Gqexw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
     conditions: []
@@ -104,5 +151,31 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[3]/div[1]/div
     priority: 1
+- id: J8DHNFkOf0SgkgMq7Gqexw
+  name: IMG9
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div[1]/div/div/div[1]/div/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div[2]/div[3]/div[1]/div/div/div[1]/div[1]/img
+    priority: 1
 projectParameters: []
-addons: []
+addons:
+- id: m9XGecbZqU62EXYlC04AOQ
+  source: Store
+  version: 1.2
+  actions:
+  - id: nnPtZ4gVPEqI8xOtbNEAqg
+    name: Scroll to element by xpath
+    description: Run Scroll to element by xpath
+    className: io.testproject.addon.scrollelement.ByXpath
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 9515D3EA1A72962193B9A741936156612D00749D066C103B8C535043505EC1D9

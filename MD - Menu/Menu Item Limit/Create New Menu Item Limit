@@ -1,7 +1,7 @@
-id: 2WWuwmRBE0Kl7al49my66Q
+id: CXKkGrCoqE-xIAUqTydjCQ
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-07-19T09:23:17.9634529Z
+created: 2023-01-04T03:36:03.0610546Z
 protocol: 1
 tests:
 - id: GiCfkQaNQ02YKfsHIhZY1g
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-02-17T07:43:04.0000000
-  modificationDate: 2022-07-07T03:41:46.0000000
+  modificationDate: 2022-12-09T07:52:09.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -27,13 +27,13 @@ tests:
     url: https://kfcjv-staging-3f3f4.firebaseapp.com/
     platform: Web
   steps:
-  - id: 6npNJYexnEqR7BqeNQ6zgQ
+  - id: E0rEZbWj2U2Nj2Q3X3_E_g
     enabled: true
     invertResult: false
     order: 1
     repeat: 1
     type: Action
-    elementId: yyyB7WoFikaeKiG_qzKUZQ
+    elementId: jTg4gKQgm0uPjltTz3RBoA
     settings:
       sleepTime: -1
       timeout: -1
@@ -111,10 +111,33 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: zRWO9gtrDEu6UEZEpkkAbA
+  - id: _CmvzjWvp0ujds-RoB4d2w
+    comments: ''
     enabled: true
     invertResult: false
     order: 5
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5ac5d621-7a53-45a6-94e5-a3348be3969e
+      source: System
+    parameterMaps:
+    - name: milliseconds
+      value: 2000
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zRWO9gtrDEu6UEZEpkkAbA
+    enabled: true
+    invertResult: false
+    order: 6
     repeat: 1
     type: Action
     elementId: EkkNFdTECUiH1Vd5djrL4Q
@@ -134,7 +157,7 @@ tests:
   - id: J3IQ6p6X1UKfCJMCxS0tIQ
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     elementId: EkkNFdTECUiH1Vd5djrL4Q
@@ -149,7 +172,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: 878
+      value: 6130
       direction: Input
     conditions: []
     validations: []
@@ -157,7 +180,7 @@ tests:
   - id: gtrTUVDPak-cresTF48YdQ
     enabled: true
     invertResult: false
-    order: 7
+    order: 8
     repeat: 1
     type: Action
     elementId: fO3clOOtx026anIsnzVayQ
@@ -177,7 +200,7 @@ tests:
   - id: EyqT3_VNI0KtlPZq9rdEiA
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     elementId: fO3clOOtx026anIsnzVayQ
@@ -194,26 +217,6 @@ tests:
     - name: value
       value: HMD
       direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: XN8ocb4uFEiyxtIIBE8khg
-    enabled: true
-    invertResult: false
-    order: 9
-    repeat: 1
-    type: Action
-    elementId: fO3clOOtx026anIsnzVayQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -278,13 +281,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: YU_p-2cqRkuL-kvOhMaBwA
+  - id: g_uNBzzKI0qIR96Ut2N5xA
+    comments: ''
     enabled: true
     invertResult: false
     order: 13
     repeat: 1
     type: Action
-    elementId: 8gNvqb4Ml0qrf4X7CEvjOQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -292,17 +295,20 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: 5ac5d621-7a53-45a6-94e5-a3348be3969e
       source: System
-    parameterMaps: []
+    parameterMaps:
+    - name: milliseconds
+      value: 5000
+      direction: Input
     conditions: []
     validations: []
     contexts: []
   parameters: []
 auxTests: []
 elements:
-- id: yyyB7WoFikaeKiG_qzKUZQ
-  name: New Menu Item Limit
+- id: jTg4gKQgm0uPjltTz3RBoA
+  name: New Menu Item Limit1
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
@@ -311,14 +317,14 @@ elements:
   - name: XPATH
     value: >-
       //button[. = '
-                New Menu Item Limit
-              ']
+                  New Menu Item Limit
+                ']
     priority: 0
   - name: XPATH
     value: //button[3]
     priority: 1
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[1]/div[2]/button[3]
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[2]/div/div[1]/div[2]/span[1]/button[3]
     priority: 2
 - id: TM4CwZVDWEOwEgkZFxRBTA
   name: q
@@ -453,22 +459,5 @@ elements:
   - name: XPATH
     value: //div[3]//button
     priority: 1
-- id: 8gNvqb4Ml0qrf4X7CEvjOQ
-  name: Reset F
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[2]
-    priority: 1
-  - name: XPATH
-    value: >-
-      //button[. = '
-                Reset Filter
-              ']
-    priority: 0
 projectParameters: []
 addons: []

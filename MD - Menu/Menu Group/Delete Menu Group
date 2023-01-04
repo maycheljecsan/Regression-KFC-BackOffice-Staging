@@ -1,7 +1,7 @@
-id: ZdKcSMaUbkaz71SQlmwm9A
+id: le_Bkd_10k2z45HpzdlOqg
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:21:05.6187304Z
+created: 2023-01-04T03:35:52.0767298Z
 protocol: 1
 tests:
 - id: 71d85BOBDUGmjbjZWp08zg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2021-11-25T10:08:49.0000000
-  modificationDate: 2021-11-25T10:08:49.0000000
+  modificationDate: 2022-12-09T06:50:52.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -87,6 +87,26 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: 0AF3T9gtxk6Ek7_CV8rIaA
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: vvCVbWhDtE6WFsSSKhLSlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters: []
 auxTests: []
 elements:
@@ -138,6 +158,25 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[2]/div/div[4]/div/button
+    priority: 2
+- id: vvCVbWhDtE6WFsSSKhLSlA
+  name: Reset Filter2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                  Reset Filter
+                ']
+    priority: 0
+  - name: XPATH
+    value: //button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[1]/div[2]/span[1]/button[2]
     priority: 2
 projectParameters: []
 addons: []
