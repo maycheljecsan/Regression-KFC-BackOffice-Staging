@@ -1,7 +1,7 @@
-id: iIhImOi7Akq3Boe8AAaaFw
+id: X15mH1Z0hEantQxM2O2q8Q
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-25T06:24:09.2286738Z
+created: 2023-01-04T03:36:04.4051637Z
 protocol: 1
 tests:
 - id: SmNk5inuqU6brP0ieJ8zAg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-04-25T06:19:46.0000000
-  modificationDate: 2022-04-25T06:24:08.0000000
+  modificationDate: 2022-12-09T07:53:07.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -127,7 +127,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: 1000
+      value: 6130
       direction: Input
     conditions: []
     validations: []
