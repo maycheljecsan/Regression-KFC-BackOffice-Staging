@@ -1,7 +1,7 @@
-id: xiunpFj-GE6LVkpGjBs7aQ
+id: cT-k5WjeQk296iCqcFNwbQ
 projectId: gHMXNt1U0kShPfRxnEWcng
 projectName: Maychel KFCStaging-BackOffice
-created: 2022-04-19T10:21:55.0363719Z
+created: 2023-01-04T03:36:00.0461234Z
 protocol: 1
 tests:
 - id: -qWaXPHD3EORCpHiM9lM8Q
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-01-20T04:06:25.0000000
-  modificationDate: 2022-01-20T04:06:25.0000000
+  modificationDate: 2022-12-09T08:06:16.0000000
   settings:
     automationAssistant: true
     appId: jhoxZe3bH0CG9tjx3ikrgw
@@ -87,6 +87,29 @@ tests:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: t1RjA2WfvUOXk3em3WRYZg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5ac5d621-7a53-45a6-94e5-a3348be3969e
+      source: System
+    parameterMaps:
+    - name: milliseconds
+      value: 5000
+      direction: Input
     conditions: []
     validations: []
     contexts: []
